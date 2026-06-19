@@ -46,6 +46,20 @@ Addons listed here are supported by their respective curators, and expected to w
     
     [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
 
+??? success "GTS Legacy Lite"
+    GTS Legacy Lite is fully supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/p1eq2i)
+    
+    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424043173428199597)
+
+??? success "GTS Legacy Lite"
+    GTS Legacy Lite is fully supported.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/p1eq2i)
+    
+    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424043173428199597)
+
 ??? success "Just 3BA for GTS (NSFW)"
     Just 3BA for GTS is fully supported with GTS v108.
     
