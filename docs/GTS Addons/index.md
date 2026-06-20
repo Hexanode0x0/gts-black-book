@@ -7,7 +7,7 @@ tags:
 # GTS Addon Collections
 
 GTS addon collections are special mod collections on Nexus Mods designed specifically to work with GTS. This is about all they have in common.
-How they function, how easy they're to install, or their content can vary vastly.
+How they function, how easy they are to install, or their content can vary vastly.
 
 Since GTS itself is an active project, any addons may need to be updated to support newer versions, especially in wake of any large updates.
 This page is used to keep track of what collections are currently up-to-date and supported.
@@ -61,7 +61,7 @@ Addons listed here are supported by their respective curators, and expected to w
     [:fontawesome-brands-discord: Discord Channel (Addons General)](https://discord.com/channels/902984082181484615/1424038554232946689)
 
 ??? success "Daughter of Coldharbour, SDA in GTS."
-    Daughter of Coldharbor is supported, but it can replace the GTS - FDE patch, which is very bad practice.
+    Daughter of Coldharbor is supported, but it can replace the GTS - FDE patch, which is a very bad practice.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/cskwke)
     
@@ -122,7 +122,7 @@ Addons listed here may or may not work. Their curator offers no support for any 
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/lv0g2o)
 
 ## Deprecated Addons
-These addons are abandoned, have some severe issues, and should not be used with newer GTS versions.
+These addons are abandoned and have some severe issues, and should not be used with newer GTS versions.
 
 ??? failure "GTS Fluffworks"
     
