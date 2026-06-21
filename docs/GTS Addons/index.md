@@ -70,7 +70,7 @@ Addons listed here are supported by their respective curators, and expected to w
 ??? success "Honor In Death for GTS"
     Honor In Death is supported.
     
-    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/cskwke)
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/kwkfuj)
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1486194390161424495)
 
