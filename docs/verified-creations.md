@@ -63,7 +63,7 @@ Patches for some ELFX inconsistencies. A patch is provided for both GTS and GTS 
     You may encounter crashes otherwise.
 
 ## Listener Initiates
-Listener Initiates appears to only a Fabulous Followers Override mod.
+Listener Initiates appears to only need a Fabulous Followers Override mod.
 
 [:lucide-file-text: Listeners initiates - Tragedian's Fabulous Followers SSE Override](https://www.nexusmods.com/skyrimspecialedition/mods/130465)
 
