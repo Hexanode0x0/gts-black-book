@@ -14,7 +14,7 @@ Dragonslayer is made by JaySerpa, and is compatible OOTB with GTS.
 ## A Tale Of Blood And Snow
 A Tale of Blood and Snow requires a patch for GTS. Mostly Scion.
 
-Make sure it loads after GTS Patches - Scion.esp.
+Make sure it loads after GTS Patches - Scion.esp. This should be done automatically, but if not, you can do this in Vortex by going to the "Plugins" tab on the left. Then, press the "Manage Rules" button at the top, and at the bottom of the popup, you will see three boxes. For the first box, click on it and then type "GTS VC - A Tale of Blood and Snow.esp" and click on the name of the .esp when it appears to fill out the box. For the middle box select "must load after". Then, change the plugin in the rightmost box to be "GTS Patches - Scion.esp" using the same method for the first box. Click "Add" then close and sort plugins.
 
 [:lucide-package: GTS VC - A Tale of Blood and Snow](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations/tag/Verified_Creations)
 
