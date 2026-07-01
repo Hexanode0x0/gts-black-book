@@ -1,0 +1,95 @@
+FormKey: 01526A:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: CrackedTuskKeep01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Cracked Tusk Keep
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#00292516'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#0028231A'
+  FogNear: 123840
+  FogFar: 163840
+  DirectionalFade: 1
+  FogClipDistance: 143840
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#002D2517'
+    DirectionalXMinus: '#00242514'
+    DirectionalYPlus: '#00292616'
+    DirectionalYMinus: '#00292316'
+    DirectionalZPlus: '#00131109'
+    DirectionalZMinus: '#00221F13'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00060909'
+  FogMax: 1
+  LightFadeBegin: 5000
+  LightFadeEnd: 7000
+  Inherits:
+  - DirectionalColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+LightingTemplate: 0345A4:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 01918D:Skyrim.esm
+SkyAndWeatherFromRegion: 02A72D:Skyrim.esm
+AcousticSpace: 04075D:Skyrim.esm
+EncounterZone: 0A3857:Skyrim.esm
+Music: 05615B:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedNpc
+  FormKey: 0C790D:Skyrim.esm
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 0E8AE6:Skyrim.esm
+  LevelModifier: Medium
+  LinkedReferences:
+  - Reference: 059CFA:Skyrim.esm
+  - KeywordOrReference: 05D5E7:Skyrim.esm
+    Reference: 059CFA:Skyrim.esm
+  PersistentLocation: 01918D:Skyrim.esm
+  LocationReference: 01918D:Skyrim.esm
+  EnableParent:
+    Reference: 00199F:SRC - All In One.esp
+    Unknown: 0x000000
+  Placement:
+    Position: -504.55313, 269.7766, 198.21777
+    Rotation: 0, -0, 0.16681667
+  MajorFlags:
+  - Persistent
+- MutagenObjectType: PlacedNpc
+  FormKey: 0C790E:Skyrim.esm
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 0D1FBA:Skyrim.esm
+  LevelModifier: Easy
+  LinkedReferences:
+  - Reference: 0E9371:Skyrim.esm
+  PersistentLocation: 01918D:Skyrim.esm
+  LocationReference: 01918D:Skyrim.esm
+  EnableParent:
+    Reference: 00199F:SRC - All In One.esp
+    Unknown: 0x000000
+  Placement:
+    Position: 78.7908, -108.20143, -7.056198
+    Rotation: 0, -0, 4.000002
+  MajorFlags:
+  - Persistent
+MajorFlags:
+- 0x40000

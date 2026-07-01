@@ -277,6 +277,10 @@ Aliases:
   Conditions:
   - MutagenObjectType: ConditionFloat
     Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 000800:SRC_ERS.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
       MutagenObjectType: HasSameEditorLocAsRefAliasConditionData
       Keyword: 016771:Skyrim.esm
     ComparisonValue: 1
@@ -290,10 +294,6 @@ Aliases:
       MutagenObjectType: LocationHasRefTypeConditionData
       LocationReferenceType: 071061:Skyrim.esm
     ComparisonValue: 1
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetInCurrentLocFormListConditionData
-      FormList: 000800:SRC_ERS.esp
   - MutagenObjectType: ConditionFloat
     Data:
       MutagenObjectType: LocationHasKeywordConditionData

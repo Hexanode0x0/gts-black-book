@@ -1,0 +1,226 @@
+FormKey: 00006D:shalidor's legacy - a mage's life.esp
+EditorID: CGRadiantPortal
+VirtualMachineAdapter:
+  Scripts:
+  - Name: GTH_QF_CGRadiantPortal_0300006D
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EdgeMarker
+      Object: 00006D:shalidor's legacy - a mage's life.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hold
+      Object: 00006D:shalidor's legacy - a mage's life.esp
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Location
+      Object: 00006D:shalidor's legacy - a mage's life.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker
+      Object: 00006D:shalidor's legacy - a mage's life.esp
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MissionBox
+      Object: 00006D:shalidor's legacy - a mage's life.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Note
+      Object: 00006D:shalidor's legacy - a mage's life.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Portal
+      Object: 00006D:shalidor's legacy - a mage's life.esp
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Tolfdir
+      Object: 00006D:shalidor's legacy - a mage's life.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CGStartupQuest
+      Object: 000001:shalidor's legacy - a mage's life.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+  FileName: GTH_QF_CGRadiantPortal_0300006D
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: GTH_QF_CGRadiantPortal_0300006D
+    FragmentName: Fragment_9
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: GTH_QF_CGRadiantPortal_0300006D
+    FragmentName: Fragment_10
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: GTH_QF_CGRadiantPortal_0300006D
+    FragmentName: Fragment_6
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: GTH_QF_CGRadiantPortal_0300006D
+    FragmentName: Fragment_7
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 00006D:shalidor's legacy - a mage's life.esp
+      Alias: 9
+    Scripts:
+    - Name: CGNoteScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CGAcceptMessage
+        Object: 00000A:shalidor's legacy - a mage's life.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 00006D:shalidor's legacy - a mage's life.esp
+      Alias: 24
+    Scripts:
+    - Name: CGPortalScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CGPortal
+        Object: 00006E:shalidor's legacy - a mage's life.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+Flags:
+- AllowRepeatedStages
+Priority: 30
+Type: Misc
+Filter: Bounty Quests\
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Startup
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Accepted
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Portal closed
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Success
+- Index: 200
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Enter the portal in <Alias=Hold>
+  Targets:
+  - AliasID: 24
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Tolfdir for your reward
+  Targets:
+  - AliasID: 13
+NextAliasID: 27
+Aliases:
+- ID: 21
+  Type: Location
+  Name: Location
+  Flags: []
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 000800:SRC_ERS.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 00000B:shalidor's legacy - a mage's life.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0130DB:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0674F6:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      LocationReferenceType: 0216B4:Skyrim.esm
+    ComparisonValue: 1
+- ID: 22
+  Name: EdgeMarker
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  Location:
+    AliasID: 21
+    RefType: 0216B4:Skyrim.esm
+  VoiceTypes: Null
+- ID: 24
+  Name: Portal
+  Flags:
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 00006E:shalidor's legacy - a mage's life.esp
+    AliasID: 22
+  VoiceTypes: Null
+- ID: 25
+  Type: Location
+  Name: Hold
+  Flags:
+  - StoresText
+  Location:
+    AliasID: 22
+    Keyword: 016771:Skyrim.esm
+- ID: 15
+  Name: MissionBox
+  Flags: []
+  ForcedReference: 000008:shalidor's legacy - a mage's life.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Note
+  Flags:
+  - QuestObject
+  - UsesStoredText
+  CreateReferenceToObject:
+    Object: 00006C:shalidor's legacy - a mage's life.esp
+    AliasID: 15
+    Create: In
+  VoiceTypes: Null
+- ID: 13
+  Name: Tolfdir
+  Flags:
+  - AllowReserved
+  UniqueActor: 01C19E:Skyrim.esm
+  VoiceTypes: Null
+- ID: 26
+  Name: Marker
+  Flags: []
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 000070:shalidor's legacy - a mage's life.esp
+    ComparisonValue: 1
+  VoiceTypes: Null

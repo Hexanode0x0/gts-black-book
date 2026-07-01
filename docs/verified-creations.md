@@ -8,13 +8,13 @@ Verified Creations are Bethesda's paid mods system. Any discussion about them oc
 
 Support for these is rather sparse, but some patches are available.
 
+Patches specific to GTS should load after GTS Patches - Old Synthesis.esp.
+
 ## Dragonslayer
 Dragonslayer is made by JaySerpa, and is compatible OOTB with GTS.
 
 ## A Tale Of Blood And Snow
 A Tale of Blood and Snow requires a patch for GTS. Mostly Scion.
-
-Make sure it loads after GTS Patches - Scion.esp.
 
 [:lucide-package: GTS VC - A Tale of Blood and Snow](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations/tag/Verified_Creations)
 
@@ -71,3 +71,8 @@ Listener Initiates appears to only need a Fabulous Followers Override mod.
 Requires the Fixes and Tweaks mod.
 
 [:lucide-file-text: Truth in Legends - Fixes and Tweaks](https://creations.bethesda.net/en/skyrim/details/02f74e04-b020-4010-94b1-a76e92bd19af/Truth_in_Legends___Fixes_and_Tweaks)
+
+## Shalidors Legacy - A Mages Life
+Has a GTS patch to prevent quests getting softlocked.
+
+[:lucide-package: GTS VC - Shalidors Legacy - A Mages Life](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations)

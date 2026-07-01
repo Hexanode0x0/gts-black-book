@@ -1,0 +1,250 @@
+FormKey: 000021:shalidor's legacy - a mage's life.esp
+EditorID: CGRadiantAncient
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_CGRadiantAncient01_01000021
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BossChest
+      Object: 000021:shalidor's legacy - a mage's life.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Location
+      Object: 000021:shalidor's legacy - a mage's life.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MapMarker
+      Object: 000021:shalidor's legacy - a mage's life.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MissionBox
+      Object: 000021:shalidor's legacy - a mage's life.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Note
+      Object: 000021:shalidor's legacy - a mage's life.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StorageBox
+      Object: 000021:shalidor's legacy - a mage's life.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Tolfdir
+      Object: 000021:shalidor's legacy - a mage's life.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Tome
+      Object: 000021:shalidor's legacy - a mage's life.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CGStartupQuest
+      Object: 000001:shalidor's legacy - a mage's life.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+  FileName: QF_CGRadiantAncient01_01000021
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_CGRadiantAncient01_01000021
+    FragmentName: Fragment_9
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_CGRadiantAncient01_01000021
+    FragmentName: Fragment_10
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_CGRadiantAncient01_01000021
+    FragmentName: Fragment_6
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_CGRadiantAncient01_01000021
+    FragmentName: Fragment_7
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000021:shalidor's legacy - a mage's life.esp
+      Alias: 9
+    Scripts:
+    - Name: CGNoteScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CGAcceptMessage
+        Object: 00000A:shalidor's legacy - a mage's life.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 000021:shalidor's legacy - a mage's life.esp
+      Alias: 14
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: prereqStageOPT
+        Data: 10
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 20
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 7
+Flags:
+- AllowRepeatedStages
+Priority: 30
+Type: Misc
+Filter: Bounty Quests\
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Startup
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Accepted
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Tome retrieved
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Success
+- Index: 200
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the ancient tome in <Alias=Location>
+  Targets:
+  - AliasID: 14
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return the tome to Tolfdir
+  Targets:
+  - AliasID: 13
+NextAliasID: 20
+Aliases:
+- ID: 6
+  Type: Location
+  Name: Location
+  Flags:
+  - StoresText
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 000800:SRC_ERS.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      LocationReferenceType: 0130F7:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      LocationReferenceType: 0130F8:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 00000B:shalidor's legacy - a mage's life.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0130E1:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0130E4:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0130E2:Skyrim.esm
+    ComparisonValue: 1
+- ID: 7
+  Name: BossChest
+  Flags:
+  - StoresText
+  Location:
+    AliasID: 6
+    RefType: 0130F8:Skyrim.esm
+  VoiceTypes: Null
+- ID: 17
+  Name: StorageBox
+  Flags: []
+  ForcedReference: 000015:shalidor's legacy - a mage's life.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Tome
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 000023:shalidor's legacy - a mage's life.esp
+    AliasID: 17
+    Create: In
+  VoiceTypes: Null
+- ID: 12
+  Name: MapMarker
+  Flags:
+  - Optional
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsEditorLocAliasConditionData
+      LocationAliasIndex: 6
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 000010:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 15
+  Name: MissionBox
+  Flags: []
+  ForcedReference: 000008:shalidor's legacy - a mage's life.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Note
+  Flags:
+  - QuestObject
+  - UsesStoredText
+  CreateReferenceToObject:
+    Object: 000022:shalidor's legacy - a mage's life.esp
+    AliasID: 15
+    Create: In
+  VoiceTypes: Null
+- ID: 13
+  Name: Tolfdir
+  Flags:
+  - AllowReserved
+  UniqueActor: 01C19E:Skyrim.esm
+  VoiceTypes: Null

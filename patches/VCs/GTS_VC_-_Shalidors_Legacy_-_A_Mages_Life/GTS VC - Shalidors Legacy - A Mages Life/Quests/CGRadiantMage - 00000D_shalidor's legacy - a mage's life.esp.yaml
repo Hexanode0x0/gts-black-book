@@ -1,0 +1,229 @@
+FormKey: 00000D:shalidor's legacy - a mage's life.esp
+EditorID: CGRadiantMage
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_CGRadiantMage01_0100000D
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Boss
+      Object: 00000D:shalidor's legacy - a mage's life.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hold
+      Object: 00000D:shalidor's legacy - a mage's life.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Location
+      Object: 00000D:shalidor's legacy - a mage's life.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MapMarker
+      Object: 00000D:shalidor's legacy - a mage's life.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MissionBox
+      Object: 00000D:shalidor's legacy - a mage's life.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Note
+      Object: 00000D:shalidor's legacy - a mage's life.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Tolfdir
+      Object: 00000D:shalidor's legacy - a mage's life.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CGStartupQuest
+      Object: 000001:shalidor's legacy - a mage's life.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+  FileName: QF_CGRadiantMage01_0100000D
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_CGRadiantMage01_0100000D
+    FragmentName: Fragment_9
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_CGRadiantMage01_0100000D
+    FragmentName: Fragment_10
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_CGRadiantMage01_0100000D
+    FragmentName: Fragment_6
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_CGRadiantMage01_0100000D
+    FragmentName: Fragment_7
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 00000D:shalidor's legacy - a mage's life.esp
+      Alias: 9
+    Scripts:
+    - Name: CGNoteScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CGAcceptMessage
+        Object: 00000A:shalidor's legacy - a mage's life.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 00000D:shalidor's legacy - a mage's life.esp
+      Alias: 16
+    Scripts:
+    - Name: defaultaliasondeathscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: preRequisiteStage
+        Data: 10
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSetOnDeath
+        Data: 20
+Flags:
+- AllowRepeatedStages
+Priority: 30
+Type: Misc
+Filter: Bounty Quests\
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Startup
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Accepted
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Tome retrieved
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Success
+- Index: 200
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the rogue mage at <Alias=Location>
+  Targets:
+  - AliasID: 16
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Collect your reward from Tolfdir
+  Targets:
+  - AliasID: 13
+NextAliasID: 19
+Aliases:
+- ID: 6
+  Type: Location
+  Name: Location
+  Flags:
+  - StoresText
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 000800:SRC_ERS.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      LocationReferenceType: 0130F7:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 00000B:shalidor's legacy - a mage's life.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0130E6:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0130EB:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0130EC:Skyrim.esm
+    ComparisonValue: 1
+- ID: 16
+  Name: Boss
+  Flags: []
+  Location:
+    AliasID: 6
+    RefType: 0130F7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 18
+  Type: Location
+  Name: Hold
+  Flags:
+  - StoresText
+  Location:
+    AliasID: 16
+    Keyword: 016771:Skyrim.esm
+- ID: 12
+  Name: MapMarker
+  Flags:
+  - Optional
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsEditorLocAliasConditionData
+      LocationAliasIndex: 6
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 000010:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 15
+  Name: MissionBox
+  Flags: []
+  ForcedReference: 000008:shalidor's legacy - a mage's life.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Note
+  Flags:
+  - QuestObject
+  - UsesStoredText
+  CreateReferenceToObject:
+    Object: 00000E:shalidor's legacy - a mage's life.esp
+    AliasID: 15
+    Create: In
+  VoiceTypes: Null
+- ID: 13
+  Name: Tolfdir
+  Flags:
+  - AllowReserved
+  UniqueActor: 01C19E:Skyrim.esm
+  VoiceTypes: Null

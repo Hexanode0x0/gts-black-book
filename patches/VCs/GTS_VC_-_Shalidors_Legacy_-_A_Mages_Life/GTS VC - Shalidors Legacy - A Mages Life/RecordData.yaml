@@ -1,0 +1,22 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: GTS VC - Shalidors Legacy - A Mages Life.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Locked Chests Have Keys.esp
+    FileSize: 0
+  - Master: SRC - All In One.esp
+    FileSize: 0
+  - Master: shalidor's legacy - a mage's life.esp
+    FileSize: 0
+  - Master: SRC_ERS.esp
+    FileSize: 0
+  - Master: AcousticTemplateFixes.esp
+    FileSize: 0

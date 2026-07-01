@@ -1,0 +1,60 @@
+FormKey: 015226:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: ReachwaterRock01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Reachwater Rock
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#00465A5A'
+  DirectionalColor: '#004D5253'
+  FogNearColor: '#004B616B'
+  FogFar: 5500
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00493A28'
+    DirectionalXMinus: '#003C3A25'
+    DirectionalYPlus: '#00433C27'
+    DirectionalYMinus: '#00433727'
+    DirectionalZPlus: '#001F1B11'
+    DirectionalZMinus: '#0066583C'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00D2E0F0'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - ClipDistance
+LightingTemplate: 034566:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 019293:Skyrim.esm
+WaterEnvironmentMap: Data\Textures\Cubemaps\CaveGreenCube_e.dds
+SkyAndWeatherFromRegion: 0C5856:Skyrim.esm
+AcousticSpace: 01AA4D:Skyrim.esm
+EncounterZone: 03EC5B:Skyrim.esm
+Music: 02D4C2:Skyrim.esm
+ImageSpace: 0F1CB8:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 0ED7E7:Skyrim.esm
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 020671:Skyrim.esm
+  Lock:
+    Level: Novice
+    Unused: 0x000000
+    Key: 000D83:Locked Chests Have Keys.esp
+    Unused2: 0x0000000000000000000000
+  LocationReference: 019293:Skyrim.esm
+  Placement:
+    Position: -1992, 2.1178588E-05, 457.96854
+    Rotation: 0, 0, 4.712389
+MajorFlags:
+- 0x40000

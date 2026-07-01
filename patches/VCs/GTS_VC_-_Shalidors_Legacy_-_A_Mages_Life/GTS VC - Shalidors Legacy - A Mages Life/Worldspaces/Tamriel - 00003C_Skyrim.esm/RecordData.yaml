@@ -1,0 +1,118 @@
+FormKey: 00003C:Skyrim.esm
+EditorID: Tamriel
+Name:
+  TargetLanguage: English
+  Value: Skyrim
+Climate: 000812:Skyrim.esm
+Water: 000018:Skyrim.esm
+LodWater: 000018:Skyrim.esm
+LodWaterHeight: -14000
+LandDefaults:
+  DefaultLandHeight: -27000
+  DefaultWaterHeight: -14000
+MapData:
+  NorthwestCellCoords: -30, 15
+  SoutheastCellCoords: 40, -40
+  CameraMinHeight: 50000
+  CameraMaxHeight: 80000
+  CameraInitialPitch: 50
+WorldMapOffsetScale: 1
+DistantLodMultiplier: 1
+ObjectBoundsMin: -57, -43
+ObjectBoundsMax: 62, 51
+Music: 01BA72:Skyrim.esm
+HdLodDiffuseTexture: Data\Textures\Landscape\Mountains\MountainSlab02.dds
+HdLodNormalTexture: Data\Textures\Landscape\Mountains\MountainSlab02_N.dds
+TopCell:
+  FormKey: 000D74:Skyrim.esm
+  IsCompressed: True
+  MajorRecordFlagsRaw: 263168
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - Compressed
+  Flags:
+  - HasWater
+  Grid:
+    Flags: -559233536
+  OcclusionData: 0x03000000000000000000000000000000000000000000000000000000000000000000000000000000000080010000000000000001880000000000000000000000040000C102370020AEFFAF01D83B0009FC3FF60B0C100000000000000000000004000041010300000000000000000000000000000000000000000000000000001E73F9FFFE3F001BACBFFEFBFA030000FCEB6F0000F09FF9EDFF7F0000101C00FE63C70024F055F02E3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  WaterHeight: -2.1474836E+09
+  Regions:
+  - 041449:Skyrim.esm
+  - 08EED7:Skyrim.esm
+  - 0C5858:Skyrim.esm
+  - 0C5859:Skyrim.esm
+  - 0CAD0A:Skyrim.esm
+  Persistent:
+  - MutagenObjectType: PlacedNpc
+    FormKey: 0C790A:Skyrim.esm
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 0E936A:Skyrim.esm
+    EncounterZone: 0A3857:Skyrim.esm
+    LevelModifier: Easy
+    LinkedReferences:
+    - Reference: 059E65:Skyrim.esm
+    PersistentLocation: 01918D:Skyrim.esm
+    LocationReference: 01918D:Skyrim.esm
+    Placement:
+      Position: -54880.594, -88461.2, -2319.845
+      Rotation: 0, -0, 2.6831973
+    MajorFlags:
+    - Persistent
+  - MutagenObjectType: PlacedNpc
+    FormKey: 0C790B:Skyrim.esm
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 0D1FBA:Skyrim.esm
+    EncounterZone: 0A3857:Skyrim.esm
+    LevelModifier: Easy
+    LinkedReferences:
+    - Reference: 10363F:Skyrim.esm
+    - KeywordOrReference: 05D5E6:Skyrim.esm
+      Reference: 10363F:Skyrim.esm
+    PersistentLocation: 01918D:Skyrim.esm
+    LocationReference: 01918D:Skyrim.esm
+    Placement:
+      Position: -55753.426, -86728.22, -2402.263
+      Rotation: 0, -0, 1.9499999
+    MajorFlags:
+    - Persistent
+  - MutagenObjectType: PlacedNpc
+    FormKey: 0C790C:Skyrim.esm
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 0E936A:Skyrim.esm
+    EncounterZone: 0A3857:Skyrim.esm
+    LevelModifier: Easy
+    LinkedReferences:
+    - Reference: 059E67:Skyrim.esm
+    PersistentLocation: 01918D:Skyrim.esm
+    LocationReference: 01918D:Skyrim.esm
+    Placement:
+      Position: -54129.96, -86536.08, -1899.2855
+      Rotation: 0, -0, 0.6000025
+    MajorFlags:
+    - Persistent
+  - MutagenObjectType: PlacedNpc
+    FormKey: 0E9369:Skyrim.esm
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 0E9370:Skyrim.esm
+    EncounterZone: 0A3857:Skyrim.esm
+    LevelModifier: Easy
+    LinkedReferences:
+    - Reference: 04F315:Skyrim.esm
+    PersistentLocation: 01918D:Skyrim.esm
+    LocationReference: 01918D:Skyrim.esm
+    Placement:
+      Position: -53835.57, -89378.12, -2146.8713
+      Rotation: 0, -0, 2.3000002
+    MajorFlags:
+    - Persistent
+  MajorFlags:
+  - Persistent
+  - 0x40000

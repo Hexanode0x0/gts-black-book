@@ -41,8 +41,6 @@ Conditions:
     MutagenObjectType: GetInWorldspaceConditionData
     WorldspaceOrList: 085C50:legacyorsinium.esm
 - MutagenObjectType: ConditionFloat
-  Flags:
-  - OR
   Data:
     MutagenObjectType: GetCombatTargetHasKeywordConditionData
     RunOnType: Reference
