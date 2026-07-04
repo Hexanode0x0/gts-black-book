@@ -31,10 +31,8 @@ The FOMOD from the forum will auto-select all the needed patches.
 EEE requires a few patches from Kinggath's forum, and a GTS patch.
 
 [:lucide-file-text: East Empire Expansion - Unofficial Patches](https://forum.kinggathcreations.com/resources/east-empire-expansion-unofficial-patches.2/)
+
 [:lucide-file-text: East Empire Expansion - Wyrmstooth Patch](https://forum.kinggathcreations.com/resources/east-empire-expansion-wyrmstooth.22/)
-
-https://forum.kinggathcreations.com/resources/east-empire-expansion-wyrmstooth.22/
-
 
 [:lucide-package: GTS VC - East Empire Expansion](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations)
 
