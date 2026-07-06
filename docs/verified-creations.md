@@ -28,11 +28,22 @@ The FOMOD from the forum will auto-select all the needed patches.
 [:lucide-package: GTS VC - Bards College Expansion][VCRelease]
 
 ## East Empire Expansion
-EEE requires a few patches from Kinggath's forum, and a GTS patch.
+EEE requires a few patches from Kinggath's forum, and couple of GTS Patches.
+
+The FOMOD from the forum will only let you select patches for mods in the current LO.
 
 [:lucide-file-text: East Empire Expansion - Unofficial Patches](https://forum.kinggathcreations.com/resources/east-empire-expansion-unofficial-patches.2/)
 
+[:lucide-file-text: East Empire Expansion - Wyrmstooth](https://forum.kinggathcreations.com/resources/east-empire-expansion-wyrmstooth.22/)
+
 [:lucide-package: GTS VC - East Empire Expansion][VCRelease]
+
+!!! warning "Special instalation instruction"
+
+    When installing Unofficial Patches do not select any option for Whiterun. The provided patch modifies the original location against GTS directly making the patch in FOMOD obsolete. Other options are still relevant
+
+    Unless you decide to rerun [Grass Cache](https://hexanode0x0.github.io/gts-black-book/grass-cache/) there may still be some grass cliping in the game
+
 
 ## Legacy Of Orsinium
 Requires a general Simonrim patch and a special GTS patch.

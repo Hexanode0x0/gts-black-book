@@ -1,0 +1,30 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: GTS VC - East Empire Expansion - Exteriors.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: Avandalon
+  Description: Single plugin with worldspace edits for EEE
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Fabled Forests.esp
+    FileSize: 0
+  - Master: SurWR.esp
+    FileSize: 0
+  - Master: kinggathcreations_eastempirecompany.esp
+    FileSize: 0
+  - Master: Unique Flowers & Plants.esp
+    FileSize: 0
+  - Master: Northern Roads.esp
+    FileSize: 0
+  - Master: GTS Patches - Trees and Landscapes.esp
+    FileSize: 0
+  - Master: GTS Patches - Landscapes Part 2.esp
+    FileSize: 0
+  INTV: 1

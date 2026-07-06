@@ -1,5 +1,7 @@
 *[LOD]: Level Of Detail
 
+*[LO]: Load order
+
 *[DynDOLOD]: Dynamic Distant Object Level Of Detail
 
 *[xLODGen]: xEdit's LOD generator. Mostly replaced by DynDOLOD, with the exception of terrain LOD
