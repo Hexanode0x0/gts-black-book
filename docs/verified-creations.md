@@ -28,7 +28,7 @@ The FOMOD from the forum will auto-select all the needed patches.
 [:lucide-package: GTS VC - Bards College Expansion](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations/tag/Verified_Creations)
 
 ## East Empire Expansion
-EEE requires a few patches from Kinggath's forum, and a GTS patch.
+EEE requires a few patches from Kinggath's forum, and a GTS patch. Alternate patch for whiterun is provided as part of the GTS patch, do not select anything for Whiterun in the fomod, or disable GTS VC - EEE Whiterun patch
 
 [:lucide-file-text: East Empire Expansion - Unofficial Patches](https://forum.kinggathcreations.com/resources/east-empire-expansion-unofficial-patches.2/)
 
