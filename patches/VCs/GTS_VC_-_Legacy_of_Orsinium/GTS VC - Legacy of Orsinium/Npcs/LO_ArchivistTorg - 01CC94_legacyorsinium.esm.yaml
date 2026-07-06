@@ -1,0 +1,278 @@
+FormKey: 01CC94:legacyorsinium.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: LO_ArchivistTorg
+SkyrimMajorRecordFlags:
+- Compressed
+VirtualMachineAdapter:
+  Scripts:
+  - Name: LO_AgraCrunFactionDeathScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_AgraCrunDeathMessage
+      Object: 052BD3:legacyorsinium.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_AgraCrunFaction
+      Object: 01CC69:legacyorsinium.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_AgraCrunFailQuest
+      Object: 052BD2:legacyorsinium.esm
+Configuration:
+  Flags:
+  - AutoCalcStats
+  - Unique
+  - LoopedScript
+  - LoopedAudio
+  MagickaOffset: 75
+  StaminaOffset: -25
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 12
+  SpeedMultiplier: 100
+  DispositionBase: 35
+  TemplateFlags:
+  - Stats
+  - SpellList
+  - DefPackList
+  - AttackData
+  HealthOffset: 50
+Factions:
+- Faction: 01CC69:legacyorsinium.esm
+  Fluff: 0x000000
+DeathItem: 0C3C9B:Skyrim.esm
+Voice: 038C6A:legacyorsinium.esm
+Template: 045C80:Skyrim.esm
+Race: 013747:Skyrim.esm
+ActorEffect:
+- 012FCD:Skyrim.esm
+- 012FD0:Skyrim.esm
+- 072316:Skyrim.esm
+- 07231A:Skyrim.esm
+- 07231C:Skyrim.esm
+Perks:
+- Perk: 053128:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581E7:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581F4:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581F8:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0D7999:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+Items:
+- Item:
+    Item: 076074:legacyorsinium.esm
+    Count: 1
+- Item:
+    Item: 0FC291:legacyorsinium.esm
+    Count: 1
+- Item:
+    Item: 03DF20:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 04F78D:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 10E0DD:Skyrim.esm
+    Count: 1
+AIData:
+  Aggression: Aggressive
+  Confidence: Brave
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Assistance: HelpsFriendsAndAllies
+Packages:
+- 02E883:legacyorsinium.esm
+- 0317C8:Skyrim.esm
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 01317A:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Archivist Torg
+ShortName:
+  TargetLanguage: English
+  Value: Torg
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 20
+  - Key: TwoHanded
+    Value: 20
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 20
+  - Key: Smithing
+    Value: 20
+  - Key: HeavyArmor
+    Value: 25
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 23
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 15
+  - Key: Alteration
+    Value: 31
+  - Key: Conjuration
+    Value: 31
+  - Key: Destruction
+    Value: 39
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 39
+  - Key: Enchanting
+    Value: 20
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 192
+  Magicka: 198
+  Stamina: 25
+  GearedUpWeapons: 1
+HeadParts:
+- 05107F:Skyrim.esm
+- 05E7A7:Skyrim.esm
+- 0C3CE5:Skyrim.esm
+HairColor: 0A0435:Skyrim.esm
+CombatStyle: 1034F0:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 50
+SoundLevel: Normal
+DefaultOutfit: 0C2A5B:Skyrim.esm
+DefaultPackageList: 021E81:Skyrim.esm
+HeadTexture: 0D0730:Skyrim.esm
+TextureLighting: '#0053604D'
+FaceMorph:
+  NoseLongVsShort: -0.4
+  NoseUpVsDown: -0.4
+  JawUpVsDown: 0.22
+  JawNarrowVsWide: -0.04
+  CheeksUpVsDown: 0.08
+  EyesUpVsDown: -0.48000002
+  EyesInVsOut: 0.32000005
+  BrowsUpVsDown: -1
+  BrowsInVsOut: -0.2
+  LipsUpVsDown: 0.2
+  LipsInVsOut: -0.7
+  ChinNarrowVsWide: 0.52
+  ChinUnderbiteVsOverbite: 0.3
+  EyesForwardVsBack: -0.5
+  Unknown: 3.4028235E+38
+FaceParts:
+  Nose: 23
+  Unknown: 4294967295
+  Eyes: 28
+  Mouth: 21
+TintLayers:
+- Index: 1
+  Color: '#0053604D'
+  InterpolationValue: 1
+  Preset: 64
+- Index: 2
+  Color: '#00430401'
+  InterpolationValue: 0.66
+  Preset: 69
+- Index: 3
+  Color: '#00430401'
+  InterpolationValue: 0.66
+  Preset: 74
+- Index: 8
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 90
+- Index: 9
+  Color: '#00000000'
+  InterpolationValue: 1
+  Preset: 100
+- Index: 10
+  Color: '#00212B52'
+  InterpolationValue: 0.44
+  Preset: 103
+- Index: 11
+  Color: '#00212B52'
+  InterpolationValue: 0.44
+  Preset: 106
+- Index: 14
+  Color: '#00000000'
+  InterpolationValue: 0
+  Preset: 111
+- Index: 15
+  Color: '#00000000'
+  InterpolationValue: 0
+  Preset: 135
+- Index: 16
+  Color: '#00000000'
+  InterpolationValue: 0
+  Preset: 159
+- Index: 17
+  Color: '#00000000'
+  InterpolationValue: 0
+  Preset: 183
+- Index: 18
+  Color: '#00000000'
+  InterpolationValue: 0
+  Preset: 207
+- Index: 19
+  Color: '#00887402'
+  InterpolationValue: 1
+  Preset: 251
+- Index: 25
+  Color: '#00000000'
+  InterpolationValue: 0.43
+  Preset: 475
+- Index: 50
+  Color: '#00000000'
+  InterpolationValue: 0
+  Preset: 480
+MajorFlags:
+- 0x40000

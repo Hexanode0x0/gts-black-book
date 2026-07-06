@@ -1,0 +1,19 @@
+FormKey: 000864:Vanilla hair remake SMP wig distribution.esp
+EditorID: _Uvi_OrcHair16Spell
+Name:
+  TargetLanguage: English
+  Value: Orc Hair 16 Spell
+MenuDisplayObject: 0435A5:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type: Ability
+Effects:
+- BaseEffect: 000836:Vanilla hair remake SMP wig distribution.esp
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 06C0EE:Skyrim.esm

@@ -67,6 +67,7 @@ Name:
   TargetLanguage: English
   Value: Killing the Competition
 Priority: 40
+QuestFormVersion: 65
 Type: SideQuest
 Stages:
 - Unknown: 155

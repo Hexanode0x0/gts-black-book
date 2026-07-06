@@ -1,7 +1,7 @@
 SpriggitSource:
   PackageName: Spriggit.Yaml.Skyrim
   Version: 0.40.1
-ModKey: GTS VC - Legacy of Orsinium.esp
+ModKey: GTS Patch - Legacy of Orsinium.esp
 GameRelease: SkyrimSE
 ModHeader:
   Flags:
@@ -12,11 +12,15 @@ ModHeader:
     FileSize: 0
   - Master: Update.esm
     FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
   - Master: 3DNPC.esp
     FileSize: 0
-  - Master: Skyrim Extended Cut - Saints and Seducers.esp
-    FileSize: 0
   - Master: BSAssets.esm
+    FileSize: 0
+  - Master: Skyrim Extended Cut - Saints and Seducers.esp
     FileSize: 0
   - Master: legacyorsinium.esm
     FileSize: 0
@@ -33,5 +37,7 @@ ModHeader:
   - Master: HandtoHand.esp
     FileSize: 0
   - Master: Bandit War - Simonrim.esp
+    FileSize: 0
+  - Master: Dynamic NPC Hairstyles.esp
     FileSize: 0
   INTV: 1

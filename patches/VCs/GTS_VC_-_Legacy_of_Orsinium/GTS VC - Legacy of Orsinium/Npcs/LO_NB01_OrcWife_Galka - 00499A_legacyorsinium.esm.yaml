@@ -1,0 +1,187 @@
+FormKey: 00499A:legacyorsinium.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: LO_NB01_OrcWife_Galka
+SkyrimMajorRecordFlags:
+- Compressed
+VirtualMachineAdapter:
+  Scripts:
+  - Name: AL_GhostTeleportEffect
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MGTeleportInEffect
+      Object: 102730:Skyrim.esm
+  - Name: defaultGhostScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pDefaultAshPileGhost
+      Object: 101048:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pDefaultGhostCorpse
+      Object: 0C674B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pdefaultGhostDeathExplosion
+      Object: 0369CA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pdefaultGhostLeveledList
+      Object: 10F805:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pDefaultGhostWeaponFlickerList
+      Object: 0D2058:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pDisintegrationMainImmunityList
+      Object: 0F6534:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pGhostAbilityNew
+      Object: 0D2056:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pGhostDeathFXShader
+      Object: 101727:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pGhostFXShader
+      Object: 03B6CB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pGhostHalfDamagePerk
+      Object: 0D205B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pGhostResistsAbility
+      Object: 0D2060:Skyrim.esm
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - Female
+  - Essential
+  - Unique
+  - IsGhost
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 1
+  SpeedMultiplier: 100
+  DispositionBase: 35
+Voice: 0EB1CB:legacyorsinium.esm
+Race: 013747:Skyrim.esm
+AIData:
+  Confidence: Average
+  EnergyLevel: 50
+  Responsibility: NoCrime
+Packages:
+- 004999:legacyorsinium.esm
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 017008:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Galka
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 5
+  - Key: TwoHanded
+    Value: 5
+  - Key: Archery
+    Value: 5
+  - Key: Block
+    Value: 5
+  - Key: Smithing
+    Value: 5
+  - Key: HeavyArmor
+    Value: 5
+  - Key: LightArmor
+    Value: 5
+  - Key: Pickpocket
+    Value: 5
+  - Key: Lockpicking
+    Value: 5
+  - Key: Sneak
+    Value: 5
+  - Key: Alchemy
+    Value: 5
+  - Key: Speech
+    Value: 5
+  - Key: Alteration
+    Value: 5
+  - Key: Conjuration
+    Value: 5
+  - Key: Destruction
+    Value: 5
+  - Key: Illusion
+    Value: 5
+  - Key: Restoration
+    Value: 5
+  - Key: Enchanting
+    Value: 5
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  GearedUpWeapons: 1
+HeadParts:
+- 085DEB:Skyrim.esm
+HairColor: 0A0434:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 50
+SoundLevel: Normal
+DefaultOutfit: 037C4F:Skyrim.esm
+TextureLighting: '#005E8A7C'
+FaceMorph:
+  NoseLongVsShort: 0.41999996
+  JawNarrowVsWide: -0.44
+  CheeksForwardVsBack: 0.39999998
+  EyesInVsOut: -0.3
+  BrowsUpVsDown: 0.29999995
+  BrowsInVsOut: -0.33999997
+  BrowsForwardVsBack: -0.26
+  LipsUpVsDown: 0.52
+  LipsInVsOut: -0.01999998
+  ChinNarrowVsWide: 0.39999998
+  ChinUnderbiteVsOverbite: -0.3
+FaceParts:
+  Eyes: 18
+  Mouth: 28
+TintLayers:
+- Index: 26
+  Color: '#000F0440'
+  InterpolationValue: 0.22
+  Preset: 499
+- Index: 27
+  Color: '#000F0440'
+  InterpolationValue: 0.22
+  Preset: 513
+MajorFlags:
+- 0x40000

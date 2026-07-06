@@ -175,6 +175,7 @@ Name:
   TargetLanguage: English
   Value: The Drop
 Priority: 40
+QuestFormVersion: 65
 Stages:
 - {}
 - Index: 10

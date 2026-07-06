@@ -1,0 +1,198 @@
+FormKey: 024420:legacyorsinium.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: LO_LB01GuardYorrik
+SkyrimMajorRecordFlags:
+- Compressed
+VirtualMachineAdapter:
+  Scripts:
+  - Name: LO_LB01DeathScript
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: BloodPriceID
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_LB01
+      Object: 0A4317:legacyorsinium.esm
+  - Name: LO_LB01YorrikCWArmorSwitch
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CWImperialFaction
+      Object: 02BF9A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CWImperialFactionNPC
+      Object: 01C9FC:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CWSoldierImperialSoldierOutfitNoHelmet
+      Object: 0ABF46:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CWSonsFaction
+      Object: 02BF9B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CWSonsFactionNPC
+      Object: 01C9FD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GuardOutfitRift
+      Object: 047382:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JobJarlFaction
+      Object: 050920:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Maven
+      Object: 019DD1:Skyrim.esm
+  - Name: WIDeadBodyCleanupScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WI
+      Object: 035D64:Skyrim.esm
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - AutoCalcStats
+  - Unique
+  StaminaOffset: 100
+  Level:
+    MutagenObjectType: PcLevelMult
+    LevelMult: 1.2
+  CalcMinLevel: 2
+  CalcMaxLevel: 50
+  SpeedMultiplier: 100
+  HealthOffset: 50
+Factions:
+- Faction: 01C9FD:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02816B:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 028849:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02BF9B:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 0D27F2:Skyrim.esm
+  Fluff: 0x000000
+Voice: 038C6B:legacyorsinium.esm
+Race: 013746:Skyrim.esm
+Items:
+- Item:
+    Item: 013989:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0A6E7A:Skyrim.esm
+    Count: 1
+AIData:
+  Aggression: Aggressive
+  Confidence: Foolhardy
+  EnergyLevel: 50
+  Responsibility: NoCrime
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 017008:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Guardsman Yorrik
+ShortName:
+  TargetLanguage: English
+  Value: Yorrik
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 22
+  - Key: TwoHanded
+    Value: 27
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 21
+  - Key: Smithing
+    Value: 20
+  - Key: HeavyArmor
+    Value: 17
+  - Key: LightArmor
+    Value: 20
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 16
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 20
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 111
+  Magicka: 50
+  Stamina: 154
+HeadParts:
+- 024259:Skyrim.esm
+- 051416:Skyrim.esm
+- 0C3CDE:Skyrim.esm
+- 0C7123:Skyrim.esm
+HairColor: 0A042E:Skyrim.esm
+NAM5: 255
+Height: 1
+SoundLevel: Normal
+DefaultOutfit: 0AD23D:Skyrim.esm
+CrimeFaction: 02816B:Skyrim.esm
+HeadTexture: 0D071D:Skyrim.esm
+TextureLighting: '#00A7867A'
+FaceMorph:
+  NoseLongVsShort: 0.26
+  NoseUpVsDown: -0.33999997
+  EyesUpVsDown: -0.53999996
+  EyesInVsOut: -0.58000004
+  BrowsUpVsDown: -0.38
+  BrowsInVsOut: -0.24000001
+  BrowsForwardVsBack: -0.01999998
+  LipsUpVsDown: 0.38
+  EyesForwardVsBack: 0.38
+MajorFlags:
+- 0x40000
