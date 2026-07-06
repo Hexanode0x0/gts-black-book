@@ -1,0 +1,40 @@
+FormKey: 000001:GTS VC - East Empire Expansion - EEE Whiterun Patch.esp
+MajorRecordFlagsRaw: 268435456
+VersionControl: 13542
+EditorID: BedrollHay01LTrail
+SkyrimMajorRecordFlags:
+- 0x10000000
+ObjectBounds:
+  First: -104, -157, -19
+  Second: 109, 149, 28
+Name:
+  TargetLanguage: English
+  Value: Hay Pile
+Model:
+  File: Furniture\Bedroll\BedrollHay01.nif
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: BedrollHay01:7
+    NewTexture: 2DA623:Northern Roads.esp
+    Index: 3
+Keywords:
+- 0E4AD6:Skyrim.esm
+- 0FD0E1:Skyrim.esm
+PNAM: 0x00000000
+Flags:
+- MustExitToTalk
+- 0x80000000
+InteractionKeyword: 013794:Skyrim.esm
+WorkbenchData:
+  UsesSkill: 255
+Markers:
+- Enabled: True
+  EntryPoints:
+    Type:
+    - Lay
+    Points:
+    - Front
+    - Right
+    - Left
+MajorFlags:
+- MustExitToTalk
