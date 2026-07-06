@@ -1,0 +1,10 @@
+FormKey: 07F250:Northern Roads.esp
+EditorID: COTN_DragonTotemOldLong01
+ObjectBounds:
+  First: -7, -43, -127
+  Second: 7, 36, 114
+Model:
+  File: COTN\clutter\totems\OLD_totem_long.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

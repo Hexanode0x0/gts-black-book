@@ -1,0 +1,10 @@
+FormKey: 05190B:Northern Roads.esp
+EditorID: COTN_BridgeWoodDebris03
+ObjectBounds:
+  First: -130, -148, 0
+  Second: 127, 170, 10
+Model:
+  File: COTN\landscape\bridges\COTN_wood_debris03.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

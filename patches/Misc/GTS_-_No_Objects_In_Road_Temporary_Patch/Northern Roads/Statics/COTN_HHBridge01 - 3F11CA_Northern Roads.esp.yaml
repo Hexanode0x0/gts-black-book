@@ -1,0 +1,10 @@
+FormKey: 3F11CA:Northern Roads.esp
+EditorID: COTN_HHBridge01
+ObjectBounds:
+  First: -1509, -688, -715
+  Second: 1509, 346, 639
+Model:
+  File: COTN\architecture\highhrothgar\hhbridge01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

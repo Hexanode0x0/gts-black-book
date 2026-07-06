@@ -1,0 +1,10 @@
+FormKey: 274FFA:Northern Roads.esp
+EditorID: COTN_NordTotem02
+ObjectBounds:
+  First: -34, 5, 0
+  Second: 34, 59, 193
+Model:
+  File: COTN\clutter\totems\totem_pagan_02.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

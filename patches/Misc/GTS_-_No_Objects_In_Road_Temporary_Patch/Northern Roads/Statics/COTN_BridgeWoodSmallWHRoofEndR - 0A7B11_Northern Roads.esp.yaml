@@ -1,0 +1,11 @@
+FormKey: 0A7B11:Northern Roads.esp
+EditorID: COTN_BridgeWoodSmallWHRoofEndR
+ObjectBounds:
+  First: -253, -323, 46
+  Second: 247, 261, 630
+Model:
+  File: COTN\architecture\windhelm\COTN_WH_roof_endR.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Material: 06F158:Skyrim.esm
+Unused: 0x000000

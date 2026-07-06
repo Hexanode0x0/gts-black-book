@@ -1,0 +1,10 @@
+FormKey: 214AA5:Northern Roads.esp
+EditorID: COTN_ArchWR
+ObjectBounds:
+  First: -324, -26, -346
+  Second: 324, 23, 241
+Model:
+  File: COTN\architecture\whiterun\WR_arch.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

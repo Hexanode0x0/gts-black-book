@@ -1,0 +1,14 @@
+FormKey: 46FCFA:Northern Roads.esp
+EditorID: COTN_CivilWarRubble02Mud
+ObjectBounds:
+  First: -396, -217, -13
+  Second: 307, 321, 200
+Model:
+  File: Clutter\CivilWar\CivilWarRubble02.nif
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: CivilWarRubble02:46
+    NewTexture: 04C804:Northern Roads.esp
+    Index: 2
+MaxAngle: 90
+Unused: 0x000000

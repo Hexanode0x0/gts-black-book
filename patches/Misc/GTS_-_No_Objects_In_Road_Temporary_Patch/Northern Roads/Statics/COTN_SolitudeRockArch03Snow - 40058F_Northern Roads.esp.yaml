@@ -1,0 +1,23 @@
+FormKey: 40058F:Northern Roads.esp
+MajorRecordFlagsRaw: 163840
+EditorID: COTN_SolitudeRockArch03Snow
+SkyrimMajorRecordFlags:
+- VisibleWhenDistant
+- Dangerous_OffLimits_InteriorCell
+ObjectBounds:
+  First: -3241, -3441, -3746
+  Second: 9480, 2745, 799
+Model:
+  File: Landscape\Unique\SolitudeRockArch03.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Material: 045AB3:Skyrim.esm
+Unused: 0x000000
+Lod:
+  Level0: LOD\Mountains\Unique\SolitudeRockArch03_LOD_0.nif
+  Level1: LOD\Mountains\Unique\SolitudeRockArch03_LOD_1.nif
+  Level2: LOD\Mountains\Unique\SolitudeRockArch03_LOD_2.nif
+  Level3: ''
+MajorFlags:
+- HasDistantLOD
+- UsesHdLodTexture

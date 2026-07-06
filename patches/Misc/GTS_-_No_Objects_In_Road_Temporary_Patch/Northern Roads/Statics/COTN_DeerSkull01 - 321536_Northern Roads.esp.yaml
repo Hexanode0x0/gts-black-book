@@ -1,0 +1,10 @@
+FormKey: 321536:Northern Roads.esp
+EditorID: COTN_DeerSkull01
+ObjectBounds:
+  First: -31, -40, 2
+  Second: 36, 54, 46
+Model:
+  File: COTN\clutter\common\deerskull01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

@@ -16,7 +16,7 @@ Dragonslayer is made by JaySerpa, and is compatible OOTB with GTS.
 ## A Tale Of Blood And Snow
 A Tale of Blood and Snow requires a patch for GTS. Mostly Scion.
 
-[:lucide-package: GTS VC - A Tale of Blood and Snow](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations/tag/Verified_Creations)
+[:lucide-package: GTS VC - A Tale of Blood and Snow][VCRelease]
 
 ## Bards College Expansion
 BCE requires quite a lot of patches due to how it works, most of those are available on Kinggath's forums. A special GTS patch is also provided.
@@ -25,7 +25,7 @@ The FOMOD from the forum will auto-select all the needed patches.
 
 [:lucide-file-text: Bards College Expansion - Unofficial Patches](https://forum.kinggathcreations.com/resources/bards-college-expansion-unofficial-patches.5/)
 
-[:lucide-package: GTS VC - Bards College Expansion](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations/tag/Verified_Creations)
+[:lucide-package: GTS VC - Bards College Expansion][VCRelease]
 
 ## East Empire Expansion
 EEE requires a few patches from Kinggath's forum, and a GTS patch. Alternate patch for whiterun is provided as part of the GTS patch, do not select anything for Whiterun in the fomod, or disable GTS VC - EEE Whiterun patch
@@ -34,14 +34,14 @@ EEE requires a few patches from Kinggath's forum, and a GTS patch. Alternate pat
 
 [:lucide-file-text: East Empire Expansion - Wyrmstooth Patch](https://forum.kinggathcreations.com/resources/east-empire-expansion-wyrmstooth.22/)
 
-[:lucide-package: GTS VC - East Empire Expansion](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations)
+[:lucide-package: GTS VC - East Empire Expansion][VCRelease]
 
 ## Legacy Of Orsinium
 Requires a general Simonrim patch and a special GTS patch.
 
 [:lucide-file-text: Legacy Of Orsinium Simonrim Patch](https://creations.bethesda.net/en/skyrim/details/7df5cf6c-49ef-454b-a538-d90f054f8f4f/Legacy_Of_Orsinium_Simonrim_Patch)
 
-[:lucide-package: GTS VC - Legacy of Orsinium](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations)
+[:lucide-package: GTS VC - Legacy of Orsinium][VCRelease]
 
 ## Life Of Crime
 A general GTS patch is available, as well as a distribution file to hair.
@@ -50,14 +50,14 @@ Vanilla Hair Remake SMP Wig Distribution is only needed for NPC hair. Do not sel
 
 [:lucide-file-text: Vanilla Hair Remake SMP Wig Distribution](https://www.nexusmods.com/skyrimspecialedition/mods/134457)
 
-[:lucide-package: GTS VC - Life of Crime](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations)
+[:lucide-package: GTS VC - Life of Crime][VCRelease]
 
 ## Coven Of Crones
 Patches for some ELFX inconsistencies. A patch is provided for both GTS and GTS CE.
 
-[:lucide-package: GTS VC - Coven of Crones](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations)
+[:lucide-package: GTS VC - Coven of Crones][VCRelease]
 
-[:lucide-package: GTS CE VC - Coven of Crones](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations)
+[:lucide-package: GTS CE VC - Coven of Crones][VCRelease]
 
 !!! danger
     Avoid using these patches alongside the GTS - True Light addon or anything else that disables ELFX.
@@ -77,4 +77,6 @@ Requires the Fixes and Tweaks mod.
 ## Shalidors Legacy - A Mages Life
 Has a GTS patch to prevent quests getting softlocked.
 
-[:lucide-package: GTS VC - Shalidors Legacy - A Mages Life](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Verified_Creations)
+[:lucide-package: GTS VC - Shalidors Legacy - A Mages Life][VCRelease]
+
+[VCRelease]:https://github.com/Hexanode0x0/gts-black-book/releases/tag/VC-v0.2

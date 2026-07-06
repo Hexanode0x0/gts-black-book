@@ -1,0 +1,13 @@
+FormKey: 0C1101:Northern Roads.esp
+EditorID: COTN_BridgeWoodFenceEndL01Dark
+ObjectBounds:
+  First: -285, 0, 0
+  Second: -180, 256, 98
+Model:
+  File: COTN\landscape\bridges\COTN_wood_fence_end_left.nif
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: FenceMid.002
+    NewTexture: 144E43:Northern Roads.esp
+MaxAngle: 90
+Unused: 0x000000

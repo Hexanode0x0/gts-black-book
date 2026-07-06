@@ -1,0 +1,49 @@
+FormKey: 016BD0:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: RiftenThievesGuildHeadquarters
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: The Ragged Flagon - Cistern
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#00221F13'
+  DirectionalColor: '#00464646'
+  FogNearColor: '#00606648'
+  FogFar: 5500
+  DirectionalRotationZ: 90
+  FogClipDistance: 8000
+  FogPower: 0.8
+  AmbientColors:
+    DirectionalXPlus: '#00251F13'
+    DirectionalXMinus: '#001E1F12'
+    DirectionalYPlus: '#00222013'
+    DirectionalYMinus: '#00221D13'
+    DirectionalZPlus: '#00100E08'
+    DirectionalZMinus: '#00332F1D'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00606648'
+  FogMax: 1
+  LightFadeBegin: 5000
+  LightFadeEnd: 6000
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+WaterHeight: -2.1474836E+09
+Location: 022650:Skyrim.esm
+Owner: 029DA9:Skyrim.esm
+WaterEnvironmentMap: Data\Textures\Cubemaps\WRTemple_e.dds
+AcousticSpace: 04075D:Skyrim.esm
+Music: 05615B:Skyrim.esm
+ImageSpace: 0D7B9F:Skyrim.esm
+MajorFlags:
+- 0x40000

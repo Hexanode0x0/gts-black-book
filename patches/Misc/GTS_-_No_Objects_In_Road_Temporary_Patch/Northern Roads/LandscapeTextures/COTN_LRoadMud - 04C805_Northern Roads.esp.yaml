@@ -1,0 +1,7 @@
+FormKey: 04C805:Northern Roads.esp
+EditorID: COTN_LRoadMud
+TextureSet: 04C804:Northern Roads.esp
+MaterialType: 012F48:Skyrim.esm
+HavokFriction: 2
+TextureSpecularExponent: 30
+Flags: []

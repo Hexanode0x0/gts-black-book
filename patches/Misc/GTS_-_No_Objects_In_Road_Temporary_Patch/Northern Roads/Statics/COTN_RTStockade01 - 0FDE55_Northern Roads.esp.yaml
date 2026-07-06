@@ -1,0 +1,10 @@
+FormKey: 0FDE55:Northern Roads.esp
+EditorID: COTN_RTStockade01
+ObjectBounds:
+  First: -24, -144, -11
+  Second: 19, 156, 413
+Model:
+  File: COTN\architecture\riften\RTStockade.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

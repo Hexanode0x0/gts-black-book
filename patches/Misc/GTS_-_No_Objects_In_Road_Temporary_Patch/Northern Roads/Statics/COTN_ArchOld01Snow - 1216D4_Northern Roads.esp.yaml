@@ -1,0 +1,11 @@
+FormKey: 1216D4:Northern Roads.esp
+EditorID: COTN_ArchOld01Snow
+ObjectBounds:
+  First: -330, -48, -342
+  Second: 338, 47, 412
+Model:
+  File: COTN\architecture\eastskyrim\OLD_arch.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Material: 06F158:Skyrim.esm
+Unused: 0x000000

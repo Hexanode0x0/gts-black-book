@@ -1,0 +1,10 @@
+FormKey: 3C3810:Northern Roads.esp
+EditorID: COTN_ShipWheel01
+ObjectBounds:
+  First: -8, -45, -48
+  Second: 5, 45, 48
+Model:
+  File: COTN\clutter\common\shipwheel01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

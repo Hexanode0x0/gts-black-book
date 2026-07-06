@@ -1,0 +1,15 @@
+FormKey: 2B6E91:Northern Roads.esp
+EditorID: COTN_StonewallTerraceEndR01Snow
+ObjectBounds:
+  First: -256, -422, 0
+  Second: 256, 256, 174
+Model:
+  File: Architecture\Farmhouse\Stonewall\StonewallTerraceEndR01.NIF
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: StonewallTerraceEndR01:4
+    NewTexture: 000891:Skyrim.esm
+    Index: 1
+MaxAngle: 90
+Material: 025129:Skyrim.esm
+Unused: 0x000000

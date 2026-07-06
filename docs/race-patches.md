@@ -12,8 +12,6 @@ Using custom races requires GTS Community Edition, since it patches all required
 
     [:lucide-file-text: RCS Mod Page](https://www.nexusmods.com/skyrimspecialedition/mods/122592)
 
-
-
 ## Charmers Of The Reach
 The COTR patch is made for the UUNP version. I am unsure if there is any difference with the CBBE version.
 
@@ -21,7 +19,7 @@ It requires the dummy RaceCompatibility.esm from RCS' patch hub.
 
 [:lucide-file-text: COTR Mod Page](https://www.nexusmods.com/skyrimspecialedition/mods/27405)
 
-[:lucide-package: GTS CE - COTR Patch](https://github.com/Hexanode0x0/gts-black-book/releases)
+[:lucide-package: GTS CE - COTR Patch](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Races)
 
 ## Lost Races Of Nirn
 The LRON patch is an AIO and requires all races as well as their Scion and Aetherius patches.
@@ -36,7 +34,7 @@ LRON adds the following races:
 
 [:lucide-file-text: LRON Mod Page](https://www.nexusmods.com/skyrimspecialedition/mods/69467)
 
-[:lucide-package: GTS CE - LRON Patch](https://github.com/Hexanode0x0/gts-black-book/releases)
+[:lucide-package: GTS CE - LRON Patch](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Races)
 
 ## Ohmes-Raht
 The Ohmes-Raht patch requires the main mod as well as a separate Updated Tweaks mod. Use the Aetherius variants of both.
@@ -47,4 +45,4 @@ It also requires the dummy RaceCompatibility.esm file from RCS' patch hub.
 
 [:lucide-file-text: Ohmes-Raht Updated Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/35644)
 
-[:lucide-package: GTS CE - Ohmes-Raht Patch](https://github.com/Hexanode0x0/gts-black-book/releases)
+[:lucide-package: GTS CE - Ohmes-Raht Patch](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Races)

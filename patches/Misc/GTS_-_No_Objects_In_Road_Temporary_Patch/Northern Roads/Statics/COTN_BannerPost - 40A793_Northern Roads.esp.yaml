@@ -1,0 +1,10 @@
+FormKey: 40A793:Northern Roads.esp
+EditorID: COTN_BannerPost
+ObjectBounds:
+  First: -8, -8, -4
+  Second: 17, 11, 409
+Model:
+  File: COTN\clutter\common\bannerpost.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

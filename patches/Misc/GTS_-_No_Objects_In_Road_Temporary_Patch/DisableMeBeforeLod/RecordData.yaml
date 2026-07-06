@@ -1,0 +1,77 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: DisableMeBeforeLod.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Author: DEFAULT
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: HearthFires.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: ccbgssse001-fish.esm
+    FileSize: 0
+  - Master: ccqdrsse001-survivalmode.esl
+    FileSize: 0
+  - Master: ccbgssse037-curios.esl
+    FileSize: 0
+  - Master: ccbgssse025-advdsgs.esm
+    FileSize: 0
+  - Master: _ResourcePack.esl
+    FileSize: 0
+  - Master: unofficial skyrim special edition patch.esp
+    FileSize: 0
+  - Master: 3DNPC.esp
+    FileSize: 0
+  - Master: NoBrokenWhiterunTower.esp
+    FileSize: 0
+  - Master: DSQuestPack.esp
+    FileSize: 0
+  - Master: Fabled Forests.esp
+    FileSize: 0
+  - Master: FTF_Core.esp
+    FileSize: 0
+  - Master: TimingIsEverything.esp
+    FileSize: 0
+  - Master: SRC_ERS.esp
+    FileSize: 0
+  - Master: SRC - All In One.esp
+    FileSize: 0
+  - Master: COTN - Falkreath.esp
+    FileSize: 0
+  - Master: OCW_Obscure's_CollegeofWinterhold.esp
+    FileSize: 0
+  - Master: Resources - The Great Cities.esp
+    FileSize: 0
+  - Master: The Great City of Winterhold v4.esp
+    FileSize: 0
+  - Master: WindhelmSSE.esp
+    FileSize: 0
+  - Master: SurWR.esp
+    FileSize: 0
+  - Master: The Great City of Solitude.esp
+    FileSize: 0
+  - Master: Environs - Abandoned Abodes.esp
+    FileSize: 0
+  - Master: The Great Village of Mixwater Mill.esp
+    FileSize: 0
+  - Master: HJ_LostPassages.esp
+    FileSize: 0
+  - Master: Meridia.esp
+    FileSize: 0
+  - Master: Ryn's Saarthal.esp
+    FileSize: 0
+  - Master: SaveTheIcerunner.esp
+    FileSize: 0
+  - Master: Northern Roads.esp
+    FileSize: 0
+  - Master: AlternatePerspective.esp
+    FileSize: 0
+  INTV: 1

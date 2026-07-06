@@ -1,0 +1,16 @@
+FormKey: 48E3CD:Northern Roads.esp
+MajorRecordFlagsRaw: 65536
+EditorID: COTN_RiftenBannerThinFolded01
+SkyrimMajorRecordFlags:
+- 0x10000
+Model:
+  File: COTN\clutter\banners\bannerthinfolded01.nif
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: Banner1_Banner
+    NewTexture: 0D2015:Skyrim.esm
+Flags:
+- OnLocalMap
+- 0x4
+MajorFlags:
+- RandomAnimStart

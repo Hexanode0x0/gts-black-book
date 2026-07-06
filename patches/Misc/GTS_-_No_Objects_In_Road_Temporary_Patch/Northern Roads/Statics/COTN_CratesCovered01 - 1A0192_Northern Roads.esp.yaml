@@ -1,0 +1,10 @@
+FormKey: 1A0192:Northern Roads.esp
+EditorID: COTN_CratesCovered01
+ObjectBounds:
+  First: -57, -65, 0
+  Second: 57, 79, 88
+Model:
+  File: COTN\clutter\common\crates01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

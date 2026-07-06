@@ -1,0 +1,6 @@
+FormKey: 005901:Northern Roads.esp
+EditorID: COTN_LandscapeRoadDirt01
+Diffuse: COTN\landscape\grounddirt01.dds
+NormalOrGloss: COTN\landscape\grounddirt01_n.dds
+Height: COTN\landscape\grounddirt01_p.dds
+Flags: []

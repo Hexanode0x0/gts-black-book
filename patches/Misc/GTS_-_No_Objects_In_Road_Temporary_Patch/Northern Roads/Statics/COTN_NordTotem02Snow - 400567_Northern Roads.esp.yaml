@@ -1,0 +1,11 @@
+FormKey: 400567:Northern Roads.esp
+EditorID: COTN_NordTotem02Snow
+ObjectBounds:
+  First: -34, 5, 0
+  Second: 34, 59, 193
+Model:
+  File: COTN\clutter\totems\totem_pagan_02.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Material: 06F158:Skyrim.esm
+Unused: 0x000000

@@ -1,0 +1,8 @@
+FormKey: 3C3813:Northern Roads.esp
+EditorID: COTN_ShipWood02
+ObjectBounds:
+  First: -8, -30, -20
+  Second: 7, 29, 19
+Diffuse: dungeons\ships\ShipWood02.dds
+NormalOrGloss: dungeons\imperial\ImpWood01_n.dds
+Flags: []

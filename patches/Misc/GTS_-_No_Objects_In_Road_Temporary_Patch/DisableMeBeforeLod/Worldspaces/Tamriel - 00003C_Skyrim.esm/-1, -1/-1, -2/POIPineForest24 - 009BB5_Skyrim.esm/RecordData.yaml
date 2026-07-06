@@ -1,0 +1,268 @@
+FormKey: 009BB5:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: POIPineForest24
+SkyrimMajorRecordFlags:
+- Compressed
+Flags:
+- HasWater
+- HandChanged
+Grid:
+  Point: -3, -16
+  Flags: 2139115008
+OcclusionData: 0x0300000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000004000041023F002006B78301D81B0000FC0B000000100000000000000000000004000041051F0000000000000000000000000000000000000000000000000000BEF3F93BF860BFFFFFE00300000000000000000000F0F9F1FFE09F03000000000200000000700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+MaxHeightData:
+  Offset: 640
+  HeightMap:
+  - [3, 3, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [3, 3, 2, 2, 2, 3, 2, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [4, 3, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [4, 3, 3, 4, 4, 3, 3, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [4, 3, 3, 4, 4, 4, 3, 21, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [4, 4, 3, 3, 4, 4, 4, 2, 2, 6, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [4, 4, 3, 3, 4, 3, 2, 2, 2, 6, 1, 1, 1, 1, 1, 1, 0, 9, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [5, 4, 4, 3, 3, 3, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 9, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [5, 5, 4, 3, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [5, 4, 4, 3, 3, 3, 3, 3, 3, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [5, 4, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [5, 5, 4, 4, 4, 3, 22, 21, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [14, 22, 5, 4, 4, 4, 22, 21, 3, 3, 3, 3, 3, 2, 1, 1, 1, 1, 1, 1, 2, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [14, 22, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 2, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [6, 5, 7, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0]
+  - [7, 5, 7, 5, 5, 17, 17, 14, 4, 4, 4, 4, 4, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0]
+  - [7, 5, 7, 5, 5, 17, 17, 10, 4, 4, 4, 4, 5, 4, 3, 2, 2, 1, 1, 1, 1, 1, 3, 1, 0, 1, 1, 1, 0, 0, 0, 0]
+  - [5, 5, 5, 5, 7, 7, 5, 5, 4, 4, 4, 4, 5, 4, 3, 2, 2, 1, 1, 1, 1, 1, 7, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [7, 5, 5, 5, 5, 6, 7, 5, 12, 12, 4, 4, 4, 4, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [5, 5, 5, 5, 5, 5, 6, 5, 12, 12, 4, 9, 3, 3, 3, 2, 1, 1, 1, 1, 1, 1, 5, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 3, 3, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [5, 7, 5, 7, 7, 5, 5, 5, 4, 4, 4, 3, 3, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [7, 6, 5, 6, 6, 5, 5, 5, 5, 4, 4, 3, 3, 3, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [8, 7, 6, 6, 5, 5, 5, 5, 5, 5, 4, 4, 3, 3, 3, 2, 2, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [8, 7, 6, 6, 6, 6, 6, 5, 5, 5, 4, 4, 4, 4, 3, 2, 2, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [9, 7, 7, 6, 6, 6, 6, 6, 7, 6, 6, 4, 4, 4, 4, 3, 2, 2, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [9, 7, 7, 7, 7, 7, 7, 6, 7, 6, 7, 6, 4, 4, 4, 3, 3, 2, 2, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [8, 9, 9, 7, 7, 7, 6, 6, 6, 6, 7, 4, 4, 4, 4, 4, 3, 2, 2, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [9, 9, 9, 8, 7, 7, 6, 6, 6, 6, 6, 4, 9, 4, 4, 4, 3, 3, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+  - [9, 9, 9, 9, 8, 7, 6, 6, 6, 5, 5, 5, 4, 4, 4, 4, 4, 3, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [25, 9, 9, 9, 9, 7, 6, 6, 6, 5, 5, 5, 4, 4, 4, 4, 4, 3, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+WaterHeight: 600
+Regions:
+- 0C5859:Skyrim.esm
+- 0613A1:Skyrim.esm
+- 0186B6:Skyrim.esm
+- 05FD66:Skyrim.esm
+- 08EED7:Skyrim.esm
+- 02A72D:Skyrim.esm
+Water: 001232:Update.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 036334:DisableMeBeforeLod.esp
+  Base: 042097:Skyrim.esm
+  Scale: 4.41
+  Placement:
+    Position: -8368, -63088, 688
+    Rotation: -1.5085593, -0.09675752, 4.5355654
+- MutagenObjectType: PlacedObject
+  FormKey: 036335:DisableMeBeforeLod.esp
+  Base: 042097:Skyrim.esm
+  Scale: 1.29
+  Placement:
+    Position: -10048, -63392, 736
+    Rotation: 2.0704803, -1.0767655, 1.1227733
+- MutagenObjectType: PlacedObject
+  FormKey: 036336:DisableMeBeforeLod.esp
+  Base: 042097:Skyrim.esm
+  Scale: 1.36
+  Placement:
+    Position: -10864, -63600, 704
+    Rotation: 1.9221361, 0.35000107, 1.6958294
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE357:DisableMeBeforeLod.esp
+  Base: 042097:Skyrim.esm
+  Scale: 5.28
+  Placement:
+    Position: -10944, -63488, 672
+    Rotation: 1.9221361, 0.35000107, 1.6958294
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE358:DisableMeBeforeLod.esp
+  Base: 042097:Skyrim.esm
+  Scale: 5.28
+  Placement:
+    Position: -11680, -63856, 640
+    Rotation: 1.9221361, 0.35000107, 1.6958294
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE359:DisableMeBeforeLod.esp
+  Base: 042097:Skyrim.esm
+  Scale: 5.28
+  Placement:
+    Position: -10576, -63424, 656
+    Rotation: 1.85156, -0.229045, 1.6913809
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE35A:DisableMeBeforeLod.esp
+  Base: 02C69B:Skyrim.esm
+  Scale: 2.43
+  Placement:
+    Position: -9760, -63280, 720
+    Rotation: 0, -0, 4.7642803
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE35B:DisableMeBeforeLod.esp
+  Base: 02C69B:Skyrim.esm
+  Scale: 2.43
+  Placement:
+    Position: -9584, -63312, 720
+    Rotation: 0, -0, 4.7642803
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE35C:DisableMeBeforeLod.esp
+  Base: 01C42F:Skyrim.esm
+  Scale: 0.57
+  Placement:
+    Position: -9360, -63248, 720
+    Rotation: 0.06981317, 0.017455038, 1.5000017
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE35D:DisableMeBeforeLod.esp
+  Base: 018127:Skyrim.esm
+  Placement:
+    Position: -8352, -62992, 736
+    Rotation: 0, -0, 3.6238682
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE35E:DisableMeBeforeLod.esp
+  Base: 018127:Skyrim.esm
+  Scale: 2.33
+  Placement:
+    Position: -8432, -62944, 704
+    Rotation: 0, -0, 3.0238686
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE363:DisableMeBeforeLod.esp
+  Base: 01812A:Skyrim.esm
+  Scale: 1.02
+  Placement:
+    Position: -10704, -63472, 704
+    Rotation: 0.010860468, 0.06651071, 4.966796
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE367:DisableMeBeforeLod.esp
+  Base: 042097:Skyrim.esm
+  Scale: 5.28
+  Placement:
+    Position: -11488, -63808, 656
+    Rotation: 1.9221361, 0.35000107, 1.6958294
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE369:DisableMeBeforeLod.esp
+  Base: 02EC1F:Skyrim.esm
+  Scale: 3.91
+  Placement:
+    Position: -11360, -63856, 912
+    Rotation: -2.949812, -0.18249416, 5.1103806
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE36A:DisableMeBeforeLod.esp
+  Base: 02EC1F:Skyrim.esm
+  Scale: 3.91
+  Placement:
+    Position: -11136, -63792, 912
+    Rotation: -2.949812, -0.18249416, 5.1103806
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE36B:DisableMeBeforeLod.esp
+  Base: 02EC1F:Skyrim.esm
+  Scale: 3.91
+  Placement:
+    Position: -11744, -63968, 880
+    Rotation: -2.949812, -0.18249416, 5.1103806
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE36C:DisableMeBeforeLod.esp
+  Base: 02EC1F:Skyrim.esm
+  Scale: 3.91
+  Placement:
+    Position: -10816, -63568, 928
+    Rotation: -2.949812, -0.18249416, 5.1103806
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE36D:DisableMeBeforeLod.esp
+  Base: 01C42F:Skyrim.esm
+  Scale: 0.7
+  Placement:
+    Position: -9648, -63264, 720
+    Rotation: 0.06981317, 0.017455038, 1.5000017
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE36E:DisableMeBeforeLod.esp
+  Base: 01C42F:Skyrim.esm
+  Scale: 0.44
+  Placement:
+    Position: -9568, -63200, 720
+    Rotation: 0.06981317, 0.017455038, 1.5000017
+- MutagenObjectType: PlacedObject
+  FormKey: 0AE36F:DisableMeBeforeLod.esp
+  Base: 02EC1F:Skyrim.esm
+  Scale: 3.66
+  Placement:
+    Position: -9072, -63328, 992
+    Rotation: 3.1415927, 0.24159272, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 0B34A0:DisableMeBeforeLod.esp
+  Base: 02EC1F:Skyrim.esm
+  Scale: 3.66
+  Placement:
+    Position: -8960, -63136, 944
+    Rotation: -3.1415925, 0.24159272, 2.9415932
+- MutagenObjectType: PlacedObject
+  FormKey: 0B34A1:DisableMeBeforeLod.esp
+  Base: 02EC1F:Skyrim.esm
+  Scale: 3.66
+  Placement:
+    Position: -8800, -63136, 944
+    Rotation: -3.1415925, 0.24159272, 2.9415932
+- MutagenObjectType: PlacedObject
+  FormKey: 0B34A2:DisableMeBeforeLod.esp
+  Base: 02EC1F:Skyrim.esm
+  Scale: 3.66
+  Placement:
+    Position: -8928, -63120, 896
+    Rotation: -3.1415925, 0.24159272, 2.9415932
+- MutagenObjectType: PlacedObject
+  FormKey: 0B34A3:DisableMeBeforeLod.esp
+  Base: 02EC1F:Skyrim.esm
+  Scale: 3.66
+  Placement:
+    Position: -8544, -62976, 928
+    Rotation: -3.1415925, 0.24159272, 2.8415935
+- MutagenObjectType: PlacedObject
+  FormKey: 0B34A4:DisableMeBeforeLod.esp
+  Base: 02EC1F:Skyrim.esm
+  Scale: 3.66
+  Placement:
+    Position: -8608, -63056, 896
+    Rotation: -3.1415925, 0.24159272, 2.8415935
+- MutagenObjectType: PlacedObject
+  FormKey: 0DC8F0:Fabled Forests.esp
+  Base: 018A02:Skyrim.esm
+  Scale: 1.56
+  Placement:
+    Position: -9293.071, -62746.496, 701.8973
+    Rotation: 0, 0, 1.183197
+- MutagenObjectType: PlacedObject
+  FormKey: 05C550:Skyrim.esm
+  Base: 01812A:Skyrim.esm
+  Scale: 1.02
+  Placement:
+    Position: -10482.241, -63519.836, 713.07043
+    Rotation: 0.010860468, 0.06651071, 4.966796
+- MutagenObjectType: PlacedObject
+  FormKey: 05C5AC:Skyrim.esm
+  Base: 02C69B:Skyrim.esm
+  Scale: 0.96
+  Placement:
+    Position: -9534.359, -63237.133, 708.6726
+    Rotation: 0, -0, 4.7642803
+- MutagenObjectType: PlacedObject
+  FormKey: 05C619:Skyrim.esm
+  IsDeleted: True
+  MajorRecordFlagsRaw: 32
+  SkyrimMajorRecordFlags:
+  - Deleted
+  Base: 01C42F:Skyrim.esm
+- MutagenObjectType: PlacedObject
+  FormKey: 05C67A:Skyrim.esm
+  Base: 018127:Skyrim.esm
+  Placement:
+    Position: -8248.313, -63088.785, 733.22455
+    Rotation: 0, -0, 4.6238666
+MajorFlags:
+- 0x40000

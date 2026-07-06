@@ -1,0 +1,11 @@
+FormKey: 0A2A07:Northern Roads.esp
+EditorID: COTN_WHTotemLong
+ObjectBounds:
+  First: -16, -63, -5
+  Second: 16, 37, 254
+Model:
+  File: COTN\clutter\totems\WH_totem_long.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Material: 06F158:Skyrim.esm
+Unused: 0x000000

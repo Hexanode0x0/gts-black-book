@@ -1,0 +1,10 @@
+FormKey: 3BE705:Northern Roads.esp
+EditorID: COTN_Fishrack02
+ObjectBounds:
+  First: -149, -145, 15
+  Second: 149, 145, 194
+Model:
+  File: kelretu\clutter\fishrack05.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

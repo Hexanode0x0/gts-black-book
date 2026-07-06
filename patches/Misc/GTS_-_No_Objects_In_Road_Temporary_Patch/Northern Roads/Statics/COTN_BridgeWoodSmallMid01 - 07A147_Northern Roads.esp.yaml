@@ -1,0 +1,10 @@
+FormKey: 07A147:Northern Roads.esp
+EditorID: COTN_BridgeWoodSmallMid01
+ObjectBounds:
+  First: -208, -256, -1478
+  Second: 208, 258, 19
+Model:
+  File: COTN\landscape\bridges\COTN_wood_small_01_noroof.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

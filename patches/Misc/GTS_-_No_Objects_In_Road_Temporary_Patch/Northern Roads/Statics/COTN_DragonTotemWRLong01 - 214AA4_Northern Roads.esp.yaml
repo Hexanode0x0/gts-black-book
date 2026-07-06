@@ -1,0 +1,10 @@
+FormKey: 214AA4:Northern Roads.esp
+EditorID: COTN_DragonTotemWRLong01
+ObjectBounds:
+  First: -17, -48, -123
+  Second: 12, 57, 104
+Model:
+  File: COTN\clutter\totems\WR_totem_long.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

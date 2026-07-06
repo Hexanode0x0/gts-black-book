@@ -1,0 +1,10 @@
+FormKey: 117449:Northern Roads.esp
+EditorID: COTN_TentNord01
+ObjectBounds:
+  First: -115, -169, -25
+  Second: 292, 178, 276
+Model:
+  File: COTN\clutter\tents\TentNordLarge01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

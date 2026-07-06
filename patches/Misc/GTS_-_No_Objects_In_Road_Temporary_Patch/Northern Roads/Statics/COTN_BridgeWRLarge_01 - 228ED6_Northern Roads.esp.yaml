@@ -1,0 +1,10 @@
+FormKey: 228ED6:Northern Roads.esp
+EditorID: COTN_BridgeWRLarge_01
+ObjectBounds:
+  First: -447, -737, -885
+  Second: 436, 2261, 912
+Model:
+  File: COTN\architecture\whiterun\COTN_WR_Bridge.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

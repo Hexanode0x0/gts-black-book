@@ -1,0 +1,10 @@
+FormKey: 3633B5:Northern Roads.esp
+EditorID: COTN_RockBridge01
+ObjectBounds:
+  First: -333, -275, -883
+  Second: 1473, 282, 158
+Model:
+  File: COTN\architecture\westskyrim\reachbridge01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

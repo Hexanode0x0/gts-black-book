@@ -1,0 +1,10 @@
+FormKey: 11C560:Northern Roads.esp
+EditorID: COTN_Cart01
+ObjectBounds:
+  First: -67, -87, 0
+  Second: 67, 185, 89
+Model:
+  File: COTN\clutter\common\cart01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

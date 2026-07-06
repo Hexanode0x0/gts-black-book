@@ -1,0 +1,6 @@
+FormKey: 10D1AE:Northern Roads.esp
+EditorID: COTN_LandscapeRoadVolcanicTundra
+Diffuse: COTN\landscape\volcanictundra01.dds
+NormalOrGloss: COTN\landscape\volcanictundra01_n.dds
+Height: COTN\landscape\volcanictundra01_p.dds
+Flags: []

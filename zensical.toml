@@ -22,7 +22,14 @@ Copyright &copy; 2026 Hexanode
 nav = [
     {"GTS Addons" = [
         {"GTS Addons" = "gts-addons.md"},
-        {"Creating An Addon" = "creating-an-addon.md"}
+        {"Visual & Performance Addons" = "gts-addons-visual-performance.md"},
+        {"Large & Unique Addons" = "gts-addons-large-unique.md"},
+        {"Quest & New Land Addons" = "gts-addons-quest-land.md"},
+        {"Combat & Magic Addons" = "gts-addons-combat-magic.md"},
+        {"Interface & Sound Addons" = "gts-addons-interface-sound.md"},
+        {"Armor & Weapon Addons" = "gts-addons-armor-weapon.md"},
+        {"Character & NSFW Addons" = "gts-addons-character-nsfw.md"},
+        {"Creating An Addon" = "creating-an-addon.md"},
     ]},
     {"Generation" = [
         {"Generation" = "generation.md"},

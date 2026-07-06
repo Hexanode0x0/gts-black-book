@@ -1,0 +1,11 @@
+FormKey: 40056E:Northern Roads.esp
+EditorID: COTN_SPatioWall01Snow
+ObjectBounds:
+  First: -27, -242, -128
+  Second: 27, 242, 148
+Model:
+  File: Architecture\Solitude\SPatioWall01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Material: 06F158:Skyrim.esm
+Unused: 0x000000

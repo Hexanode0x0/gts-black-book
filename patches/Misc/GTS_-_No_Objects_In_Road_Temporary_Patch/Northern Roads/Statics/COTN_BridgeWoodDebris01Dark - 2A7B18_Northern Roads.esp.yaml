@@ -1,0 +1,13 @@
+FormKey: 2A7B18:Northern Roads.esp
+EditorID: COTN_BridgeWoodDebris01Dark
+ObjectBounds:
+  First: -51, -152, 0
+  Second: 47, 139, 11
+Model:
+  File: COTN\landscape\bridges\COTN_wood_debris01.nif
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: Debris01
+    NewTexture: 144E43:Northern Roads.esp
+MaxAngle: 90
+Unused: 0x000000

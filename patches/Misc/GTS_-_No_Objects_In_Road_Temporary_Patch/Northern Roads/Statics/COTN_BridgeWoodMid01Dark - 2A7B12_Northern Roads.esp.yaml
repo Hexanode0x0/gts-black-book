@@ -1,0 +1,13 @@
+FormKey: 2A7B12:Northern Roads.esp
+EditorID: COTN_BridgeWoodMid01Dark
+ObjectBounds:
+  First: -288, -256, -537
+  Second: 291, 256, 25
+Model:
+  File: COTN\landscape\bridges\COTN_wood_modular.nif
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: BridgeWoodMid
+    NewTexture: 144E43:Northern Roads.esp
+MaxAngle: 90
+Unused: 0x000000

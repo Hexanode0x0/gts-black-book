@@ -1,0 +1,10 @@
+FormKey: 065D17:Northern Roads.esp
+EditorID: COTN_Stonewall04
+ObjectBounds:
+  First: -304, -55, 0
+  Second: 55, 127, 174
+Model:
+  File: kelretu\clutter\stonewallcurve02.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

@@ -1,0 +1,10 @@
+FormKey: 0D5579:Northern Roads.esp
+EditorID: COTN_Barrel02
+ObjectBounds:
+  First: -28, -28, 0
+  Second: 28, 28, 68
+Model:
+  File: kelretu\clutter\barrels\barrel02.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

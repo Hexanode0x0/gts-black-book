@@ -1,0 +1,10 @@
+FormKey: 28E556:Northern Roads.esp
+EditorID: COTN_Runestone03
+ObjectBounds:
+  First: -25, -25, -9
+  Second: 25, 26, 171
+Model:
+  File: COTN\clutter\stones\COTN_runestone03.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

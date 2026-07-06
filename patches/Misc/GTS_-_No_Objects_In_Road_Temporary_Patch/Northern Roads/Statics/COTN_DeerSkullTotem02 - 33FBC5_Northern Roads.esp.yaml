@@ -1,0 +1,10 @@
+FormKey: 33FBC5:Northern Roads.esp
+EditorID: COTN_DeerSkullTotem02
+ObjectBounds:
+  First: -38, -36, -10
+  Second: 85, 40, 211
+Model:
+  File: COTN\clutter\totems\deerskull_totem02.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

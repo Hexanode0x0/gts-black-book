@@ -1,0 +1,10 @@
+FormKey: 511E51:Northern Roads.esp
+EditorID: COTN_BridgeStoneSmall_AltUV
+ObjectBounds:
+  First: -347, -1371, -599
+  Second: 345, 1221, 46
+Model:
+  File: COTN\landscape\bridges\COTN_stone_small_01_altuv.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

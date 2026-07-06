@@ -1,0 +1,10 @@
+FormKey: 386ADE:Northern Roads.esp
+EditorID: COTN_MammothSkullForsworn
+ObjectBounds:
+  First: -119, -117, -39
+  Second: 116, 84, 96
+Model:
+  File: COTN\clutter\totems\mammoth_forsworn.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

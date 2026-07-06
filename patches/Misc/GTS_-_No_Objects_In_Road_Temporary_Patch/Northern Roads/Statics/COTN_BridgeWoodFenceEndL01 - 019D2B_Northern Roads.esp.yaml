@@ -1,0 +1,10 @@
+FormKey: 019D2B:Northern Roads.esp
+EditorID: COTN_BridgeWoodFenceEndL01
+ObjectBounds:
+  First: -285, 0, 0
+  Second: -180, 256, 98
+Model:
+  File: COTN\landscape\bridges\COTN_wood_fence_end_left.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

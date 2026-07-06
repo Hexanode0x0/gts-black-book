@@ -1,0 +1,20 @@
+FormKey: 2C10E8:Northern Roads.esp
+EditorID: COTN_DecalFieldGrass01
+ObjectBounds:
+  First: -8, -30, -20
+  Second: 7, 29, 19
+Diffuse: Landscape\FieldGrass01.dds
+NormalOrGloss: Landscape\FieldGrass01_N.dds
+Decal:
+  MinWidth: 128
+  MaxWidth: 128
+  MinHeight: 128
+  MaxHeight: 128
+  Depth: 32
+  Shininess: 4
+  ParallaxScale: 1
+  ParallaxPasses: 4
+  Flags:
+  - AlphaBlending
+  Color: '#00FFFFFF'
+Flags: []

@@ -1,0 +1,10 @@
+FormKey: 1D7D94:Northern Roads.esp
+EditorID: COTN_RTWallGate
+ObjectBounds:
+  First: -532, -1449, -20
+  Second: -147, -661, 868
+Model:
+  File: architecture\riften\walls\rtwall07innergate.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

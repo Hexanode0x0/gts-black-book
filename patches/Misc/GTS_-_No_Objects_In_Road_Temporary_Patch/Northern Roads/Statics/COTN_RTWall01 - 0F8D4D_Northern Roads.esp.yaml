@@ -1,0 +1,10 @@
+FormKey: 0F8D4D:Northern Roads.esp
+EditorID: COTN_RTWall01
+ObjectBounds:
+  First: -1139, -274, -2089
+  Second: 925, 682, 507
+Model:
+  File: COTN\architecture\riften\RTWall01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

@@ -1,0 +1,10 @@
+FormKey: 27F23C:Northern Roads.esp
+EditorID: COTN_RoadTrail01
+ObjectBounds:
+  First: -269, -508, -67
+  Second: 258, 358, -3
+Model:
+  File: COTN\landscape\roads\COTN_road_trail01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

@@ -1,0 +1,10 @@
+FormKey: 36D5BF:Northern Roads.esp
+EditorID: COTN_RockBridgeSpike01
+ObjectBounds:
+  First: -1464, 167, -808
+  Second: -710, 523, 470
+Model:
+  File: COTN\architecture\westskyrim\stonespike01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

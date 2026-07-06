@@ -1,0 +1,10 @@
+FormKey: 3BE6FD:Northern Roads.esp
+EditorID: COTN_LobsterCage
+ObjectBounds:
+  First: -36, -18, 0
+  Second: 36, 18, 30
+Model:
+  File: clutter\lobstercage01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

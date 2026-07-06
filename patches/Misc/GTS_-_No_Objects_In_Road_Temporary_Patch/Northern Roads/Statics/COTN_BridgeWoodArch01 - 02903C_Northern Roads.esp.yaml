@@ -1,0 +1,10 @@
+FormKey: 02903C:Northern Roads.esp
+EditorID: COTN_BridgeWoodArch01
+ObjectBounds:
+  First: -286, -100, 0
+  Second: 284, 100, 341
+Model:
+  File: COTN\landscape\bridges\COTN_wood_arch_01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

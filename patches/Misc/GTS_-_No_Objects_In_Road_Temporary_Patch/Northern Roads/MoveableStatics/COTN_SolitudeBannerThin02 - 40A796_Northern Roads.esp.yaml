@@ -1,0 +1,13 @@
+FormKey: 40A796:Northern Roads.esp
+MajorRecordFlagsRaw: 65536
+EditorID: COTN_SolitudeBannerThin02
+SkyrimMajorRecordFlags:
+- 0x10000
+Model:
+  File: COTN\clutter\banners\bannerthin02.nif
+  Data: 0x020000000000000000000000
+Flags:
+- OnLocalMap
+- 0x4
+MajorFlags:
+- RandomAnimStart

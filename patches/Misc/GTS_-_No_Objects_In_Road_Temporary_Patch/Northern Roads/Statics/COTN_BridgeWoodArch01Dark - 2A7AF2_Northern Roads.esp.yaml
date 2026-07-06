@@ -1,0 +1,13 @@
+FormKey: 2A7AF2:Northern Roads.esp
+EditorID: COTN_BridgeWoodArch01Dark
+ObjectBounds:
+  First: -286, -100, 0
+  Second: 284, 100, 341
+Model:
+  File: COTN\landscape\bridges\COTN_wood_arch_01.nif
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: BridgeWoodArch01
+    NewTexture: 144E43:Northern Roads.esp
+MaxAngle: 90
+Unused: 0x000000

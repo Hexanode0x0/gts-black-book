@@ -1,0 +1,10 @@
+FormKey: 3D2B82:Northern Roads.esp
+EditorID: COTN_BridgeRowBoat01Anim
+ObjectBounds:
+  First: -236, -347, -2
+  Second: 244, 328, 151
+Model:
+  File: COTN\landscape\bridges\bridgerowboat01anim.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

@@ -1,0 +1,10 @@
+FormKey: 0F3C47:Northern Roads.esp
+EditorID: COTN_RTBorderGate01
+ObjectBounds:
+  First: -339, -532, -347
+  Second: 571, 607, 1272
+Model:
+  File: COTN\architecture\riften\rtbordergate01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

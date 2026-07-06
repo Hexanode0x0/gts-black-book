@@ -1,0 +1,6 @@
+FormKey: 3684BA:Northern Roads.esp
+EditorID: COTN_LandscapeDirtDry
+Diffuse: COTN\landscape\dirtdry.dds
+NormalOrGloss: COTN\landscape\dirtdry_n.dds
+Height: COTN\landscape\dirtdry_p.dds
+Flags: []

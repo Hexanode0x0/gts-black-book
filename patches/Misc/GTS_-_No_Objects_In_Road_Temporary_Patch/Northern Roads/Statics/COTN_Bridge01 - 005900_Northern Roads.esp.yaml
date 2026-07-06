@@ -1,0 +1,10 @@
+FormKey: 005900:Northern Roads.esp
+EditorID: COTN_Bridge01
+ObjectBounds:
+  First: -278, -1474, -1011
+  Second: 278, 1474, 256
+Model:
+  File: COTN\landscape\bridges\COTN_bridge01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

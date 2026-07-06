@@ -1,0 +1,11 @@
+FormKey: 3591AC:Northern Roads.esp
+EditorID: COTN_StonewallWEST01Snow
+ObjectBounds:
+  First: -119, -26, -18
+  Second: 116, 27, 86
+Model:
+  File: COTN\architecture\westskyrim\stonewall01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Material: 06F158:Skyrim.esm
+Unused: 0x000000

@@ -1,0 +1,10 @@
+FormKey: 154191:Northern Roads.esp
+EditorID: COTN_ArchWT
+ObjectBounds:
+  First: -393, -51, -232
+  Second: 393, 51, 457
+Model:
+  File: COTN\architecture\winterhold\WT_arch.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

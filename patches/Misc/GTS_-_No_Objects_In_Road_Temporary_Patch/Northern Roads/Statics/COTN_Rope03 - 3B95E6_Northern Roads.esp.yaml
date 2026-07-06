@@ -1,0 +1,10 @@
+FormKey: 3B95E6:Northern Roads.esp
+EditorID: COTN_Rope03
+ObjectBounds:
+  First: -20, -21, 0
+  Second: 25, 19, 9
+Model:
+  File: clutter\ropecoil01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

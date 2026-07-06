@@ -1,0 +1,6 @@
+FormKey: 2C6202:Northern Roads.esp
+EditorID: COTN_LandscapeWRStone
+Diffuse: architecture\whiterun\wrstonefloor01.dds
+NormalOrGloss: architecture\whiterun\wrstonefloor01_n.dds
+Flags:
+- HasModelSpaceNormalMap

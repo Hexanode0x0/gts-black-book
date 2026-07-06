@@ -1,0 +1,13 @@
+FormKey: 2A29BB:Northern Roads.esp
+EditorID: COTN_RockPileS01RoadDirt
+ObjectBounds:
+  First: -102, -153, -17
+  Second: 125, 126, 42
+Model:
+  File: Landscape\Rocks\RockPileS01.nif
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: RockPileS01:0
+    NewTexture: 005901:Northern Roads.esp
+MaxAngle: 90
+Unused: 0x000000

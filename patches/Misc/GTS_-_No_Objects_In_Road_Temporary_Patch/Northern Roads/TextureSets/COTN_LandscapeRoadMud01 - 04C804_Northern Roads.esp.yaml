@@ -1,0 +1,6 @@
+FormKey: 04C804:Northern Roads.esp
+EditorID: COTN_LandscapeRoadMud01
+Diffuse: COTN\landscape\groundmud01.dds
+NormalOrGloss: COTN\landscape\groundmud01_n.dds
+Height: COTN\landscape\groundmud01_p.dds
+Flags: []

@@ -122,7 +122,7 @@ Pick the appropriate method for your needs as described above. NGIO generates di
     3. Disable TrueHUD
     4. Make sure you have AE content disabled as described above
     2. Install NGIO
-    3. If you're generating grass for GTS Tamriel, install the [Grass Cache Temporary Patch](https://github.com/Hexanode0x0/gts-black-book/releases) file for better results.
+    3. If you're generating grass for GTS Tamriel, install the [Grass Cache Temporary Patch](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Misc) file for better results.
     3. Force the desired season in Seasons of Skyrim
     3. Run the game once to generate GrassControl.ini
     4. Set the following settings in GrassControl.ini:
@@ -145,5 +145,5 @@ Pick the appropriate method for your needs as described above. NGIO generates di
     18. Disable NGIO and re-enable Grass Cache Helper NG, TrueHUD, and Skyrim Souls
     19. Remove the Grass Cache Helper file, if you have used it
     20. Set Seasons of Skyrim back to Seasonal
-    21. Add [pre-generated CC grass cache](https://github.com/Hexanode0x0/gts-black-book/releases) to your output to cover all CC worldspaces
+    21. Add [pre-generated CC grass cache](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Misc) to your output to cover all CC worldspaces
     22. Un-remove the AE content, unless you're also generating [Terrain LOD](./Terrain LOD) or [Object LOD](./Object LOD)

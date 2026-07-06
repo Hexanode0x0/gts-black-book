@@ -1,0 +1,11 @@
+FormKey: 2BBFCD:Northern Roads.esp
+EditorID: COTN_Runestone01Snow
+ObjectBounds:
+  First: -114, -53, -124
+  Second: 95, 51, 275
+Model:
+  File: COTN\clutter\stones\COTN_runestone01.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Material: 025129:Skyrim.esm
+Unused: 0x000000

@@ -1,0 +1,14 @@
+FormKey: 144E40:Northern Roads.esp
+EditorID: COTN_DragonTotemOld01_Blue
+ObjectBounds:
+  First: -30, -19, -36
+  Second: 28, 52, 111
+Model:
+  File: COTN\clutter\totems\OLD_totem01.nif
+  Data: 0x020000000000000000000000
+  AlternateTextures:
+  - Name: WRWallTotem01:13.001
+    NewTexture: 144E3F:Northern Roads.esp
+MaxAngle: 90
+Material: 06F158:Skyrim.esm
+Unused: 0x000000

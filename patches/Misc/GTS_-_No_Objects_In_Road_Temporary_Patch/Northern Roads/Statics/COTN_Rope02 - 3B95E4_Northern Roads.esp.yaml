@@ -1,0 +1,10 @@
+FormKey: 3B95E4:Northern Roads.esp
+EditorID: COTN_Rope02
+ObjectBounds:
+  First: -65, -60, -1
+  Second: 77, 42, 26
+Model:
+  File: COTN\clutter\common\docksrope02.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

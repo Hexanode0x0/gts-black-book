@@ -6,7 +6,7 @@ Anyone can contribute to the GTS Black Book, and the type of content that's acce
 
 You can contribute whole modding guides, or just personal notes you think others would find useful.
 
-If anything is unclear, do not hesitate to ask. You can ping @Hexanode on the [Addons General chat in the GTS Discord](https://discord.com/channels/902984082181484615/1424038554232946689).
+If anything is unclear, do not hesitate to ask. You can leave a message on the [GTS Black Book Thread](https://discord.com/channels/902984082181484615/1520726956419710978), on the GTS Discord.
 
 ## Getting Started
 
