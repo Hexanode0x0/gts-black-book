@@ -32,11 +32,8 @@ Addons listed here are supported by their respective curators, and expected to w
     
     [:fontawesome-brands-discord: Discord Thread (Dibellan Arts Sheogorath Style)](https://discord.com/channels/902984082181484615/1495618864778575933)
 
-## Out of Date Addons
-Addons listed here are supported, but have not yet been updated to support the newest GTS version.
-
-??? question "GTS Legacy Lite"
-    GTS Legacy Lite is in the process of being updated.
+??? success "GTS Legacy Lite"
+    GTS Legacy Lite is supported.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/p1eq2i)
     
