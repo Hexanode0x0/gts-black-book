@@ -38,3 +38,14 @@ Addons listed here are supported by their respective curators, and expected to w
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/p1eq2i)
     
     [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424043173428199597)
+
+## Deprecated Addons
+These addons are abandoned and have some severe issues, and should not be used with newer GTS versions.
+
+??? failure "Slow Your Roll... for GTS"
+
+    Slow Your Roll... for GTS is unsupported and superseded by GTS CE.
+
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/exv627)
+
+    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424043123499204639)

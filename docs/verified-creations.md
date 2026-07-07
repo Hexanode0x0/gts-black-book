@@ -14,7 +14,9 @@ Patches specific to GTS should load after GTS Patches - Old Synthesis.esp.
 Dragonslayer is made by JaySerpa, and is compatible OOTB with GTS.
 
 ## A Tale Of Blood And Snow
-A Tale of Blood and Snow requires a patch for GTS. Mostly Scion.
+A Tale of Blood and Snow requires general Simonrim patch and a patch for GTS. Mostly Scion. 
+
+[:lucide-file-text: Frostbite - A Magic Overhaul for A Tale of Blood and Snow](https://creations.bethesda.net/en/skyrim/details/8fbf3c1b-585a-41d3-aaac-704b4195aec3/Frostbite___A_Magic_Overhaul_for_A_Tale_of_Blood_a)
 
 [:lucide-package: GTS VC - A Tale of Blood and Snow][VCRelease]
 
@@ -32,17 +34,17 @@ EEE requires a few patches from Kinggath's forum, and couple of GTS Patches.
 
 The FOMOD from the forum will only let you select patches for mods in the current LO.
 
+When installing Unofficial Patches, do not select any option for Whiterun. The provided GTS patch covers the city fully. Other options are still relevant.
+
 [:lucide-file-text: East Empire Expansion - Unofficial Patches](https://forum.kinggathcreations.com/resources/east-empire-expansion-unofficial-patches.2/)
 
 [:lucide-file-text: East Empire Expansion - Wyrmstooth](https://forum.kinggathcreations.com/resources/east-empire-expansion-wyrmstooth.22/)
 
 [:lucide-package: GTS VC - East Empire Expansion][VCRelease]
 
-!!! warning "Special instalation instruction"
+!!! info "Known Issues"
 
-    When installing Unofficial Patches do not select any option for Whiterun. The provided patch modifies the original location against GTS directly making the patch in FOMOD obsolete. Other options are still relevant
-
-    Unless you decide to rerun [Grass Cache](https://hexanode0x0.github.io/gts-black-book/grass-cache/) there may still be some grass cliping in the game
+    Due to a [Grass Cache](grass-cache/#grass-cache){ data-preview } mismatch, there may be some grass clipping into objects.
 
 
 ## Legacy Of Orsinium
@@ -62,7 +64,9 @@ Vanilla Hair Remake SMP Wig Distribution is only needed for NPC hair. Do not sel
 [:lucide-package: GTS VC - Life of Crime][VCRelease]
 
 ## Coven Of Crones
-Patches for some ELFX inconsistencies. A patch is provided for both GTS and GTS CE.
+Requires general Simonrim patch and patches for some ELFX inconsistencies. A patch is provided for both GTS and GTS CE.
+
+[:lucide-file-text: Malediction - A Magic Overhaul for Coven of Crones](https://creations.bethesda.net/en/skyrim/details/134815cc-f4a4-4f5b-9d73-83454e51035d/Malediction___A_Magic_Overhaul_for_Coven_of_Crones)
 
 [:lucide-package: GTS VC - Coven of Crones][VCRelease]
 
