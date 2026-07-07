@@ -1,0 +1,36 @@
+FormKey: 000B68:listener's initiates.esl
+EditorID: ListenersInitiatesAsinaCowl
+Name:
+  TargetLanguage: English
+  Value: Asina's Shrouded Cowl
+ObjectEffect: 0AD45C:Skyrim.esm
+WorldModel:
+  Male:
+    Model:
+      File: Armor\DBArmor\DBArmorHoodGND.nif
+      Data: 0x020000000000000000000000
+  Female:
+    Model:
+      File: Armor\DBArmor\DBArmorHoodGND.nif
+      Data: 0x020000000000000000000000
+BodyTemplate:
+  FirstPersonFlags:
+  - Hair
+  - Circlet
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 06BBD3:Skyrim.esm
+- 06C0EE:Skyrim.esm
+- 08F959:Skyrim.esm
+- 0C27BD:Skyrim.esm
+- 10FD62:Skyrim.esm
+- 0C27BD:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 0D2840:Skyrim.esm
+Value: 150
+Weight: 1
+ArmorRating: 15

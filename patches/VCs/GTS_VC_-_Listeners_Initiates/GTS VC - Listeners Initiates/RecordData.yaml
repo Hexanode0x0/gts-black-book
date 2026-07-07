@@ -1,0 +1,25 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: GTS VC - Listeners Initiates.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: DEFAULT
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: unofficial skyrim special edition patch.esp
+    FileSize: 0
+  - Master: listener's initiates.esl
+    FileSize: 0
+  - Master: Thaumaturgy.esp
+    FileSize: 0
+  - Master: Adamant.esp
+    FileSize: 0
+  - Master: Dynamic NPC Hairstyles.esp
+    FileSize: 0
+  - Master: FabulousFollowersAIO.esp
+    FileSize: 0
+  INTV: 1

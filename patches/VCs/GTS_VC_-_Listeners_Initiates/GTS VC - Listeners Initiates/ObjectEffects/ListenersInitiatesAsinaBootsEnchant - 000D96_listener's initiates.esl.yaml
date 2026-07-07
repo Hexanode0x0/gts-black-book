@@ -1,0 +1,17 @@
+FormKey: 000D96:listener's initiates.esl
+EditorID: ListenersInitiatesAsinaBootsEnchant
+Name:
+  TargetLanguage: English
+  Value: Muffle & Fortify Illusion
+EnchantmentCost: 898
+EnchantmentAmount: 898
+EnchantType: Enchantment
+BaseEnchantment: 10FB89:Skyrim.esm
+WornRestrictions: 10CD28:Skyrim.esm
+Effects:
+- BaseEffect: 092A57:Skyrim.esm
+  Data:
+    Magnitude: 0.5
+- BaseEffect: 07A0FA:Skyrim.esm
+  Data:
+    Magnitude: 15

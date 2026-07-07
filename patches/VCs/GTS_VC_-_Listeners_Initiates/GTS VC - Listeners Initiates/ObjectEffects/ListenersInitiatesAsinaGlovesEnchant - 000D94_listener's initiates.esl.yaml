@@ -1,0 +1,15 @@
+FormKey: 000D94:listener's initiates.esl
+EditorID: ListenersInitiatesAsinaGlovesEnchant
+Name:
+  TargetLanguage: English
+  Value: Fortify Sneak Attacks & Magicka
+EnchantmentCost: 522
+EnchantmentAmount: 522
+EnchantType: Enchantment
+Effects:
+- BaseEffect: 19F7B9:Thaumaturgy.esp
+  Data:
+    Magnitude: 25
+- BaseEffect: 049504:Skyrim.esm
+  Data:
+    Magnitude: 30

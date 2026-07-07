@@ -79,10 +79,10 @@ Requires general Simonrim patch and patches for some ELFX inconsistencies. A pat
 
     You may encounter crashes otherwise.
 
-## Listener Initiates
-Listener Initiates appears to only need a Fabulous Followers Override mod.
+## Listeners Initiates
+A patch is provided for GTS. It includes general Simonrim and balance patch, Tragedians followers overrides.
 
-[:lucide-file-text: Listeners initiates - Tragedian's Fabulous Followers SSE Override](https://www.nexusmods.com/skyrimspecialedition/mods/130465)
+[:lucide-package: GTS VC - Listeners Initiates][VCRelease]
 
 ## Truth In Legends
 Requires the Fixes and Tweaks mod.

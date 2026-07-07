@@ -1,0 +1,15 @@
+FormKey: 000D95:listener's initiates.esl
+EditorID: ListenersInitiatesAsinaArmorEnchant
+Name:
+  TargetLanguage: English
+  Value: Resist Poison & Regenrate Magicka
+EnchantmentCost: 294
+EnchantmentAmount: 294
+EnchantType: Enchantment
+Effects:
+- BaseEffect: 0FF15E:Skyrim.esm
+  Data:
+    Magnitude: 15
+- BaseEffect: 07A0FD:Skyrim.esm
+  Data:
+    Magnitude: 15
