@@ -48,7 +48,9 @@ When installing Unofficial Patches, do not select any option for Whiterun. The p
 
 
 ## Legacy Of Orsinium
-Requires a general Simonrim patch and a special GTS patch.
+Requires a general Simonrim patch and a special GTS patch. 
+
+The simonrim patch can be marked light in Vortex as it is not by default taking up aditional LO spot.
 
 [:lucide-file-text: Legacy Of Orsinium Simonrim Patch](https://creations.bethesda.net/en/skyrim/details/7df5cf6c-49ef-454b-a538-d90f054f8f4f/Legacy_Of_Orsinium_Simonrim_Patch)
 

@@ -1,0 +1,305 @@
+FormKey: 12CF4B:legacyorsinium.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 537133056
+EditorID: LO_HuntWife
+SkyrimMajorRecordFlags:
+- Compressed
+- 0x20000000
+VirtualMachineAdapter:
+  Scripts:
+  - Name: LO_AgraCrunFactionDeathScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_AgraCrunDeathMessage
+      Object: 052BD3:legacyorsinium.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_AgraCrunFaction
+      Object: 01CC69:legacyorsinium.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_AgraCrunFailQuest
+      Object: 052BD2:legacyorsinium.esm
+  - Name: LO_HuntWifeDeathScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_ACSideHW03
+      Object: 19B768:legacyorsinium.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_MQ03
+      Object: 1097F9:legacyorsinium.esm
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - Female
+  - AutoCalcStats
+  - Unique
+  - BleedoutOverride
+  - LoopedScript
+  - LoopedAudio
+  MagickaOffset: 100
+  StaminaOffset: 100
+  Level:
+    MutagenObjectType: PcLevelMult
+    LevelMult: 1.2
+  CalcMinLevel: 6
+  CalcMaxLevel: 80
+  SpeedMultiplier: 100
+  DispositionBase: 35
+  HealthOffset: 200
+Factions:
+- Faction: 0200E7:Dragonborn.esm
+  Fluff: 0x000000
+- Faction: 01CC69:legacyorsinium.esm
+  Fluff: 0x000000
+DeathItem: 0C3C9B:Skyrim.esm
+Voice: 0EB1CC:legacyorsinium.esm
+Race: 013747:Skyrim.esm
+ActorEffect:
+- 012FCD:Skyrim.esm
+- 02F617:Skyrim.esm
+- 05AD5F:Skyrim.esm
+- 100E76:Skyrim.esm
+- 100E77:Skyrim.esm
+- 100E78:Skyrim.esm
+Perks:
+- Perk: 03FFFA:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 052D50:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 053129:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581E7:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581F4:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581F8:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581F9:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 058F6C:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 068BCC:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0C44BD:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0C44C1:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 106253:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 01A12E:legacyorsinium.esm
+  Rank: 1
+  Fluff: 0x000000
+Items:
+- Item:
+    Item: 01A09B:legacyorsinium.esm
+    Count: 1
+- Item:
+    Item: 089D97:legacyorsinium.esm
+    Count: 1
+- Item:
+    Item: 0F667A:legacyorsinium.esm
+    Count: 1
+- Item:
+    Item: 039D2E:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 039D2F:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 04F78D:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 10E0DD:Skyrim.esm
+    Count: 1
+AIData:
+  Aggression: Aggressive
+  Confidence: Foolhardy
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Assistance: HelpsFriendsAndAllies
+Packages:
+- 01CCF9:legacyorsinium.esm
+- 02968E:legacyorsinium.esm
+Keywords:
+- 0172AC:Skyrim.esm
+- 017420:Skyrim.esm
+- 06F6FB:Skyrim.esm
+- 0F23C5:Skyrim.esm
+- 000997:Update.esm
+- 0009A2:Update.esm
+- 03D2F9:Dragonborn.esm
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 017008:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Hunt-Wife Durga
+ShortName:
+  TargetLanguage: English
+  Value: Durga
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 31
+  - Key: TwoHanded
+    Value: 31
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 27
+  - Key: Smithing
+    Value: 20
+  - Key: HeavyArmor
+    Value: 32
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 19
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 15
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 20
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 305
+  Magicka: 150
+  Stamina: 170
+  GearedUpWeapons: 1
+HeadParts:
+- 085DE9:Skyrim.esm
+HairColor: 0A0435:Skyrim.esm
+CombatStyle: 105542:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 50
+SoundLevel: Normal
+DefaultOutfit: 1A6822:legacyorsinium.esm
+HeadTexture: 0F2068:Skyrim.esm
+TextureLighting: '#005E8A7C'
+FaceMorph:
+  NoseLongVsShort: -0.4
+  NoseUpVsDown: -0.4
+  JawUpVsDown: 0.22
+  JawNarrowVsWide: -0.04
+  CheeksUpVsDown: 0.08
+  EyesUpVsDown: -0.28
+  EyesInVsOut: 0.52
+  BrowsUpVsDown: -1
+  BrowsInVsOut: -0.2
+  LipsUpVsDown: 0.2
+  LipsInVsOut: -0.7
+  ChinNarrowVsWide: 0.52
+  ChinUnderbiteVsOverbite: 0.3
+  EyesForwardVsBack: -0.5
+  Unknown: 3.4028235E+38
+TintLayers:
+- Index: 26
+  Color: '#000F0440'
+  InterpolationValue: 0.22
+  Preset: 499
+- Index: 27
+  Color: '#000F0440'
+  InterpolationValue: 0.22
+  Preset: 513
+- Index: 36
+  Color: '#00000000'
+  InterpolationValue: 1
+  Preset: 923
+- Index: 37
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 555
+- Index: 45
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 747
+- Index: 46
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 771
+- Index: 56
+  Color: '#00887402'
+  InterpolationValue: 1
+  Preset: 816
+- Index: 57
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 819
+- Index: 58
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 843
+- Index: 59
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 867
+- Index: 60
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 891
+MajorFlags:
+- 0x40000
+- BleedoutOverride
