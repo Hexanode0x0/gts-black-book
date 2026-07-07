@@ -74,6 +74,7 @@ Name:
   TargetLanguage: English
   Value: Koron's Legacy
 Priority: 40
+QuestFormVersion: 65
 Type: SideQuest
 Stages:
 - {}

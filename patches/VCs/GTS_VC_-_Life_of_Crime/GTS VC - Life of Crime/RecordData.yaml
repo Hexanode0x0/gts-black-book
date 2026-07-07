@@ -14,6 +14,10 @@ ModHeader:
     FileSize: 0
   - Master: Dawnguard.esm
     FileSize: 0
+  - Master: Vanilla hair remake SMP.esp
+    FileSize: 0
+  - Master: Dynamic NPC Hairstyles.esp
+    FileSize: 0
   - Master: SRC_ERS.esp
     FileSize: 0
   - Master: COTN - Falkreath.esp
@@ -28,13 +32,13 @@ ModHeader:
     FileSize: 0
   - Master: life of crime.esp
     FileSize: 0
-  - Master: Vanilla hair remake SMP.esp
-    FileSize: 0
-  - Master: Dynamic NPC Hairstyles.esp
-    FileSize: 0
   - Master: Taberu Animations - Gourmet Patch.esp
     FileSize: 0
   - Master: HammerHair.esp
+    FileSize: 0
+  - Master: Vanilla hair remake SMP wig distribution.esp
+    FileSize: 0
+  - Master: Gourmet - Skyrim on Skooma Patch.esp
     FileSize: 0
   - Master: The Great City of Winterhold v4.esp
     FileSize: 0

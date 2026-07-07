@@ -1,0 +1,229 @@
+FormKey: 0295B5:legacyorsinium.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 537133056
+EditorID: LO_MQ02aMercenaryCorpse
+SkyrimMajorRecordFlags:
+- Compressed
+- 0x20000000
+ObjectBounds:
+  First: -41, -25, 0
+  Second: 41, 72, 86
+Configuration:
+  Flags:
+  - AutoCalcStats
+  - Unique
+  - BleedoutOverride
+  - LoopedScript
+  - LoopedAudio
+  MagickaOffset: 100
+  StaminaOffset: 20
+  Level:
+    MutagenObjectType: PcLevelMult
+    LevelMult: 5
+  CalcMinLevel: 10
+  CalcMaxLevel: 60
+  SpeedMultiplier: 100
+  DispositionBase: 35
+  HealthOffset: 20
+Factions:
+- Faction: 0DBEB9:legacyorsinium.esm
+  Fluff: 0x000000
+DeathItem: 0C3C9B:Skyrim.esm
+Voice: 0EB1C8:legacyorsinium.esm
+Race: 013747:Skyrim.esm
+ActorEffect:
+- 027F89:Dragonborn.esm
+Items:
+- Item:
+    Item: 02EFC9:legacyorsinium.esm
+    Count: 1
+AIData:
+  Aggression: Aggressive
+  Confidence: Brave
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Assistance: HelpsFriendsAndAllies
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 01E7D0:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Dead Orc
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 20
+  - Key: TwoHanded
+    Value: 20
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 20
+  - Key: Smithing
+    Value: 20
+  - Key: HeavyArmor
+    Value: 25
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 28
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 15
+  - Key: Alteration
+    Value: 28
+  - Key: Conjuration
+    Value: 22
+  - Key: Destruction
+    Value: 34
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 35
+  - Key: Enchanting
+    Value: 20
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 145
+  Magicka: 210
+  Stamina: 70
+  GearedUpWeapons: 1
+HeadParts:
+- 02425E:Skyrim.esm
+- 05E8A3:Skyrim.esm
+- 09F0A2:Skyrim.esm
+- 0F5009:Skyrim.esm
+- 10761B:Skyrim.esm
+HairColor: 0A0435:Skyrim.esm
+CombatStyle: 1034F0:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 50
+SoundLevel: Normal
+DefaultOutfit: 10698B:Skyrim.esm
+TextureLighting: '#00CED09B'
+FaceMorph:
+  NoseLongVsShort: -0.4
+  NoseUpVsDown: -0.4
+  JawUpVsDown: 0.22
+  JawNarrowVsWide: -0.04
+  CheeksUpVsDown: 0.08
+  EyesUpVsDown: -0.28
+  EyesInVsOut: 0.52
+  BrowsUpVsDown: -1
+  BrowsInVsOut: -0.2
+  LipsUpVsDown: 0.2
+  LipsInVsOut: -0.7
+  ChinNarrowVsWide: 0.52
+  ChinUnderbiteVsOverbite: 0.3
+  EyesForwardVsBack: -0.5
+  Unknown: 3.4028235E+38
+FaceParts:
+  Nose: 29
+  Unknown: 4294967295
+  Eyes: 27
+  Mouth: 23
+TintLayers:
+- Index: 1
+  Color: '#00CED09B'
+  InterpolationValue: 1
+  Preset: -1
+- Index: 2
+  Color: '#00430401'
+  InterpolationValue: 0.66
+  Preset: 69
+- Index: 3
+  Color: '#00430401'
+  InterpolationValue: 0.66
+  Preset: 74
+- Index: 8
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 90
+- Index: 9
+  Color: '#00000000'
+  InterpolationValue: 1
+  Preset: 100
+- Index: 10
+  Color: '#00212B52'
+  InterpolationValue: 0.44
+  Preset: 103
+- Index: 11
+  Color: '#00212B52'
+  InterpolationValue: 0.44
+  Preset: 106
+- Index: 14
+  Color: '#00000000'
+  InterpolationValue: 0
+  Preset: 111
+- Index: 15
+  Color: '#00000000'
+  InterpolationValue: 0
+  Preset: 135
+- Index: 16
+  Color: '#00000000'
+  InterpolationValue: 0
+  Preset: 159
+- Index: 17
+  Color: '#00000000'
+  InterpolationValue: 0
+  Preset: 183
+- Index: 18
+  Color: '#00000000'
+  InterpolationValue: 0
+  Preset: 207
+- Index: 19
+  Color: '#00887402'
+  InterpolationValue: 1
+  Preset: 251
+- Index: 25
+  Color: '#00563112'
+  InterpolationValue: 1
+  Preset: 476
+- Index: 50
+  Color: '#00000000'
+  InterpolationValue: 0
+  Preset: 480
+MajorFlags:
+- 0x40000
+- BleedoutOverride

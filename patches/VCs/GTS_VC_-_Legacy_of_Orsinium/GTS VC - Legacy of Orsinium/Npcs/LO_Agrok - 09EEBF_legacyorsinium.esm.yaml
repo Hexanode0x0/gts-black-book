@@ -1,0 +1,266 @@
+FormKey: 09EEBF:legacyorsinium.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: LO_Agrok
+SkyrimMajorRecordFlags:
+- Compressed
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultGhostScript
+    Properties:
+    - MutagenObjectType: ScriptBoolProperty
+      Name: bdefaultLoot
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pDefaultAshPileGhost
+      Object: 101048:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pDefaultGhostCorpse
+      Object: 0C674B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pdefaultGhostDeathExplosion
+      Object: 0369CA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pdefaultGhostLeveledList
+      Object: 10F805:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pDefaultGhostWeaponFlickerList
+      Object: 0D2058:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pDisintegrationMainImmunityList
+      Object: 0F6534:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pGhostDeathFXShader
+      Object: 101727:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pGhostHalfDamagePerk
+      Object: 0D205B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pGhostResistsAbility
+      Object: 0D2060:Skyrim.esm
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - AutoCalcStats
+  - Unique
+  MagickaOffset: 200
+  StaminaOffset: 200
+  Level:
+    MutagenObjectType: PcLevelMult
+    LevelMult: 1.1
+  CalcMinLevel: 5
+  CalcMaxLevel: 100
+  SpeedMultiplier: 100
+  HealthOffset: 100
+Factions:
+- Faction: 0200E7:Dragonborn.esm
+  Fluff: 0x000000
+- Faction: 08F0EE:legacyorsinium.esm
+  Fluff: 0x000000
+- Faction: 0B9735:legacyorsinium.esm
+  Fluff: 0x000000
+- Faction: 000013:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 02D1DF:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 0ABDAE:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 0E0CD9:Skyrim.esm
+  Fluff: 0x000000
+DeathItem: 03AD8B:Skyrim.esm
+Voice: 038C6A:legacyorsinium.esm
+Race: 013747:Skyrim.esm
+ActorEffect:
+- 03AEA3:Skyrim.esm
+- 07D996:Skyrim.esm
+- 0BB967:Skyrim.esm
+- 0BB968:Skyrim.esm
+Perks:
+- Perk: 051B1B:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 052D50:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 053128:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581E7:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581EA:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581F4:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581F5:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581F9:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 058200:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 068BCC:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0C44BD:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0C44C1:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0D7999:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 103A8F:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+Items:
+- Item:
+    Item: 04DEE2:Skyrim.esm
+    Count: 1
+AIData:
+  Aggression: Aggressive
+  Confidence: Foolhardy
+  EnergyLevel: 50
+  Assistance: HelpsAllies
+Packages:
+- 0317C8:Skyrim.esm
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 023F78:Dragonborn.esm
+Name:
+  TargetLanguage: English
+  Value: High Priest Agrok
+ShortName:
+  TargetLanguage: English
+  Value: Agrok
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 24
+  - Key: TwoHanded
+    Value: 20
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 22
+  - Key: Smithing
+    Value: 20
+  - Key: HeavyArmor
+    Value: 29
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 15
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 25
+  - Key: Alteration
+    Value: 19
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 19
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 19
+  - Key: Enchanting
+    Value: 20
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 185
+  Magicka: 265
+  Stamina: 260
+  GearedUpWeapons: 1
+HeadParts:
+- 04020D:Skyrim.esm
+- 05107F:Skyrim.esm
+- 05E79A:Skyrim.esm
+- 0E4E17:Skyrim.esm
+- 0F5009:Skyrim.esm
+HairColor: 0A0438:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 60
+SoundLevel: Normal
+DefaultOutfit: 02E7A8:legacyorsinium.esm
+HeadTexture: 0D072F:Skyrim.esm
+TextureLighting: '#006A776B'
+FaceMorph:
+  NoseLongVsShort: 0.2
+  NoseUpVsDown: -0.5
+  JawUpVsDown: 0.7
+  JawNarrowVsWide: 0.4
+  JawForwardVsBack: 0.8
+  CheeksUpVsDown: 0.02
+  CheeksForwardVsBack: 0.5
+  EyesUpVsDown: -0.1
+  EyesInVsOut: 0.2
+  BrowsUpVsDown: -1
+  BrowsInVsOut: -0.6
+  BrowsForwardVsBack: -0.24
+  LipsUpVsDown: -0.4
+  LipsInVsOut: -1
+  ChinNarrowVsWide: 0.9
+  ChinUpVsDown: 0.9
+  ChinUnderbiteVsOverbite: 0.3
+  EyesForwardVsBack: -0.64
+  Unknown: 3.4028235E+38
+FaceParts:
+  Nose: 21
+  Eyes: 30
+  Mouth: 26
+TintLayers:
+- Index: 1
+  Color: '#0059715C'
+  InterpolationValue: 0.55
+  Preset: 62
+MajorFlags:
+- 0x40000
