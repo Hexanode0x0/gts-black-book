@@ -18,24 +18,37 @@ Weight: 0.5
 Value: 69
 Flags:
 - NoAutoCalc
+- FoodItem
 ConsumeSound: 0B6435:Skyrim.esm
 Effects:
 - BaseEffect: 000826:Gourmet.esp
   Data:
     Magnitude: 100
-    Duration: 120
+    Duration: 300
 - BaseEffect: 00093E:Gourmet.esp
   Data:
     Magnitude: 100
-    Duration: 120
+    Duration: 300
 - BaseEffect: 00093F:Gourmet.esp
   Data:
     Magnitude: 50
-    Duration: 120
+    Duration: 300
 - BaseEffect: 000823:Gourmet.esp
   Data:
     Magnitude: 50
-    Duration: 120
+    Duration: 300
+- BaseEffect: 000827:Gourmet.esp
+  Data:
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 00081F:Skyrim On Skooma.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000A00:Gourmet - Skyrim on Skooma Patch.esp
 - BaseEffect: 00095F:Gourmet.esp
   Data:
     Duration: 1
