@@ -1,0 +1,17 @@
+FormKey: 000B9C:listener's initiates.esl
+EditorID: ListenersInitiatesIstlornSwordEnchant
+Name:
+  TargetLanguage: English
+  Value: Absorb Health and Stamina
+EnchantmentCost: 1218
+CastType: FireAndForget
+EnchantmentAmount: 1218
+TargetType: Touch
+EnchantType: Enchantment
+Effects:
+- BaseEffect: 0AA155:Skyrim.esm
+  Data:
+    Magnitude: 10
+- BaseEffect: 0AA157:Skyrim.esm
+  Data:
+    Magnitude: 10
