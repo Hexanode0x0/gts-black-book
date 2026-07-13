@@ -1,0 +1,518 @@
+FormKey: 3EE0E7:dv01vampireclanwar.esm
+EditorID: DV01QuarraSpecial03
+VirtualMachineAdapter:
+  Scripts:
+  - Name: DV01QF__083EE0E7
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bazur
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Campfire
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ciirta
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CiirtaEnabler
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CiirtaNoteMarker
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CiirtaQuestNote
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DarksunShield
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Degail
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FireDisabler
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Haesmar
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Raelynne
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StendarrsBeacon
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vidkun
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VigilantbeaconBoss
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 7
+  - Name: LCO_GTS_StendarrsBeaconQuestOwnership
+    Properties:
+    - MutagenObjectType: ScriptFloatProperty
+      Name: CheckInterval
+      Data: 5
+    - MutagenObjectType: ScriptIntProperty
+      Name: OwnershipStage
+      Data: 50
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StendarrsBeaconController
+      Object: 00080B:LCO_StendarrsBeacon.esp
+  FileName: DV01QF__083EE0E7
+  Fragments:
+  - Unknown2: 1
+    ScriptName: DV01QF__083EE0E7
+    FragmentName: Fragment_1
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: DV01QF__083EE0E7
+    FragmentName: Fragment_0
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: DV01QF__083EE0E7
+    FragmentName: Fragment_2
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: DV01QF__083EE0E7
+    FragmentName: Fragment_3
+  - Stage: 255
+    Unknown2: 1
+    ScriptName: DV01QF__083EE0E7
+    FragmentName: Fragment_4
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 0
+    Scripts:
+    - Name: DVIncrementGlobalsOnDeathRefAliasVar
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: globalToIncrement
+        Object: 318974:dv01vampireclanwar.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: numberNeeded
+        Object: 318973:dv01vampireclanwar.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: optionalStageUpdate
+        Data: 25
+      - MutagenObjectType: ScriptObjectProperty
+        Name: QuestToSet
+        Object: 3EE0E7:dv01vampireclanwar.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+  - Property:
+      Name: ''
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 1
+    Scripts:
+    - Name: DVIncrementGlobalsOnDeathRefAliasVar
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: globalToIncrement
+        Object: 318974:dv01vampireclanwar.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: numberNeeded
+        Object: 318973:dv01vampireclanwar.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: optionalStageUpdate
+        Data: 25
+      - MutagenObjectType: ScriptObjectProperty
+        Name: QuestToSet
+        Object: 3EE0E7:dv01vampireclanwar.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+  - Property:
+      Name: ''
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 6
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 25
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 7
+  - Property:
+      Name: ''
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 8
+    Scripts:
+    - Name: DVIncrementGlobalsOnDeathRefAliasVar
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: globalToIncrement
+        Object: 318974:dv01vampireclanwar.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: numberNeeded
+        Object: 318973:dv01vampireclanwar.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: optionalStageUpdate
+        Data: 25
+      - MutagenObjectType: ScriptObjectProperty
+        Name: QuestToSet
+        Object: 3EE0E7:dv01vampireclanwar.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+  - Property:
+      Name: ''
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 9
+    Scripts:
+    - Name: DVIncrementGlobalsOnDeathRefAliasVar
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: globalToIncrement
+        Object: 318974:dv01vampireclanwar.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: numberNeeded
+        Object: 318973:dv01vampireclanwar.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: optionalStageUpdate
+        Data: 25
+      - MutagenObjectType: ScriptObjectProperty
+        Name: QuestToSet
+        Object: 3EE0E7:dv01vampireclanwar.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+  - Property:
+      Name: ''
+      Object: 3EE0E7:dv01vampireclanwar.esm
+      Alias: 10
+    Scripts:
+    - Name: DVIncrementGlobalsOnDeathRefAliasVar
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: globalToIncrement
+        Object: 318974:dv01vampireclanwar.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: numberNeeded
+        Object: 318973:dv01vampireclanwar.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: optionalStageUpdate
+        Data: 25
+      - MutagenObjectType: ScriptObjectProperty
+        Name: QuestToSet
+        Object: 3EE0E7:dv01vampireclanwar.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+Name:
+  TargetLanguage: English
+  Value: Ending the Vigil
+Flags:
+- RunOnce
+Priority: 75
+QuestFormVersion: 65
+Type: SideQuest
+TextDisplayGlobals:
+- 318973:dv01vampireclanwar.esm
+- 318974:dv01vampireclanwar.esm
+Filter: Faction\DV01Quarra\
+Stages:
+- Flags:
+  - StartUpStage
+  Unknown: 117
+  LogEntries:
+  - Flags: []
+- Index: 10
+  Unknown: 179
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "Haesmar wants me to investigate the movement of Vigilants from Stendarr's Beacon and determine where their leader has gone. "
+- Index: 25
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: The leader of Stendarr's Beacon has gone to request aid from another group of Vigilants based in a ravine near Dawnstar. If I can intercept her before she arrives, I can wipe out the Stendarr's Beacon forces with the rest of the Vigil none the wiser.
+- Index: 50
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: The Vigilants of Stendarr's Beacon have been annihilated. They can no longer hinder the Quarra's conquest of Skyrim. Haesmar should be quite happy.
+- Index: 255
+  Unknown: 69
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search Stendarr's Beacon for clues
+  Targets:
+  - AliasID: 6
+- Index: 11
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Extinguish Stendarr's Beacon
+  Targets:
+  - AliasID: 11
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Slaughter the Vigilant leaders (<Global=DV01KillVigilantsSpecialNumberKilled>/<Global=DV01KillVigilantsSpecialNumberNeeded>)
+  Targets:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: NotEqualTo
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 0
+      ComparisonValue: 1
+  - AliasID: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: NotEqualTo
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 1
+      ComparisonValue: 1
+  - AliasID: 9
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: NotEqualTo
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 9
+      ComparisonValue: 1
+  - AliasID: 8
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: NotEqualTo
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 8
+      ComparisonValue: 1
+  - AliasID: 10
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: NotEqualTo
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 10
+      ComparisonValue: 1
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Report your victory to Haesmar
+  Targets:
+  - AliasID: 3
+NextAliasID: 14
+Aliases:
+- Name: Ciirta
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 163972:dv01vampireclanwar.esm
+  Items:
+  - Item:
+      Item: 0B7332:dv01vampireclanwar.esm
+      Count: 1
+  PackageData:
+  - 0296AE:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: Bazur
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 16393E:dv01vampireclanwar.esm
+  PackageData:
+  - 0296AE:Skyrim.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: CiirtaEnabler
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 31895D:dv01vampireclanwar.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: Haesmar
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0F3D83:dv01vampireclanwar.esm
+  VoiceTypes: Null
+- ID: 4
+  Type: Location
+  Name: StendarrsBeacon
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  SpecificLocation: 108A5A:Skyrim.esm
+- ID: 5
+  Name: CiirtaNoteMarker
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 36A537:dv01vampireclanwar.esm
+  VoiceTypes: Null
+- ID: 6
+  Name: CiirtaQuestNote
+  Flags:
+  - ReservesLocationOrReference
+  - QuestObject
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 36A538:dv01vampireclanwar.esm
+    AliasID: 5
+  VoiceTypes: Null
+- ID: 7
+  Name: VigilantbeaconBoss
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  Location:
+    AliasID: 4
+    RefType: 0130F7:Skyrim.esm
+  DisplayName: 36A539:dv01vampireclanwar.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: Raelynne
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 379883:dv01vampireclanwar.esm
+  Items:
+  - Item:
+      Item: 3CA999:dv01vampireclanwar.esm
+      Count: 1
+  PackageData:
+  - 0296AE:Skyrim.esm
+  VoiceTypes: Null
+- ID: 9
+  Name: Degail
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 379884:dv01vampireclanwar.esm
+  Items:
+  - Item:
+      Item: 8B34A7:dv01vampireclanwar.esm
+      Count: 1
+  - Item:
+      Item: 8B34A8:dv01vampireclanwar.esm
+      Count: 25
+  PackageData:
+  - 0296AE:Skyrim.esm
+  VoiceTypes: Null
+- ID: 10
+  Name: Vidkun
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 379886:dv01vampireclanwar.esm
+  Items:
+  - Item:
+      Item: 5CA35D:dv01vampireclanwar.esm
+      Count: 1
+  PackageData:
+  - 0296AE:Skyrim.esm
+  VoiceTypes: Null
+- ID: 11
+  Name: FireDisabler
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 741930:dv01vampireclanwar.esm
+  VoiceTypes: Null
+- ID: 12
+  Name: Campfire
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 106876:Skyrim.esm
+  VoiceTypes: Null
+- ID: 13
+  Name: DarksunShield
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 58D726:dv01vampireclanwar.esm
+    Create: In
+  VoiceTypes: Null

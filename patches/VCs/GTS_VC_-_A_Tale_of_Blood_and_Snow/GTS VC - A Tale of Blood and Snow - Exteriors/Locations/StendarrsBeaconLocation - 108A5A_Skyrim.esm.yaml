@@ -1,0 +1,100 @@
+FormKey: 108A5A:Skyrim.esm
+EditorID: StendarrsBeaconLocation
+PersistentActorReferencesAdded:
+- Actor: 1068AD:Skyrim.esm
+  Location: 00003C:Skyrim.esm
+  Grid: 47, -29
+- Actor: 1068AE:Skyrim.esm
+  Location: 00003C:Skyrim.esm
+  Grid: 47, -29
+- Actor: 1068AF:Skyrim.esm
+  Location: 00003C:Skyrim.esm
+  Grid: 47, -29
+- Actor: 16393E:dv01vampireclanwar.esm
+  Location: 00003C:Skyrim.esm
+  Grid: 48, -29
+- Actor: 462A5B:dv01vampireclanwar.esm
+  Location: 00003C:Skyrim.esm
+  Grid: 48, -29
+- Actor: 462A5D:dv01vampireclanwar.esm
+  Location: 00003C:Skyrim.esm
+  Grid: 48, -29
+- Actor: 462A5F:dv01vampireclanwar.esm
+  Location: 00003C:Skyrim.esm
+  Grid: 48, -29
+- Actor: 462A60:dv01vampireclanwar.esm
+  Location: 00003C:Skyrim.esm
+  Grid: 48, -29
+- Actor: 462A61:dv01vampireclanwar.esm
+  Location: 00003C:Skyrim.esm
+  Grid: 48, -29
+UniqueActorReferencesAdded:
+- Actor: 163934:dv01vampireclanwar.esm
+  Ref: 16393E:dv01vampireclanwar.esm
+  Location: 108A5A:Skyrim.esm
+LocationRefTypeReferencesAdded:
+- LocationRefType: 5F900D:Update.esm
+  Ref: 000800:LCO_StendarrsBeacon.esp
+  Location: 00003C:Skyrim.esm
+  Grid: 47, -29
+- LocationRefType: 5F900E:Update.esm
+  Ref: 000801:LCO_StendarrsBeacon.esp
+  Location: 00003C:Skyrim.esm
+  Grid: 47, -29
+- LocationRefType: 5F901B:Update.esm
+  Ref: 000803:LCO_StendarrsBeacon.esp
+  Location: 00003C:Skyrim.esm
+  Grid: 47, -29
+- LocationRefType: 5F901D:Update.esm
+  Ref: 00080C:LCO_StendarrsBeacon.esp
+  Location: 00003C:Skyrim.esm
+  Grid: 47, -29
+- LocationRefType: 5F901D:Update.esm
+  Ref: 00080D:LCO_StendarrsBeacon.esp
+  Location: 00003C:Skyrim.esm
+  Grid: 47, -29
+- LocationRefType: 5F901D:Update.esm
+  Ref: 00080E:LCO_StendarrsBeacon.esp
+  Location: 00003C:Skyrim.esm
+  Grid: 47, -29
+- LocationRefType: 0130F7:Skyrim.esm
+  Ref: 00082F:Knight of the North.esp
+  Location: 00003C:Skyrim.esm
+  Grid: 48, -29
+- LocationRefType: 5F9019:Update.esm
+  Ref: 00080B:LCO_StendarrsBeacon.esp
+  Location: 00003C:Skyrim.esm
+  Grid: 48, -29
+- LocationRefType: 0130FD:Skyrim.esm
+  Ref: 1068A6:Skyrim.esm
+  Location: 00003C:Skyrim.esm
+  Grid: 48, -29
+InitiallyDisabledReferencesAdded:
+- 000800:LCO_StendarrsBeacon.esp
+- 000801:LCO_StendarrsBeacon.esp
+EnableParentReferencesAdded:
+- Actor: 00080C:LCO_StendarrsBeacon.esp
+  Ref: 000800:LCO_StendarrsBeacon.esp
+- Actor: 00080D:LCO_StendarrsBeacon.esp
+  Ref: 000800:LCO_StendarrsBeacon.esp
+- Actor: 00080E:LCO_StendarrsBeacon.esp
+  Ref: 000800:LCO_StendarrsBeacon.esp
+- Actor: 1068AD:Skyrim.esm
+  Ref: 000803:LCO_StendarrsBeacon.esp
+- Actor: 1068AE:Skyrim.esm
+  Ref: 000803:LCO_StendarrsBeacon.esp
+- Actor: 1068AF:Skyrim.esm
+  Ref: 000803:LCO_StendarrsBeacon.esp
+- Actor: 00082F:Knight of the North.esp
+  Ref: 000014:Skyrim.esm
+  Grid: 0, 1
+Name:
+  TargetLanguage: English
+  Value: Stendarr's Beacon
+Keywords:
+- 0F5E80:Skyrim.esm
+- 5F9003:Update.esm
+- 5F9015:Update.esm
+ParentLocation: 01676C:Skyrim.esm
+WorldLocationMarkerRef: 108A58:Skyrim.esm
+WorldLocationRadius: 0

@@ -1,0 +1,15 @@
+FormKey: 000804:GTS VC - A Tale of Blood and Snow - Exteriors.esp
+EditorID: GTS_VC_StendarrsBeaconVampireLocked
+Description:
+  TargetLanguage: English
+  Value: While you remain a vampire, neither the Vigil nor the Dawnguard will accept your claim.
+Name:
+  TargetLanguage: English
+  Value: Stendarr's Beacon
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Continue

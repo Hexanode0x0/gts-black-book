@@ -1,0 +1,43 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: GTS VC - A Tale of Blood and Snow - Exteriors.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: DEFAULT
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: HearthFires.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: ccbgssse001-fish.esm
+    FileSize: 0
+  - Master: ccmtysse001-knightsofthenine.esl
+    FileSize: 0
+  - Master: ccqdrsse001-survivalmode.esl
+    FileSize: 0
+  - Master: ccbgssse037-curios.esl
+    FileSize: 0
+  - Master: ccbgssse025-advdsgs.esm
+    FileSize: 0
+  - Master: _ResourcePack.esl
+    FileSize: 0
+  - Master: dv01vampireclanwar.esm
+    FileSize: 0
+  - Master: Vigilant.esm
+    FileSize: 0
+  - Master: LCO_Framework.esp
+    FileSize: 0
+  - Master: Knight of the North.esp
+    FileSize: 0
+  - Master: LCO_StendarrsBeacon.esp
+    FileSize: 0
+  INTV: 1

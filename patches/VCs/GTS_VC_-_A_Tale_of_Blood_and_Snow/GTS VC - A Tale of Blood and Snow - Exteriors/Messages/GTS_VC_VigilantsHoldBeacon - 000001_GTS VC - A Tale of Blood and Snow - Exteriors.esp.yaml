@@ -1,0 +1,15 @@
+FormKey: 000001:GTS VC - A Tale of Blood and Snow - Exteriors.esp
+EditorID: GTS_VC_VigilantsHoldBeacon
+Description:
+  TargetLanguage: English
+  Value: The Vigil still holds Stendarr's Beacon. Their standard flies above the walls, and no new claim need be made.
+Name:
+  TargetLanguage: English
+  Value: Stendarr's Beacon
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Leave it be

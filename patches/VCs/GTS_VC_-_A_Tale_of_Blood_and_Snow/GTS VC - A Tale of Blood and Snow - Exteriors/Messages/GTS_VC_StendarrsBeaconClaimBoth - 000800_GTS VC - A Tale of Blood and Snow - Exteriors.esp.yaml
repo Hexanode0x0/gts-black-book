@@ -1,0 +1,21 @@
+FormKey: 000800:GTS VC - A Tale of Blood and Snow - Exteriors.esp
+EditorID: GTS_VC_StendarrsBeaconClaimBoth
+Description:
+  TargetLanguage: English
+  Value: The Beacon stands empty. Who should hold it?
+Name:
+  TargetLanguage: English
+  Value: Stendarr's Beacon
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Restore the Vigil of Stendarr
+- Text:
+    TargetLanguage: English
+    Value: Turn it over to the Dawnguard
+- Text:
+    TargetLanguage: English
+    Value: Leave it unclaimed
