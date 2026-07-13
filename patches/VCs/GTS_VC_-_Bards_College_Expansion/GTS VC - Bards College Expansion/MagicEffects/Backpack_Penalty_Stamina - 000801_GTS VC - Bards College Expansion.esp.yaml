@@ -1,0 +1,21 @@
+FormKey: 000801:GTS VC - Bards College Expansion.esp
+EditorID: Backpack_Penalty_Stamina
+Name:
+  TargetLanguage: English
+  Value: Reduced Magicka and Stamina
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Recover
+- NoDuration
+- NoArea
+- HideInUI
+- PowerAffectsMagnitude
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  ActorValue: Stamina
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Reduces your maximum stamina by <mag> points.

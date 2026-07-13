@@ -1,0 +1,20 @@
+FormKey: 0261D8:kinggathcreations_bard.esm
+EditorID: kgcBard_EnchBackpack_BardNone
+Name:
+  TargetLanguage: English
+  Value: Bard Backpack
+EnchantmentCost: 35
+Flags:
+- NoAutoCalc
+EnchantmentAmount: 35
+EnchantType: Enchantment
+Effects:
+- BaseEffect: 04774A:Campfire.esm
+  Data:
+    Magnitude: 50
+- BaseEffect: 000800:GTS VC - Bards College Expansion.esp
+  Data:
+    Magnitude: 10
+- BaseEffect: 000801:GTS VC - Bards College Expansion.esp
+  Data:
+    Magnitude: 10

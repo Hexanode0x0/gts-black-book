@@ -1,0 +1,33 @@
+FormKey: 0261FB:kinggathcreations_bard.esm
+EditorID: kgcBard_Backpack_Flute_Vanilla
+ObjectBounds:
+  First: -17, -27, -2
+  Second: 12, 12, 9
+Name:
+  TargetLanguage: English
+  Value: Bard Backpack with Flute
+ObjectEffect: 0261D6:kinggathcreations_bard.esm
+WorldModel:
+  Male:
+    Model:
+      File: kgcbard\clothes\backpack\bagflute_gnd.nif
+      Data: 0x020000000000000000000000
+BodyTemplate:
+  FirstPersonFlags:
+  - 0x20000
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 06BBE8:Skyrim.esm
+- 08F959:Skyrim.esm
+- 0C27BD:Skyrim.esm
+- 050A1D:Campfire.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 0261FE:kinggathcreations_bard.esm
+Value: 15
+Weight: 1
+ArmorRating: 1

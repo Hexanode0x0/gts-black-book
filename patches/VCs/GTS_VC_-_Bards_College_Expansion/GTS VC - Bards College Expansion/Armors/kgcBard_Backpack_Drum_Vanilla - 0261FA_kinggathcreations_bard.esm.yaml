@@ -1,0 +1,33 @@
+FormKey: 0261FA:kinggathcreations_bard.esm
+EditorID: kgcBard_Backpack_Drum_Vanilla
+ObjectBounds:
+  First: -15, -34, -4
+  Second: 12, 12, 20
+Name:
+  TargetLanguage: English
+  Value: Bard Backpack with Drum
+ObjectEffect: 0261D5:kinggathcreations_bard.esm
+WorldModel:
+  Male:
+    Model:
+      File: kgcbard\clothes\backpack\bagdrum_gnd.nif
+      Data: 0x020000000000000000000000
+BodyTemplate:
+  FirstPersonFlags:
+  - 0x20000
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 06BBE8:Skyrim.esm
+- 08F959:Skyrim.esm
+- 0C27BD:Skyrim.esm
+- 050A1D:Campfire.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 0261FD:kinggathcreations_bard.esm
+Value: 15
+Weight: 1
+ArmorRating: 1

@@ -1,0 +1,33 @@
+FormKey: 0261DB:kinggathcreations_bard.esm
+EditorID: kgcBard_Backpack_None
+ObjectBounds:
+  First: -15, -15, -2
+  Second: 12, 10, 9
+Name:
+  TargetLanguage: English
+  Value: Bard Backpack
+ObjectEffect: 0261D8:kinggathcreations_bard.esm
+WorldModel:
+  Male:
+    Model:
+      File: kgcbard\clothes\backpack\bag_gnd.nif
+      Data: 0x020000000000000000000000
+BodyTemplate:
+  FirstPersonFlags:
+  - 0x20000
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 06BBE8:Skyrim.esm
+- 08F959:Skyrim.esm
+- 0C27BD:Skyrim.esm
+- 050A1D:Campfire.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 0261D0:kinggathcreations_bard.esm
+Value: 5
+Weight: 1
+ArmorRating: 1

@@ -1,0 +1,19 @@
+{
+   "$schema":"https://raw.githubusercontent.com/Exit-9B/InventoryInjector/main/docs/InventoryInjector.schema.json",
+   "rules":[
+      {
+         "match":{
+            "formId":{
+               "anyOf":[
+                  "GTS VC - Bards College Expansion.esp|800",
+                  "GTS VC - Bards College Expansion.esp|801"                 
+               ]
+            }
+         },
+         "assign":{
+            "iconSource":"I4IconAddon/icons.swf",
+            "iconLabel":"clothing_backpack"
+         }
+      }
+   ]
+}

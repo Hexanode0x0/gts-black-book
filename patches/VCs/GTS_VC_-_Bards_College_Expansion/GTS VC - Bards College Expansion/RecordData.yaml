@@ -1,0 +1,16 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40.1
+ModKey: GTS VC - Bards College Expansion.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: kinggathcreations_bard.esm
+    FileSize: 0
+  - Master: Campfire.esm
+    FileSize: 0
