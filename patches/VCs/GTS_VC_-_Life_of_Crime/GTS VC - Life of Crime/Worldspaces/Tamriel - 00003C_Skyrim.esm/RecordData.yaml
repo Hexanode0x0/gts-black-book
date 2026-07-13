@@ -101,6 +101,28 @@ TopCell:
     Placement:
       Position: 112431.6, 100894.586, -8825.755
       Rotation: 0, 0, 1.134464
+  - MutagenObjectType: PlacedNpc
+    FormKey: 05CAA5:Skyrim.esm
+    MajorRecordFlagsRaw: 1024
+    EditorID: GuardWhistlingMineImperial1
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 024B49:Skyrim.esm
+    LinkedReferences:
+    - Reference: 10D2B0:Skyrim.esm
+    - KeywordOrReference: 0587DD:Skyrim.esm
+      Reference: 05CAAB:Skyrim.esm
+    PersistentLocation: 018E45:Skyrim.esm
+    LocationReference: 018E45:Skyrim.esm
+    LocationRefTypes:
+    - 01DA51:Skyrim.esm
+    EnableParent:
+      Reference: 05CAAC:Skyrim.esm
+      Unknown: 0x000000
+    Placement:
+      Position: 127485.336, 75951.305, -7949.8184
+    MajorFlags:
+    - Persistent
   - MutagenObjectType: PlacedObject
     FormKey: 0DAFA7:Skyrim.esm
     MajorRecordFlagsRaw: 1024

@@ -1,0 +1,37 @@
+FormKey: 018E38:Skyrim.esm
+EditorID: KatlasFarmLocation
+UniqueActorReferencesAdded:
+- Actor: 0132A6:Skyrim.esm
+  Ref: 0198DA:Skyrim.esm
+  Location: 01705C:Skyrim.esm
+- Actor: 013294:Skyrim.esm
+  Ref: 0198DB:Skyrim.esm
+  Location: 01705C:Skyrim.esm
+- Actor: 087B96:Skyrim.esm
+  Ref: 09DCD3:Skyrim.esm
+  Location: 018E38:Skyrim.esm
+LocationRefTypeReferencesAdded:
+- LocationRefType: 0823AC:life of crime.esp
+  Ref: 0823AF:life of crime.esp
+  Location: 00003C:Skyrim.esm
+  Grid: -19, 23
+InitiallyDisabledReferencesAdded:
+- 09DCD3:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Katla's Farm
+Keywords:
+- 013167:Skyrim.esm
+- 018EF0:Skyrim.esm
+- 02A455:Skyrim.esm
+- 02A456:Skyrim.esm
+- 039793:Skyrim.esm
+- 04143F:Skyrim.esm
+- 042627:Skyrim.esm
+- 079AEC:Skyrim.esm
+- 0C4EC8:Skyrim.esm
+- 0CAF5B:Skyrim.esm
+ParentLocation: 018A5A:Skyrim.esm
+WorldLocationMarkerRef: 01635E:Skyrim.esm
+WorldLocationRadius: 0
+Color: '#0000FFFF'

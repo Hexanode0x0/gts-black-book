@@ -35,7 +35,7 @@ Lighting:
   - FogFar
   - ClipDistance
 LightingTemplate: 0C0C75:Skyrim.esm
-WaterHeight: -2.1474836E+09
+WaterHeight: 0
 Location: 01EB7C:Skyrim.esm
 Owner: 0CD698:Skyrim.esm
 SkyAndWeatherFromRegion: 10FDC6:Skyrim.esm

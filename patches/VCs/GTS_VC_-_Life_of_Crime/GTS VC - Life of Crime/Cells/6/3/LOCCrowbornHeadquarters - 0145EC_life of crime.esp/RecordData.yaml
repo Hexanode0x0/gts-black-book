@@ -1,0 +1,47 @@
+FormKey: 0145EC:life of crime.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: LOCCrowbornHeadquarters
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Fawsten Tower
+Flags:
+- IsInteriorCell
+- PublicArea
+Lighting:
+  AmbientColor: '#00808080'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#0033291D'
+    DirectionalXMinus: '#002A291A'
+    DirectionalYPlus: '#002F2A1C'
+    DirectionalYMinus: '#002F271C'
+    DirectionalZPlus: '#0016130C'
+    DirectionalZMinus: '#005C5138'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 06909B:Skyrim.esm
+WaterHeight: 0
+Location: 1CC467:life of crime.esp
+AcousticSpace: 102774:Skyrim.esm
+Music: 017035:Skyrim.esm
+MajorFlags:
+- 0x40000

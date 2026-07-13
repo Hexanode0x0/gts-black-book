@@ -1,0 +1,52 @@
+FormKey: 15F078:life of crime.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: LOCSurvivalShip
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Northern Wave
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+Lighting:
+  AmbientColor: '#00363540'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#00515768'
+  FogFar: 2700
+  FogClipDistance: 2000
+  FogPower: 0.8
+  AmbientColors:
+    DirectionalXPlus: '#003B3543'
+    DirectionalXMinus: '#0030353D'
+    DirectionalYPlus: '#00363740'
+    DirectionalYMinus: '#00363240'
+    DirectionalZPlus: '#0019191D'
+    DirectionalZMinus: '#00525063'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#004E5857'
+  FogMax: 0.8
+  LightFadeBegin: 500
+  LightFadeEnd: 5000
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 0A1196:Skyrim.esm
+WaterHeight: 0
+Owner: 01EC16:life of crime.esp
+AcousticSpace: 0D78B3:Skyrim.esm
+Music: 0B9DCB:Skyrim.esm
+MajorFlags:
+- 0x40000
