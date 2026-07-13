@@ -1,0 +1,73 @@
+FormKey: 06819E:Skyrim.esm
+EditorID: RelationshipOrcs
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_RelationshipOrcs_0006819E
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DushnikhYalLonghouse
+      Object: 0198E2:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DushnikhYalMapMarkerREF
+      Object: 01623E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MorKhazgurLaraksLonghouse
+      Object: 05B5DD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NarzulburMauhulakhsLonghouse
+      Object: 015238:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OrcFriendFaction
+      Object: 024029:Skyrim.esm
+  FileName: QF_RelationshipOrcs_0006819E
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_RelationshipOrcs_0006819E
+    FragmentName: Fragment_3
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_RelationshipOrcs_0006819E
+    FragmentName: Fragment_2
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_RelationshipOrcs_0006819E
+    FragmentName: Fragment_0
+Name:
+  TargetLanguage: English
+  Value: A Friend to the Orcs
+Flags:
+- StartGameEnabled
+- 0x10
+Priority: 45
+QuestFormVersion: 65
+Type: Misc
+Filter: Relationship\
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Data:
+    MutagenObjectType: GetInCurrentLocConditionData
+    Location: 01F802:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInFactionConditionData
+    Faction: 024029:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    VoiceTypeOrList: 035A26:Skyrim.esm
+  ComparisonValue: 1
+Stages:
+- Unknown: 101
+  LogEntries:
+  - Flags: []
+- Index: 10
+  Unknown: 50
+  LogEntries:
+  - Flags: []
+- Index: 100
+  Unknown: 4
+  LogEntries:
+  - Flags: []
+NextAliasID: 0

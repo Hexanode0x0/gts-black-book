@@ -1,0 +1,50 @@
+FormKey: 0AF1BD:legacyorsinium.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: 1LOGarshakLonghouse
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Solemn Precipice
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#00000000'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00B0DCF7'
+  FogNear: 340
+  FogFar: 14000
+  DirectionalFade: 1
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00493A28'
+    DirectionalXMinus: '#003C3A25'
+    DirectionalYPlus: '#00433C27'
+    DirectionalYMinus: '#00433727'
+    DirectionalZPlus: '#001F1B11'
+    DirectionalZMinus: '#0066583C'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00B0DCF7'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 0345A4:Skyrim.esm
+WaterHeight: 0
+SkyAndWeatherFromRegion: 02A72D:Skyrim.esm
+AcousticSpace: 0C5B6B:Skyrim.esm
+Music: 01BA72:Skyrim.esm
+ImageSpace: 0ABDB4:Skyrim.esm
+MajorFlags:
+- 0x40000

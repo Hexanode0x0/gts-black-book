@@ -84,6 +84,12 @@ Perks:
 - Perk: 105F33:Skyrim.esm
   Rank: 1
   Fluff: 0x000000
+- Perk: 0F89DB:Adamant.esp
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 937E48:Adamant.esp
+  Rank: 1
+  Fluff: 0x000000
 - Perk: 000933:Bandit War - Simonrim.esp
   Rank: 1
   Fluff: 0x000000
@@ -109,12 +115,6 @@ Perks:
   Rank: 1
   Fluff: 0x000000
 - Perk: 00093D:Bandit War - Simonrim.esp
-  Rank: 1
-  Fluff: 0x000000
-- Perk: 0F89DB:Adamant.esp
-  Rank: 1
-  Fluff: 0x000000
-- Perk: 937E48:Adamant.esp
   Rank: 1
   Fluff: 0x000000
 - Perk: 000809:HandtoHand.esp

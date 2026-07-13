@@ -1,0 +1,51 @@
+FormKey: 0295C9:legacyorsinium.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: 1LOPinefrostTower
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Pinefrost Tower
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#002D4F53'
+  DirectionalColor: '#002C6369'
+  FogNearColor: '#0088D9FF'
+  FogFar: 6000
+  DirectionalRotationZ: 90
+  FogClipDistance: 20000
+  FogPower: 0.7
+  AmbientColors:
+    DirectionalXPlus: '#00314F56'
+    DirectionalXMinus: '#00284F4F'
+    DirectionalYPlus: '#002D5253'
+    DirectionalYMinus: '#002D4B53'
+    DirectionalZPlus: '#00152525'
+    DirectionalZMinus: '#00447880'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#0088D9FF'
+  FogMax: 0.8
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 068B3E:Skyrim.esm
+WaterHeight: 0
+Location: 0EF0BC:Skyrim.esm
+AcousticSpace: 04075D:Skyrim.esm
+EncounterZone: 0EF0BD:Skyrim.esm
+Music: 05615B:Skyrim.esm
+MajorFlags:
+- 0x40000

@@ -1,0 +1,182 @@
+FormKey: 122D29:legacyorsinium.esm
+EditorID: LO_FavorGatekeeper
+VirtualMachineAdapter:
+  Scripts:
+  - Name: AP_QF__05122D29
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Boss
+      Object: 122D29:legacyorsinium.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dungeon
+      Object: 122D29:legacyorsinium.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QuestGiver
+      Object: 122D29:legacyorsinium.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Favor151QuestGiverFaction
+      Object: 06C825:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Favor154QuestGiverFaction
+      Object: 04B774:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FavorReward
+      Object: 035216:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FavorRewardEnchArmor
+      Object: 049313:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FavorRewardEnchWeapon
+      Object: 0494B0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_ACFactionSideQuestsCompletedNum
+      Object: 01CE17:legacyorsinium.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_AgraCrunRep
+      Object: 015170:legacyorsinium.esm
+  - Name: LO_ACStoryAdvancer
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_ACQ02
+      Object: 01CE08:legacyorsinium.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_ACQ03
+      Object: 0ECC2A:legacyorsinium.esm
+  FileName: AP_QF__05122D29
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: AP_QF__05122D29
+    FragmentName: Fragment_0
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: AP_QF__05122D29
+    FragmentName: Fragment_1
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: AP_QF__05122D29
+    FragmentName: Fragment_3
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: AP_QF__05122D29
+    FragmentName: Fragment_4
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: AP_QF__05122D29
+    FragmentName: Fragment_8
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 122D29:legacyorsinium.esm
+      Alias: 17
+    Scripts:
+    - Name: favornpcdeathscript
+  - Property:
+      Name: ''
+      Object: 122D29:legacyorsinium.esm
+      Alias: 21
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: prereqStageOPT
+        Data: 10
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 1
+Name:
+  TargetLanguage: English
+  Value: Kill the Forsworn Leader
+Flags:
+- RunOnce
+Priority: 60
+Type: Misc
+Filter: LegacyOrsinium\
+Stages:
+- Flags:
+  - StartUpStage
+  Unknown: 14
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  Unknown: 27
+  LogEntries:
+  - Flags: []
+- Index: 100
+  Flags:
+  - ShutDownStage
+  Unknown: 110
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 200
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Forsworn in <Alias=Dungeon> to earn Agra Crun favor
+  Targets:
+  - AliasID: 21
+- Index: 15
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Gatekeeper Gorsh
+  Targets:
+  - AliasID: 17
+NextAliasID: 37
+Aliases:
+- ID: 17
+  Name: Questgiver
+  Flags:
+  - AllowReserved
+  UniqueActor: 14448B:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 27
+  Type: Location
+  Name: Dungeon
+  Flags:
+  - ReservesLocationOrReference
+  - StoresText
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 000800:SRC_ERS.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      LocationReferenceType: 0130F7:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0130EE:Skyrim.esm
+    ComparisonValue: 1
+- ID: 21
+  Name: Boss
+  Flags:
+  - StoresText
+  Location:
+    AliasID: 27
+    RefType: 0130F7:Skyrim.esm
+  VoiceTypes: Null

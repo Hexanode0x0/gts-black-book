@@ -1,0 +1,44 @@
+FormKey: 019D67:legacyorsinium.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: 1LOTemple01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Ancient Orcish Tomb
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+- ShowSky
+Lighting:
+  AmbientColor: '#00123633'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogFar: 6500
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00133635'
+    DirectionalXMinus: '#00103630'
+    DirectionalYPlus: '#00123833'
+    DirectionalYMinus: '#00123333'
+    DirectionalZPlus: '#00081917'
+    DirectionalZMinus: '#000C2321'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00050F0E'
+  FogMax: 1
+  LightFadeEnd: 6500
+  Inherits:
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+LightingTemplate: 0154E3:legacyorsinium.esm
+WaterHeight: 0
+Location: 01F802:Skyrim.esm
+SkyAndWeatherFromRegion: 0630D8:Skyrim.esm
+AcousticSpace: 102774:Skyrim.esm
+Music: 12637C:legacyorsinium.esm
+MajorFlags:
+- 0x40000

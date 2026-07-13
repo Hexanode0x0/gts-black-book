@@ -90,9 +90,6 @@ Perks:
 - Perk: 937E48:Adamant.esp
   Rank: 1
   Fluff: 0x000000
-- Perk: 000809:HandtoHand.esp
-  Rank: 1
-  Fluff: 0x000000
 - Perk: 000933:Bandit War - Simonrim.esp
   Rank: 1
   Fluff: 0x000000
@@ -129,6 +126,9 @@ Perks:
 - Perk: 00093E:Bandit War - Simonrim.esp
   Rank: 1
   Fluff: 0x000000
+- Perk: 000809:HandtoHand.esp
+  Rank: 1
+  Fluff: 0x000000
 Items:
 - Item:
     Item: 06566A:Skyrim.esm
@@ -154,8 +154,6 @@ Packages:
 - 06C822:Skyrim.esm
 - 01B210:Skyrim.esm
 - 01B217:Skyrim.esm
-Keywords:
-- 000049:Dynamic NPC Hairstyles.esp
 Class: 0B5FB5:Skyrim.esm
 Name:
   TargetLanguage: English

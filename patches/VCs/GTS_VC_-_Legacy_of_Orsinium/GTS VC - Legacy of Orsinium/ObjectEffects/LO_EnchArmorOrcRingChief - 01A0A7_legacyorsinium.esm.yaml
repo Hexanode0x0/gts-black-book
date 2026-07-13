@@ -1,0 +1,21 @@
+FormKey: 01A0A7:legacyorsinium.esm
+EditorID: LO_EnchArmorOrcRingChief
+Name:
+  TargetLanguage: English
+  Value: Mauhulakh's Resilience
+EnchantmentCost: 922
+EnchantmentAmount: 922
+EnchantType: Enchantment
+Effects:
+- BaseEffect: 0493AA:Skyrim.esm
+  Data:
+    Magnitude: 50
+- BaseEffect: 07A0F8:Skyrim.esm
+  Data:
+    Magnitude: 1
+- BaseEffect: 07A0FD:Skyrim.esm
+  Data:
+    Magnitude: 1
+- BaseEffect: 049504:Skyrim.esm
+  Data:
+    Magnitude: 50

@@ -1,7 +1,7 @@
-FormKey: 01B077:Skyrim.esm
+FormKey: 01B078:Skyrim.esm
 IsCompressed: True
 MajorRecordFlagsRaw: 262144
-EditorID: Yatul
+EditorID: Urog
 SkyrimMajorRecordFlags:
 - Compressed
 VirtualMachineAdapter:
@@ -36,9 +36,7 @@ Factions:
   Fluff: 0x000000
 - Faction: 086EEE:Skyrim.esm
   Fluff: 0x000000
-- Faction: 0BBA9F:Skyrim.esm
-  Fluff: 0x000000
-Voice: 006568:legacyorsinium.esm
+Voice: 0EB1CC:legacyorsinium.esm
 Race: 013747:Skyrim.esm
 Items:
 - Item:
@@ -51,23 +49,23 @@ Items:
     Item: 08CA42:Skyrim.esm
     Count: 1
 - Item:
-    Item: 1046D2:Skyrim.esm
+    Item: 1046D1:Skyrim.esm
     Count: 1
 AIData:
   Aggression: Aggressive
   Confidence: Average
   EnergyLevel: 50
   Responsibility: NoCrime
-  Mood: Disgusted
   Assistance: HelpsFriendsAndAllies
 Packages:
-- 0CCFDC:legacyorsinium.esm
-- 0BBAAC:Skyrim.esm
-- 0C78DB:Skyrim.esm
+- 0CCFDA:legacyorsinium.esm
+- 0C78DD:Skyrim.esm
+- 0C78DC:Skyrim.esm
+- 01B210:Skyrim.esm
 Class: 013181:Skyrim.esm
 Name:
   TargetLanguage: English
-  Value: Yatul
+  Value: Urog
 PlayerSkills:
   SkillValues:
   - Key: OneHanded
@@ -148,53 +146,50 @@ PlayerSkills:
   Stamina: 125
   GearedUpWeapons: 1
 HeadParts:
-- 0E4D92:Skyrim.esm
-- 0E4E4F:Skyrim.esm
-- 1033B3:Skyrim.esm
-HairColor: 0A0436:Skyrim.esm
+- 040220:Skyrim.esm
+- 085DEA:Skyrim.esm
+- 0EC1B2:Skyrim.esm
+HairColor: 0F7565:Skyrim.esm
 NAM5: 255
 Height: 1
-Weight: 80
 SoundLevel: Normal
-DefaultOutfit: 10698C:Skyrim.esm
+DefaultOutfit: 10698E:Skyrim.esm
 CrimeFaction: 028713:Skyrim.esm
-HeadTexture: 0F2068:Skyrim.esm
-TextureLighting: '#004A6455'
+TextureLighting: '#005E8A7C'
 FaceMorph:
   NoseLongVsShort: -0.08
-  NoseUpVsDown: 0.92
-  EyesUpVsDown: -0.2
-  EyesInVsOut: 0.6
-  BrowsUpVsDown: -0.9
+  NoseUpVsDown: 0.2
+  JawNarrowVsWide: -0.3
+  EyesUpVsDown: 0.8
+  EyesInVsOut: 0.8
+  BrowsUpVsDown: -1
+  BrowsInVsOut: -1
+  BrowsForwardVsBack: -1
   LipsUpVsDown: 1
-  LipsInVsOut: 0.3
+  ChinNarrowVsWide: 0.5
   Unknown: 3.4028235E+38
 FaceParts:
-  Nose: 27
+  Nose: 30
   Unknown: 4294967295
-  Eyes: 17
-  Mouth: 23
+  Eyes: 8
+  Mouth: 22
 TintLayers:
-- Index: 13
-  Color: '#004A6455'
-  InterpolationValue: 1
-  Preset: 492
 - Index: 26
-  Color: '#00FFFFFF'
-  InterpolationValue: 0
-  Preset: 494
+  Color: '#00430401'
+  InterpolationValue: 0.42
+  Preset: 496
 - Index: 27
-  Color: '#00FFFFFF'
-  InterpolationValue: 0
-  Preset: 508
+  Color: '#00364E21'
+  InterpolationValue: 0.75
+  Preset: 517
 - Index: 31
-  Color: '#00A95452'
-  InterpolationValue: 0.07
-  Preset: 535
+  Color: '#002F2013'
+  InterpolationValue: 0.61
+  Preset: 540
 - Index: 36
-  Color: '#00000000'
-  InterpolationValue: 1
-  Preset: 923
+  Color: '#00430401'
+  InterpolationValue: 0.52
+  Preset: 917
 - Index: 37
   Color: '#00000000'
   InterpolationValue: 0
@@ -205,63 +200,11 @@ TintLayers:
   Preset: 580
 - Index: 39
   Color: '#00000000'
-  InterpolationValue: 0
+  InterpolationValue: 1
   Preset: 604
-- Index: 40
-  Color: '#00000000'
-  InterpolationValue: 0
-  Preset: 628
-- Index: 41
-  Color: '#00000000'
-  InterpolationValue: 0
-  Preset: 652
-- Index: 42
-  Color: '#00000000'
-  InterpolationValue: 0
-  Preset: 676
-- Index: 43
-  Color: '#00000000'
-  InterpolationValue: 0
-  Preset: 700
-- Index: 44
-  Color: '#00000000'
-  InterpolationValue: 0
-  Preset: 724
-- Index: 45
-  Color: '#00000000'
-  InterpolationValue: 0
-  Preset: 748
-- Index: 46
-  Color: '#00000000'
-  InterpolationValue: 0
-  Preset: 772
 - Index: 47
   Color: '#00000000'
-  InterpolationValue: 0
+  InterpolationValue: 0.43
   Preset: 925
-- Index: 48
-  Color: '#00000000'
-  InterpolationValue: 1
-  Preset: 930
-- Index: 56
-  Color: '#00000000'
-  InterpolationValue: 0
-  Preset: 796
-- Index: 57
-  Color: '#00000000'
-  InterpolationValue: 0
-  Preset: 820
-- Index: 58
-  Color: '#00000000'
-  InterpolationValue: 0
-  Preset: 844
-- Index: 59
-  Color: '#00000000'
-  InterpolationValue: 1
-  Preset: 868
-- Index: 60
-  Color: '#00000000'
-  InterpolationValue: 0
-  Preset: 892
 MajorFlags:
 - 0x40000

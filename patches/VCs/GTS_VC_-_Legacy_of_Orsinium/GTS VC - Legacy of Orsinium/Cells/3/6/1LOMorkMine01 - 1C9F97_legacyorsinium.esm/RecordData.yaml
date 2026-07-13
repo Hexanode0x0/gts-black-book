@@ -1,0 +1,49 @@
+FormKey: 1C9F97:legacyorsinium.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: 1LOMorkMine01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Old Khazgur Mines
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+Lighting:
+  AmbientColor: '#0029303A'
+  DirectionalColor: '#003E4142'
+  FogNearColor: '#003D5063'
+  FogFar: 3550
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#002D303C'
+    DirectionalXMinus: '#00243037'
+    DirectionalYPlus: '#0029323A'
+    DirectionalYMinus: '#00292D3A'
+    DirectionalZPlus: '#0013161A'
+    DirectionalZMinus: '#003E4959'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#005F6FA2'
+  FogMax: 0.5
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 068B3E:Skyrim.esm
+WaterHeight: 0
+Location: 01F802:Skyrim.esm
+AcousticSpace: 01989F:Skyrim.esm
+Music: 094BDD:Skyrim.esm
+MajorFlags:
+- 0x40000

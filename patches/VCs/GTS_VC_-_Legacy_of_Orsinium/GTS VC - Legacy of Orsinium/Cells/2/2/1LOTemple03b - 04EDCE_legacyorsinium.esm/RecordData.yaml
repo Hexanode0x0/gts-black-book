@@ -1,0 +1,42 @@
+FormKey: 04EDCE:legacyorsinium.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: 1LOTemple03b
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Tomb of Agrok, East Chamber
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+Lighting:
+  AmbientColor: '#0015403C'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogFar: 4500
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#0017403E'
+    DirectionalXMinus: '#00124039'
+    DirectionalYPlus: '#0015433C'
+    DirectionalYMinus: '#00153D3C'
+    DirectionalZPlus: '#000A1E1B'
+    DirectionalZMinus: '#000C2321'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00050F0E'
+  FogMax: 1
+  LightFadeEnd: 6500
+  Inherits:
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+LightingTemplate: 0154E3:legacyorsinium.esm
+WaterHeight: 0
+Location: 01F802:Skyrim.esm
+AcousticSpace: 102774:Skyrim.esm
+Music: 12637C:legacyorsinium.esm
+MajorFlags:
+- 0x40000

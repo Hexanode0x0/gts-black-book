@@ -1,0 +1,51 @@
+FormKey: 0990A6:legacyorsinium.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: 1LOAshenHollows
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Ashen Hollows
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#00465A5A'
+  DirectionalColor: '#004D5253'
+  FogNearColor: '#004B616B'
+  FogFar: 5500
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00314F56'
+    DirectionalXMinus: '#00284F4F'
+    DirectionalYPlus: '#002D5253'
+    DirectionalYMinus: '#002D4B53'
+    DirectionalZPlus: '#00152525'
+    DirectionalZMinus: '#00447880'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00D2E0F0'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 0906CC:Skyrim.esm
+WaterHeight: 0
+Location: 0C7331:legacyorsinium.esm
+WaterEnvironmentMap: data\textures\cubemaps\caveicecubemap_e.dds
+SkyAndWeatherFromRegion: 0C5856:Skyrim.esm
+AcousticSpace: 01AA4D:Skyrim.esm
+Music: 08690F:Skyrim.esm
+MajorFlags:
+- 0x40000

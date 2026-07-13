@@ -24,6 +24,8 @@ ModHeader:
     FileSize: 0
   - Master: legacyorsinium.esm
     FileSize: 0
+  - Master: SRC_ERS.esp
+    FileSize: 0
   - Master: Undeath.esp
     FileSize: 0
   - Master: Adamant.esp
@@ -34,10 +36,10 @@ ModHeader:
     FileSize: 0
   - Master: H2HBooksandTrainers.esp
     FileSize: 0
+  - Master: Dynamic NPC Hairstyles.esp
+    FileSize: 0
   - Master: HandtoHand.esp
     FileSize: 0
   - Master: Bandit War - Simonrim.esp
-    FileSize: 0
-  - Master: Dynamic NPC Hairstyles.esp
     FileSize: 0
   INTV: 1

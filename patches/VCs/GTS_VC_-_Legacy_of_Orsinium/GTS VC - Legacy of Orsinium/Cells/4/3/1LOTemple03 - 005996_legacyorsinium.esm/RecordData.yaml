@@ -1,0 +1,67 @@
+FormKey: 005996:legacyorsinium.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: 1LOTemple03
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Tomb of Agrok, Sanctum
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+Lighting:
+  AmbientColor: '#0012302D'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogFar: 9500
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#0017403E'
+    DirectionalXMinus: '#00124039'
+    DirectionalYPlus: '#0015433C'
+    DirectionalYMinus: '#00153D3C'
+    DirectionalZPlus: '#000A1E1B'
+    DirectionalZMinus: '#000F2D2A'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  LightFadeEnd: 6500
+  Inherits:
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+LightingTemplate: 0154E3:legacyorsinium.esm
+WaterHeight: 0
+Location: 01F802:Skyrim.esm
+AcousticSpace: 102774:Skyrim.esm
+Music: 12637C:legacyorsinium.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 0644F4:legacyorsinium.esm
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 02996E:legacyorsinium.esm
+  Radius: 16.390472
+  LightData:
+    FadeOffset: 1.6066551
+    ShadowDepthBias: 1
+  Placement:
+    Position: -9807.368, -946.2545, 6191.424
+- MutagenObjectType: PlacedObject
+  FormKey: 0644F5:legacyorsinium.esm
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 02996E:legacyorsinium.esm
+  Radius: 27.073761
+  LightData:
+    FadeOffset: 1.6066551
+    ShadowDepthBias: 1
+  Placement:
+    Position: -9803.1045, 1194.174, 6205.6
+MajorFlags:
+- 0x40000

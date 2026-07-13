@@ -1,0 +1,7 @@
+{
+    "flags": {
+        "ShowSky": true,
+        "UsesSkyLighting": true
+    },
+    "skylight": "000E50:Helios.esp"
+}

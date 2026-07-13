@@ -109,8 +109,18 @@ TopCell:
     Base: 000032:Skyrim.esm
     LocationReference: 01927C:Skyrim.esm
     Placement:
-      Position: -149023.62, 84280.86, -6560.825
-      Rotation: 0, -0, 3.9000022
+      Position: -148075.69, 82217.51, -6833.882
+      Rotation: 0, -0, 5.600003
+  - MutagenObjectType: PlacedObject
+    FormKey: 05B12A:Skyrim.esm
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 01AE14:Skyrim.esm
+    LocationReference: 01927C:Skyrim.esm
+    Placement:
+      Position: -149917.4, 83409.195, -8211.372
+      Rotation: 0, -0, 3.9131896
   - MutagenObjectType: PlacedObject
     FormKey: 05B191:Skyrim.esm
     MajorRecordFlagsRaw: 1024

@@ -1,0 +1,41 @@
+FormKey: 009435:legacyorsinium.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: 1LOCrystalMineBoss
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Old Khazgur Motherlode
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+Lighting:
+  AmbientColor: '#001E1C2D'
+  DirectionalColor: '#00353C4A'
+  FogNearColor: '#000F1419'
+  FogFar: 4550
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#004C436A'
+    DirectionalXMinus: '#003D435E'
+    DirectionalYPlus: '#00454663'
+    DirectionalYMinus: '#00453F63'
+    DirectionalZPlus: '#001D1C29'
+    DirectionalZMinus: '#002D2A3C'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00141923'
+  FogMax: 0.85
+  Inherits:
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+LightingTemplate: 00B2C2:legacyorsinium.esm
+WaterHeight: 0
+Location: 01F802:Skyrim.esm
+AcousticSpace: 01989F:Skyrim.esm
+Music: 094BDD:Skyrim.esm
+MajorFlags:
+- 0x40000

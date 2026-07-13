@@ -1,0 +1,67 @@
+FormKey: 01C301:legacyorsinium.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: 1LOTemple02
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Tomb of Agrok, Crossing
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+Lighting:
+  AmbientColor: '#00123835'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogFar: 9000
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00133837'
+    DirectionalXMinus: '#00103832'
+    DirectionalYPlus: '#00123A35'
+    DirectionalYMinus: '#00123535'
+    DirectionalZPlus: '#00081A18'
+    DirectionalZMinus: '#000C2321'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00050F0E'
+  FogMax: 1
+  LightFadeEnd: 9000
+  Inherits:
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+LightingTemplate: 0154E3:legacyorsinium.esm
+WaterHeight: 0
+Location: 01F802:Skyrim.esm
+AcousticSpace: 102774:Skyrim.esm
+Music: 12637C:legacyorsinium.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 01C43B:legacyorsinium.esm
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 02996E:legacyorsinium.esm
+  Radius: 45.69812
+  LightData:
+    FadeOffset: 1.6066551
+    ShadowDepthBias: 1
+  Placement:
+    Position: -4370.7925, -564.03253, 1008
+- MutagenObjectType: PlacedObject
+  FormKey: 01C961:legacyorsinium.esm
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 02996E:legacyorsinium.esm
+  Radius: 5.2143555
+  LightData:
+    FadeOffset: 1.6066551
+    ShadowDepthBias: 1
+  Placement:
+    Position: -4330.602, -4379.7837, 730.20764
+MajorFlags:
+- 0x40000

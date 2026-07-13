@@ -1,0 +1,31 @@
+FormKey: 00B090:legacyorsinium.esm
+EditorID: LO_GlintflyThorax
+ObjectBounds:
+  First: -3, -1, -5
+  Second: 3, 4, 7
+Name:
+  TargetLanguage: English
+  Value: Glintfly Thorax
+Model:
+  File: legacyorsinium\Critters\GlintFly\LO_Glintflygo.nif
+  Data: 0x020000000000000000000000
+Value: 1
+Weight: 0.1
+IngredientValue: 17
+Effects:
+- BaseEffect: 03EB17:Skyrim.esm
+  Data:
+    Magnitude: 1
+    Duration: 10
+- BaseEffect: 03EB42:Skyrim.esm
+  Data:
+    Magnitude: 1
+    Duration: 10
+- BaseEffect: 03EB27:Skyrim.esm
+  Data:
+    Magnitude: 5
+    Duration: 60
+- BaseEffect: 03EB07:Skyrim.esm
+  Data:
+    Magnitude: 3
+    Duration: 300

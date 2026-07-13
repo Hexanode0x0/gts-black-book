@@ -1,0 +1,309 @@
+FormKey: 02446B:legacyorsinium.esm
+EditorID: LO_ACREx02
+VirtualMachineAdapter:
+  Scripts:
+  - Name: AP_QF__0702446B
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Boss
+      Object: 02446B:legacyorsinium.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BrokenSword
+      Object: 02446B:legacyorsinium.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dulfish
+      Object: 02446B:legacyorsinium.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MapMarker
+      Object: 02446B:legacyorsinium.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QuestGiver
+      Object: 02446B:legacyorsinium.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QuestTarget
+      Object: 02446B:legacyorsinium.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QuestTargetLocation
+      Object: 02446B:legacyorsinium.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_ACFactionSideQuestsCompletedNum
+      Object: 01CE17:legacyorsinium.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QuestReward
+      Object: 0C0405:Skyrim.esm
+  - Name: LO_ACRQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_AgraCrunRep
+      Object: 015170:legacyorsinium.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker
+      Object: 02446B:legacyorsinium.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QuestTarget
+      Object: 02446B:legacyorsinium.esm
+      Alias: 5
+  - Name: LO_ACStoryAdvancer
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_ACQ02
+      Object: 01CE08:legacyorsinium.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_ACQ03
+      Object: 0ECC2A:legacyorsinium.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_AgraCrunFailQuest
+      Object: 052BD2:legacyorsinium.esm
+  FileName: AP_QF__0702446B
+  Fragments:
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: AP_QF__0702446B
+    FragmentName: Fragment_13
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: AP_QF__0702446B
+    FragmentName: Fragment_0
+  - Stage: 11
+    Unknown2: 1
+    ScriptName: AP_QF__0702446B
+    FragmentName: Fragment_12
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: AP_QF__0702446B
+    FragmentName: Fragment_14
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: AP_QF__0702446B
+    FragmentName: Fragment_1
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: AP_QF__0702446B
+    FragmentName: Fragment_2
+  - Stage: 255
+    Unknown2: 1
+    ScriptName: AP_QF__0702446B
+    FragmentName: Fragment_11
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: AP_QF__0702446B
+    FragmentName: Fragment_15
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 02446B:legacyorsinium.esm
+      Alias: 5
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 02446B:legacyorsinium.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 12
+  - Property:
+      Name: ''
+      Object: 02446B:legacyorsinium.esm
+      Alias: 8
+    Scripts:
+    - Name: VP_KillOnLoad
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 02446B:legacyorsinium.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 11
+  - Property:
+      Name: ''
+      Object: 02446B:legacyorsinium.esm
+      Alias: 10
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 02446B:legacyorsinium.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 20
+Name:
+  TargetLanguage: English
+  Value: For the Cultural Good
+Flags:
+- RunOnce
+Priority: 55
+Stages:
+- Flags:
+  - StartUpStage
+- Index: 1
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: The Agra Crun have caught wind of precious artifacts making their way through a smuggler network from Hammerfell to Skyrim. I must meet up with an agent named Dulfish hiding among the smugglers.
+- Index: 11
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: The Agra Crun have caught wind of precious artifacts making their way through a smuggler network from Hammerfell to Skyrim. Dulfish is dead. I must avenge him.
+- Index: 12
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: The Agra Crun have caught wind of precious artifacts making their way through a smuggler network from Hammerfell to Skyrim. I should search for any stolen goods.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Dulfish is dead but I have recovered a broken blade. I should return it to Executioner Garrug in the Ashen Hollows.
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Orsinium has a scavenger problem, pillaging the dead, pilfering precious family relics. <Alias=QuestGiver> sent me to <Alias=QuestTargetLocation>, where I recovered a blade belonging to the Morkul clan.
+- Index: 255
+  LogEntries:
+  - Flags:
+    - FailQuest
+- Index: 300
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Entry:
+      TargetLanguage: English
+      Value: I have betrayed the Agra Crun, falling out of favor with Executioner Garrug.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet Dulfish at <Alias=QuestTargetLocation>
+  Targets:
+  - AliasID: 8
+- Index: 11
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill <Alias=QuestTarget>
+  Targets:
+  - AliasID: 5
+- Index: 12
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Inspect <Alias=QuestTarget>'s belongings
+  Targets:
+  - AliasID: 10
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to <Alias=QuestGiver>
+  Targets:
+  - {}
+NextAliasID: 11
+Aliases:
+- Name: QuestGiver
+  Flags:
+  - StoresText
+  UniqueActor: 00FCD2:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 2
+  Type: Location
+  Name: QuestTargetLocation
+  Flags:
+  - ReservesLocationOrReference
+  - StoresText
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 000800:SRC_ERS.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      LocationReferenceType: 0130F7:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 01A0D3:legacyorsinium.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 02E8C5:legacyorsinium.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0130DF:Skyrim.esm
+    ComparisonValue: 1
+- ID: 3
+  Name: Boss
+  Flags: []
+  Location:
+    AliasID: 2
+    RefType: 0130F7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: MapMarker
+  Flags:
+  - Optional
+  Location:
+    AliasID: 2
+    RefType: 10F63C:Skyrim.esm
+  VoiceTypes: Null
+- ID: 5
+  Name: QuestTarget
+  Flags:
+  - ReservesLocationOrReference
+  - StoresText
+  - UsesStoredText
+  CreateReferenceToObject:
+    Object: 01F7F7:legacyorsinium.esm
+    AliasID: 3
+    Level: Hard
+  DisplayName: 01546C:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: Dulfish
+  Flags:
+  - AllowDead
+  CreateReferenceToObject:
+    Object: 0F6B3D:legacyorsinium.esm
+    AliasID: 5
+    Level: Medium
+  VoiceTypes: Null
+- ID: 10
+  Name: BrokenSword
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 0F6B3E:legacyorsinium.esm
+    AliasID: 5
+    Create: In
+    Level: 4
+  VoiceTypes: Null

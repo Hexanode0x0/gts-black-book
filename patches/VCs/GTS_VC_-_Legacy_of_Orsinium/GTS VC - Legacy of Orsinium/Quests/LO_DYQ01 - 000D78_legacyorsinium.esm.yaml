@@ -1,0 +1,790 @@
+FormKey: 000D78:legacyorsinium.esm
+EditorID: LO_DYQ01
+VirtualMachineAdapter:
+  Scripts:
+  - Name: AP__QF_LO_DYQ01_02000D78
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Aggressor01
+      Object: 000D78:legacyorsinium.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Aggressor02
+      Object: 000D78:legacyorsinium.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Aggressor03
+      Object: 000D78:legacyorsinium.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Aggressor04
+      Object: 000D78:legacyorsinium.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Aggressor05
+      Object: 000D78:legacyorsinium.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Aggressor06
+      Object: 000D78:legacyorsinium.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Aggressor07
+      Object: 000D78:legacyorsinium.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Arob
+      Object: 000D78:legacyorsinium.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Boss
+      Object: 000D78:legacyorsinium.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Burguk
+      Object: 000D78:legacyorsinium.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dushnik
+      Object: 000D78:legacyorsinium.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DushnikLocCenter
+      Object: 000D78:legacyorsinium.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ForswornLocation
+      Object: 000D78:legacyorsinium.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gharol
+      Object: 000D78:legacyorsinium.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ghorbash
+      Object: 000D78:legacyorsinium.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Heart
+      Object: 000D78:legacyorsinium.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_IceHeart
+      Object: 000D78:legacyorsinium.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Murbul
+      Object: 000D78:legacyorsinium.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nagrub
+      Object: 000D78:legacyorsinium.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Oglub
+      Object: 000D78:legacyorsinium.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 000D78:legacyorsinium.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player02
+      Object: 000D78:legacyorsinium.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Shel
+      Object: 000D78:legacyorsinium.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Umurn
+      Object: 000D78:legacyorsinium.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BriarHeart
+      Object: 03AD61:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GoldReward
+      Object: 0494DF:Skyrim.esm
+  - Name: LO_DYQ01Script
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: NumberToKill
+      Data: 7
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: Orcs
+      Objects:
+      - Name: ''
+        Object: 000D78:legacyorsinium.esm
+        Alias: 20
+      - Name: ''
+        Object: 000D78:legacyorsinium.esm
+        Alias: 21
+      - Name: ''
+        Object: 000D78:legacyorsinium.esm
+        Alias: 18
+      - Name: ''
+        Object: 000D78:legacyorsinium.esm
+        Alias: 23
+      - Name: ''
+        Object: 000D78:legacyorsinium.esm
+        Alias: 19
+      - Name: ''
+        Object: 000D78:legacyorsinium.esm
+        Alias: 22
+      - Name: ''
+        Object: 000D78:legacyorsinium.esm
+        Alias: 24
+      - Name: ''
+        Object: 000D78:legacyorsinium.esm
+        Alias: 28
+      - Name: ''
+        Object: 000D78:legacyorsinium.esm
+        Alias: 0
+  FileName: AP__QF_LO_DYQ01_02000D78
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: AP__QF_LO_DYQ01_02000D78
+    FragmentName: Fragment_3
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: AP__QF_LO_DYQ01_02000D78
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: AP__QF_LO_DYQ01_02000D78
+    FragmentName: Fragment_6
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: AP__QF_LO_DYQ01_02000D78
+    FragmentName: Fragment_12
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: AP__QF_LO_DYQ01_02000D78
+    FragmentName: Fragment_7
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: AP__QF_LO_DYQ01_02000D78
+    FragmentName: Fragment_8
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: AP__QF_LO_DYQ01_02000D78
+    FragmentName: Fragment_9
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: AP__QF_LO_DYQ01_02000D78
+    FragmentName: Fragment_10
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: AP__QF_LO_DYQ01_02000D78
+    FragmentName: Fragment_14
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000D78:legacyorsinium.esm
+      Alias: 0
+    Scripts:
+    - Name: MDFailQuestOnActorDeath
+  - Property:
+      Name: ''
+      Object: 000D78:legacyorsinium.esm
+      Alias: 4
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000D78:legacyorsinium.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: preReqStage
+        Data: 20
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 25
+  - Property:
+      Name: ''
+      Object: 000D78:legacyorsinium.esm
+      Alias: 5
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000D78:legacyorsinium.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: preReqStage
+        Data: 25
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 30
+  - Property:
+      Name: ''
+      Object: 000D78:legacyorsinium.esm
+      Alias: 6
+    Scripts:
+    - Name: AP_AggressorCounterScript
+  - Property:
+      Name: ''
+      Object: 000D78:legacyorsinium.esm
+      Alias: 11
+    Scripts:
+    - Name: AP_AggressorCounterScript
+  - Property:
+      Name: ''
+      Object: 000D78:legacyorsinium.esm
+      Alias: 12
+    Scripts:
+    - Name: AP_AggressorCounterScript
+  - Property:
+      Name: ''
+      Object: 000D78:legacyorsinium.esm
+      Alias: 13
+    Scripts:
+    - Name: AP_AggressorCounterScript
+  - Property:
+      Name: ''
+      Object: 000D78:legacyorsinium.esm
+      Alias: 14
+    Scripts:
+    - Name: AP_AggressorCounterScript
+  - Property:
+      Name: ''
+      Object: 000D78:legacyorsinium.esm
+      Alias: 15
+    Scripts:
+    - Name: rpdefault_setstagelocationchangealias
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: bLocationEnter
+        Data: True
+      - MutagenObjectType: ScriptBoolProperty
+        Name: bOnlyTriggerOnce
+        Data: True
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LocationToWatch
+        Object: 019171:Skyrim.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: preReqStage
+        Data: 30
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 40
+  - Property:
+      Name: ''
+      Object: 000D78:legacyorsinium.esm
+      Alias: 25
+    Scripts:
+    - Name: AP_AggressorCounterScript
+  - Property:
+      Name: ''
+      Object: 000D78:legacyorsinium.esm
+      Alias: 26
+    Scripts:
+    - Name: AP_AggressorCounterScript
+  - Property:
+      Name: ''
+      Object: 000D78:legacyorsinium.esm
+      Alias: 27
+    Scripts:
+    - Name: AP_DY_AddHostilesScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Aggressor06
+        Object: 000D78:legacyorsinium.esm
+        Alias: 25
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Aggressor07
+        Object: 000D78:legacyorsinium.esm
+        Alias: 26
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: Orcs
+        Objects:
+        - Name: ''
+          Object: 000D78:legacyorsinium.esm
+          Alias: 0
+        - Name: ''
+          Object: 000D78:legacyorsinium.esm
+          Alias: 28
+        - Name: ''
+          Object: 000D78:legacyorsinium.esm
+          Alias: 20
+        - Name: ''
+          Object: 000D78:legacyorsinium.esm
+          Alias: 21
+        - Name: ''
+          Object: 000D78:legacyorsinium.esm
+          Alias: 18
+        - Name: ''
+          Object: 000D78:legacyorsinium.esm
+          Alias: 23
+        - Name: ''
+          Object: 000D78:legacyorsinium.esm
+          Alias: 19
+        - Name: ''
+          Object: 000D78:legacyorsinium.esm
+          Alias: 22
+        - Name: ''
+          Object: 000D78:legacyorsinium.esm
+          Alias: 24
+      - MutagenObjectType: ScriptIntProperty
+        Name: reqStage
+        Data: 30
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StrongHoldLoc
+        Object: 019171:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: A Hearty Heart to Heart
+Flags:
+- RunOnce
+Priority: 60
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+  ComparisonValue: 1
+Stages:
+- {}
+- Index: 10
+  Flags:
+  - StartUpStage
+  - KeepInstanceDataFromHereOn
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've been tasked by Chief Burguk to retrieve a Briar Heart. According to him, eating one will grant "the power of ten orcs". Whether it is true or not, I must find one and deliver it to him.
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Chief Burguk thinks a stronger Briar Heart is required for its effects to take place. A strong warrior named Iceheart has been seen in a place called <Alias=ForswornLocation>. I must kill him, take his heart and bring it back to Burguk.
+- Index: 25
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Iceheart is dead. I must now take the heart from his chest.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have slain the Reachman warrior named Iceheart and retrieved his heart. Burguk will be pleased! I must return to Dushnikh Yal and deliver the heart to him.
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have slain the Reachman warrior named Iceheart and retrieved his heart, which seems to have angered the Forsworn. Dushnikh Yal is under attack. I must defend the stronghold at once.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have slain the Reachman warrior named Iceheart and retrieved his heart. I then helped slaughter the attackers and defended the stronghold. I must now talk to Burguk.
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I have slain the Reachman warrior named Iceheart and retrieved his heart. I then helped slaughter the attackers and defended the stronghold. Burguk did not need the Briar Heart to prove himself to be a strong warrior, deciding to pick up his training instead.
+- Index: 300
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Entry:
+      TargetLanguage: English
+      Value: Burguk is dead.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Deliver a Briar Heart to <Alias=Burguk>
+  Targets:
+  - {}
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Iceheart at <Alias=ForswornLocation>
+  Targets:
+  - AliasID: 4
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Claim the heart
+  Targets:
+  - AliasID: 5
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Chief Burguk
+  Targets:
+  - {}
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defend Dushnik Yal
+  Targets:
+  - AliasID: 6
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 6
+  - AliasID: 11
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 11
+  - AliasID: 12
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 12
+  - AliasID: 13
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 13
+  - AliasID: 14
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 14
+  - AliasID: 25
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 25
+  - AliasID: 26
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 26
+NextAliasID: 29
+Aliases:
+- Name: Burguk
+  Flags:
+  - QuestObject
+  - StoresText
+  - AllowReserved
+  - Protected
+  - UsesStoredText
+  External:
+    Quest: 000D61:legacyorsinium.esm
+    AliasID: 0
+  PackageData:
+  - 000D93:legacyorsinium.esm
+  - 002322:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 2
+  Type: Location
+  Name: ForswornLocation
+  Flags:
+  - ReservesLocationOrReference
+  - StoresText
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 000800:SRC_ERS.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0130EE:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      LocationReferenceType: 0130F7:Skyrim.esm
+    ComparisonValue: 1
+- ID: 3
+  Name: Boss
+  Flags: []
+  Location:
+    AliasID: 2
+    RefType: 0130F7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: IceHeart
+  Flags:
+  - Optional
+  - UsesStoredText
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 000D87:legacyorsinium.esm
+    AliasID: 3
+    Level: VeryHard
+  DisplayName: 000D86:legacyorsinium.esm
+  Spells:
+  - 0204C4:Skyrim.esm
+  - 02B96B:Skyrim.esm
+  - 035D80:Skyrim.esm
+  - 03AEA2:Skyrim.esm
+  - 103A94:Skyrim.esm
+  VoiceTypes: Null
+- ID: 5
+  Name: Heart
+  Flags:
+  - Optional
+  - QuestObject
+  - StoresText
+  - UsesStoredText
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 03AD61:Skyrim.esm
+    AliasID: 3
+  DisplayName: 000D9D:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 8
+  Type: Location
+  Name: Dushnik
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  SpecificLocation: 019171:Skyrim.esm
+- ID: 9
+  Name: DushnikLocCenter
+  Flags:
+  - AllowReserved
+  Location:
+    AliasID: 8
+    RefType: 01BDF1:Skyrim.esm
+  VoiceTypes: Null
+- ID: 6
+  Name: Aggressor01
+  Flags:
+  - Optional
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 0442D2:Skyrim.esm
+    AliasID: 9
+    Level: VeryHard
+  Items:
+  - Item:
+      Item: 002325:legacyorsinium.esm
+      Count: 1
+  Spells:
+  - 0BB967:Skyrim.esm
+  - 10DDEC:Skyrim.esm
+  PackageData:
+  - 002326:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 11
+  Name: Aggressor02
+  Flags:
+  - Optional
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 01E7B5:Skyrim.esm
+    AliasID: 9
+    Level: VeryHard
+  Spells:
+  - 0204C5:Skyrim.esm
+  VoiceTypes: Null
+- ID: 12
+  Name: Aggressor03
+  Flags:
+  - Optional
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 03E085:Skyrim.esm
+    AliasID: 9
+    Level: Hard
+  VoiceTypes: Null
+- ID: 13
+  Name: Aggressor04
+  Flags:
+  - Optional
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 01E7B7:Skyrim.esm
+    AliasID: 9
+    Level: Hard
+  Spells:
+  - 072318:Skyrim.esm
+  - 07231C:Skyrim.esm
+  - 0BB969:Skyrim.esm
+  - 07D98F:Skyrim.esm
+  - 0C969B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 14
+  Name: Aggressor05
+  Flags:
+  - Optional
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 01E7B7:Skyrim.esm
+    AliasID: 9
+    Level: VeryHard
+  Items:
+  - Item:
+      Item: 100DF5:Skyrim.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 25
+  Name: Aggressor06
+  Flags:
+  - Optional
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 01E7B7:Skyrim.esm
+    AliasID: 9
+    Level: VeryHard
+  VoiceTypes: Null
+- ID: 26
+  Name: Aggressor07
+  Flags:
+  - Optional
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 01E7B8:Skyrim.esm
+    AliasID: 9
+    Level: VeryHard
+  Items:
+  - Item:
+      Item: 100E04:Skyrim.esm
+      Count: 1
+  Spells:
+  - 10DDEC:Skyrim.esm
+  - 100E78:Skyrim.esm
+  - 0ABDF3:Skyrim.esm
+  - 0F9615:Skyrim.esm
+  - 0C96A0:Skyrim.esm
+  - 0211ED:Skyrim.esm
+  - 0211EC:Skyrim.esm
+  - 091F74:Skyrim.esm
+  - 0400AB:Skyrim.esm
+  - 0B62E6:Skyrim.esm
+  - 0BB969:Skyrim.esm
+  - 07D98F:Skyrim.esm
+  - 07A82B:Skyrim.esm
+  - 04DEEE:Skyrim.esm
+  - 034C58:Skyrim.esm
+  - 0C969D:Skyrim.esm
+  - 034C38:Skyrim.esm
+  - 040000:Skyrim.esm
+  - 0C969C:Skyrim.esm
+  - 10F7F7:Skyrim.esm
+  - 10FD5F:Skyrim.esm
+  - 10F7F6:Skyrim.esm
+  - 0B8341:Skyrim.esm
+  - 072317:Skyrim.esm
+  VoiceTypes: Null
+- ID: 15
+  Name: Player
+  Flags:
+  - AllowReuseInQuest
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null
+- ID: 27
+  Name: Player02
+  Flags:
+  - AllowReuseInQuest
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null
+- ID: 18
+  Name: Ghorbash
+  Flags:
+  - Optional
+  - AllowReserved
+  UniqueActor: 013B81:Skyrim.esm
+  PackageData:
+  - 002322:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 19
+  Name: Oglub
+  Flags:
+  - Optional
+  - AllowReserved
+  UniqueActor: 013B80:Skyrim.esm
+  PackageData:
+  - 002322:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 20
+  Name: Arob
+  Flags:
+  - Optional
+  - AllowReserved
+  UniqueActor: 013B7B:Skyrim.esm
+  PackageData:
+  - 002322:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 28
+  Name: Murbul
+  Flags:
+  - Optional
+  - AllowReserved
+  UniqueActor: 013B7A:Skyrim.esm
+  PackageData:
+  - 002322:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 21
+  Name: Gharol
+  Flags:
+  - Optional
+  - AllowReserved
+  UniqueActor: 013B7C:Skyrim.esm
+  PackageData:
+  - 002322:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 22
+  Name: Shel
+  Flags:
+  - Optional
+  - AllowReserved
+  UniqueActor: 013B7D:Skyrim.esm
+  PackageData:
+  - 002322:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 23
+  Name: Nagrub
+  Flags:
+  - Optional
+  - AllowReserved
+  UniqueActor: 013B7F:Skyrim.esm
+  PackageData:
+  - 002322:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 24
+  Name: Umurn
+  Flags:
+  - Optional
+  - AllowReserved
+  UniqueActor: 013B7E:Skyrim.esm
+  PackageData:
+  - 002322:legacyorsinium.esm
+  VoiceTypes: Null

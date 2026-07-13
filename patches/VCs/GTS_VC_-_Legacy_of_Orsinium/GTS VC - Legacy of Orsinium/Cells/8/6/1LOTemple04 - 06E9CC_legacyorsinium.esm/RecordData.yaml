@@ -1,0 +1,42 @@
+FormKey: 06E9CC:legacyorsinium.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: 1LOTemple04
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Tomb of Agrok, Final Forge
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+Lighting:
+  AmbientColor: '#00231208'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#000F0C08'
+  FogFar: 11500
+  FogPower: 0.85
+  AmbientColors:
+    DirectionalXPlus: '#001C0E07'
+    DirectionalXMinus: '#00160E07'
+    DirectionalYPlus: '#00190F07'
+    DirectionalYMinus: '#00190F07'
+    DirectionalZPlus: '#000C0603'
+    DirectionalZMinus: '#00231209'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#000C0806'
+  FogMax: 1
+  LightFadeEnd: 11500
+  Inherits:
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+LightingTemplate: 0154E3:legacyorsinium.esm
+WaterHeight: 0
+Location: 01F802:Skyrim.esm
+AcousticSpace: 102774:Skyrim.esm
+Music: 12637C:legacyorsinium.esm
+MajorFlags:
+- 0x40000

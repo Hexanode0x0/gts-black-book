@@ -1,0 +1,444 @@
+FormKey: 005E64:legacyorsinium.esm
+EditorID: LO_MQ02
+VirtualMachineAdapter:
+  Scripts:
+  - Name: AP_QF_LO_MQ02_05005E64
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Azita
+      Object: 005E64:legacyorsinium.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AzitaCorpseMarker
+      Object: 005E64:legacyorsinium.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BanditBoss
+      Object: 005E64:legacyorsinium.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BanditBossLoc
+      Object: 005E64:legacyorsinium.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BanditCorpse
+      Object: 005E64:legacyorsinium.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BanditCorpseMarker
+      Object: 005E64:legacyorsinium.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DeadBanditNote
+      Object: 005E64:legacyorsinium.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gharek
+      Object: 005E64:legacyorsinium.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GharekAlly
+      Object: 005E64:legacyorsinium.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Larak
+      Object: 005E64:legacyorsinium.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Olur
+      Object: 005E64:legacyorsinium.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_relic
+      Object: 005E64:legacyorsinium.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DragonBridgeMapMarkerREF
+      Object: 017753:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GateLever
+      Object: 00FD8A:legacyorsinium.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_AgraCrunRep
+      Object: 015170:legacyorsinium.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LO_MQ02a
+      Object: 01CC4B:legacyorsinium.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MorKhazgurBlacksmithMarkerREF
+      Object: 060702:Skyrim.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: TopicOlurAgraCrunExplained
+  - Name: LO_MQ02QuestScript
+    Properties:
+    - MutagenObjectType: ScriptBoolProperty
+      Name: TopicOlurAgraCrunExplained
+  FileName: AP_QF_LO_MQ02_05005E64
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: AP_QF_LO_MQ02_05005E64
+    FragmentName: Fragment_0
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: AP_QF_LO_MQ02_05005E64
+    FragmentName: Fragment_2
+  - Stage: 41
+    Unknown2: 1
+    ScriptName: AP_QF_LO_MQ02_05005E64
+    FragmentName: Fragment_11
+  - Stage: 42
+    Unknown2: 1
+    ScriptName: AP_QF_LO_MQ02_05005E64
+    FragmentName: Fragment_12
+  - Stage: 43
+    Unknown2: 1
+    ScriptName: AP_QF_LO_MQ02_05005E64
+    FragmentName: Fragment_13
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: AP_QF_LO_MQ02_05005E64
+    FragmentName: Fragment_8
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: AP_QF_LO_MQ02_05005E64
+    FragmentName: Fragment_15
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 005E64:legacyorsinium.esm
+      Alias: 4
+    Scripts:
+    - Name: LO_MQ02BanditBossScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: ObjectiveCompleted1
+        Data: 40
+      - MutagenObjectType: ScriptIntProperty
+        Name: ObjectiveCompleted2
+        Data: 41
+      - MutagenObjectType: ScriptIntProperty
+        Name: ObjectiveCompleted3
+        Data: 42
+      - MutagenObjectType: ScriptIntProperty
+        Name: ObjectiveCompleted4
+        Data: 43
+      - MutagenObjectType: ScriptIntProperty
+        Name: preRequisiteStage
+        Data: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: SetObjectiveDisplayed
+        Data: 44
+  - Property:
+      Name: ''
+      Object: 005E64:legacyorsinium.esm
+      Alias: 8
+    Scripts:
+    - Name: VP_KillOnLoad
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: KillImmediately
+        Data: True
+  - Property:
+      Name: ''
+      Object: 005E64:legacyorsinium.esm
+      Alias: 9
+    Scripts:
+    - Name: VP_KillOnLoad
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: KillImmediately
+        Data: True
+  - Property:
+      Name: ''
+      Object: 005E64:legacyorsinium.esm
+      Alias: 11
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 005E64:legacyorsinium.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+  - Property:
+      Name: ''
+      Object: 005E64:legacyorsinium.esm
+      Alias: 15
+    Scripts:
+    - Name: defaultsetstageonclosebook
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 43
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 005E64:legacyorsinium.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 42
+    - Name: VP_OnReadSetObjectiveDisplayed
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 005E64:legacyorsinium.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: objectiveCompleted
+        Data: 42
+Name:
+  TargetLanguage: English
+  Value: Friends and Foes
+Flags:
+- RunOnce
+Priority: 65
+Type: SideQuest
+Filter: LegacyOrsinium\
+Stages:
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Yulf lies dead within the mines of Mor Khazgur. Chief Larak told me to inform his son, Olur of his tragic demise. He emphasized I should remain blunt and truthful in this act.
+- Index: 15
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have returned from the mines of Mor Khazgur. I informed Olur of Yulf's demise. He worries the Agra Crun warriors may be hunting his friends. I was tasked to warn a Khajiit by the name of Azita.
+- Index: 41
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Olur asked me to warn Yulf's friends about the Agra Crun. Azita lies dead. I must find out what happened.
+- Index: 42
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Olur asked me to warn Yulf's friends about the Agra Crun. Azita lies dead. I should read the note I found.
+- Index: 43
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Olur asked me to warn Yulf's friends about the Agra Crun. I must chase her killers to <Alias=BanditBossLoc>.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Olur asked me to warn Yulf's friends about the Agra Crun. I must chase her killers to <Alias=BanditBossLoc>.
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Olur asked me to warn Yulf's friends about the Agra Crun, fearing for their lives. The Agra Crun weren't responsible for Azita's death, but Mor Khazgur might not be done with them just yet.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Inform Olur of Yulf's demise
+  Targets:
+  - {}
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet Azita near Dragon Bridge
+  Targets:
+  - AliasID: 6
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 005E64:legacyorsinium.esm
+      ComparisonValue: 15
+  - AliasID: 8
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 005E64:legacyorsinium.esm
+      ComparisonValue: 20
+- Index: 41
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate the murder site
+  Targets:
+  - AliasID: 8
+  - AliasID: 9
+- Index: 42
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Dead Bandit's Note
+  Targets:
+  - AliasID: 15
+- Index: 43
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Confront Azita's killers in <Alias=BanditBossLoc>
+  Targets:
+  - AliasID: 4
+- Index: 44
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Azita's belongings
+  Targets:
+  - AliasID: 4
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Olur
+  Targets:
+  - {}
+NextAliasID: 25
+Aliases:
+- ID: 24
+  Name: Larak
+  Flags:
+  - Optional
+  - Essential
+  - AllowReserved
+  UniqueActor: 019951:Skyrim.esm
+  PackageData:
+  - 0339A5:legacyorsinium.esm
+  VoiceTypes: Null
+- Name: Olur
+  Flags:
+  - Optional
+  - AllowReserved
+  UniqueActor: 01995B:Skyrim.esm
+  PackageData:
+  - 06FCCC:Skyrim.esm
+  VoiceTypes: Null
+- ID: 6
+  Name: AzitaCorpseMarker
+  Flags:
+  - Optional
+  ForcedReference: 038897:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: BanditCorpseMarker
+  Flags:
+  - Optional
+  ForcedReference: 038898:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 2
+  Type: Location
+  Name: BanditBossLoc
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - StoresText
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 000800:SRC_ERS.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      LocationReferenceType: 0130F7:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 01A0D3:legacyorsinium.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetInCurrentLocFormListConditionData
+      FormList: 02440C:legacyorsinium.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      Keyword: 0130DF:Skyrim.esm
+    ComparisonValue: 1
+- ID: 4
+  Name: BanditBoss
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  Location:
+    AliasID: 2
+    RefType: 0130F7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: Azita
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 038899:legacyorsinium.esm
+    AliasID: 6
+  VoiceTypes: Null
+- ID: 9
+  Name: BanditCorpse
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 0328E0:Skyrim.esm
+    AliasID: 7
+  VoiceTypes: Null
+- ID: 15
+  Name: DeadBanditNote
+  Flags:
+  - Optional
+  - QuestObject
+  - StoresText
+  - UsesStoredText
+  ForcedReference: 05BFAD:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 11
+  Name: Relic
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  CreateReferenceToObject:
+    Object: 051D9D:legacyorsinium.esm
+    AliasID: 4
+    Create: In
+  VoiceTypes: Null
+- ID: 21
+  Name: Gharek
+  Flags:
+  - Optional
+  - Protected
+  ForcedReference: 0DBEB8:legacyorsinium.esm
+  PackageData:
+  - 0EB1D0:legacyorsinium.esm
+  VoiceTypes: Null
+- ID: 23
+  Name: GharekAlly
+  Flags:
+  - Optional
+  - Protected
+  ForcedReference: 0E0FBC:legacyorsinium.esm
+  PackageData:
+  - 0EB1D1:legacyorsinium.esm
+  VoiceTypes: Null

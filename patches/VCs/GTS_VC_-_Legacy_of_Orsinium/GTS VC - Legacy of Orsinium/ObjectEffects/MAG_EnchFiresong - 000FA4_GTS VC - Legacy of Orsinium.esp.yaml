@@ -1,0 +1,13 @@
+FormKey: 000FA4:GTS VC - Legacy of Orsinium.esp
+EditorID: MAG_EnchFiresong
+Name:
+  TargetLanguage: English
+  Value: Firesong Mask
+EnchantmentCost: 404
+EnchantType: Enchantment
+BaseEnchantment: 0BE028:Skyrim.esm
+WornRestrictions: 10CD22:Skyrim.esm
+Effects:
+- BaseEffect: 048C8B:Skyrim.esm
+  Data:
+    Magnitude: 50
