@@ -14,9 +14,15 @@ ModHeader:
     FileSize: 0
   - Master: Dawnguard.esm
     FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
   - Master: dv01vampireclanwar.esm
+    FileSize: 0
+  - Master: OldBlood.esp
     FileSize: 0
   - Master: Scion.esp
     FileSize: 0
-  - Master: OldBlood.esp
+  - Master: Artificer.esp
+    FileSize: 0
+  - Master: Dynamic NPC Hairstyles.esp
     FileSize: 0

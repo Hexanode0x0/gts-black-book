@@ -1,0 +1,233 @@
+FormKey: 0F3D7B:dv01vampireclanwar.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DV01CronvangrNarina
+SkyrimMajorRecordFlags:
+- Compressed
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - Female
+  - Essential
+  - AutoCalcStats
+  - Unique
+  MagickaOffset: 3000
+  Level:
+    MutagenObjectType: PcLevelMult
+    LevelMult: 1.25
+  CalcMinLevel: 30
+  CalcMaxLevel: 75
+  SpeedMultiplier: 100
+  DispositionBase: 35
+Factions:
+- Faction: 005900:dv01vampireclanwar.esm
+  Rank: 1
+  Fluff: 0x000000
+- Faction: 019809:Skyrim.esm
+  Fluff: 0x000000
+DeathItem: 03ADA0:Skyrim.esm
+Voice: 0F3D7C:dv01vampireclanwar.esm
+Race: 088844:Skyrim.esm
+ActorEffect:
+- 94DB3D:dv01vampireclanwar.esm
+- 033976:Skyrim.esm
+- 040000:Skyrim.esm
+- 08D5C7:Skyrim.esm
+- 0C969E:Skyrim.esm
+- 0EA07B:Skyrim.esm
+- 0F5B5C:Skyrim.esm
+- 0F5B5D:Skyrim.esm
+Perks:
+- Perk: 03AF81:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 051B1B:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 052D50:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 053129:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581DD:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581DE:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581EA:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0C1E91:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0C3679:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0D799A:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 103A90:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+Items:
+- Item:
+    Item: 127188:dv01vampireclanwar.esm
+    Count: 1
+AIData:
+  Aggression: Aggressive
+  Confidence: Brave
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Assistance: HelpsAllies
+Packages:
+- 8D9140:dv01vampireclanwar.esm
+- 887C4B:dv01vampireclanwar.esm
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 02E00F:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Narina Evicus
+ShortName:
+  TargetLanguage: English
+  Value: Narina
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 62
+  - Key: TwoHanded
+    Value: 15
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 20
+  - Key: Smithing
+    Value: 15
+  - Key: HeavyArmor
+    Value: 20
+  - Key: LightArmor
+    Value: 57
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 79
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 15
+  - Key: Alteration
+    Value: 36
+  - Key: Conjuration
+    Value: 57
+  - Key: Destruction
+    Value: 41
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 25
+  - Key: Enchanting
+    Value: 20
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 311
+  Magicka: 3166
+  Stamina: 108
+  GearedUpWeapons: 1
+HeadParts:
+- 0EAA71:Skyrim.esm
+HairColor: 0A042F:Skyrim.esm
+CombatStyle: 02DFB6:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 50
+SoundLevel: Normal
+DefaultOutfit: 934573:dv01vampireclanwar.esm
+DefaultPackageList: 0EB249:Skyrim.esm
+HeadTexture: 051648:Skyrim.esm
+TextureLighting: '#00AC9F97'
+FaceMorph:
+  NoseLongVsShort: -0.3
+  NoseUpVsDown: -1
+  JawUpVsDown: -0.42000002
+  JawNarrowVsWide: -0.56
+  JawForwardVsBack: -0.13999999
+  BrowsUpVsDown: 0.17999995
+  BrowsInVsOut: 0.17999995
+  BrowsForwardVsBack: -1
+  LipsUpVsDown: -0.07999998
+  LipsInVsOut: -1
+  ChinNarrowVsWide: -1
+  ChinUpVsDown: -1
+  ChinUnderbiteVsOverbite: -0.07999998
+FaceParts:
+  Nose: 1
+  Eyes: 6
+  Mouth: 9
+TintLayers:
+- Index: 13
+  Color: '#00AC9F97'
+  InterpolationValue: 1
+  Preset: 433
+- Index: 26
+  Color: '#00364E21'
+  InterpolationValue: 1
+  Preset: 448
+- Index: 27
+  Color: '#00000000'
+  InterpolationValue: 1
+  Preset: 459
+- Index: 34
+  Color: '#00500901'
+  InterpolationValue: 0.78
+  Preset: 488
+- Index: 35
+  Color: '#00A95452'
+  InterpolationValue: 0.44
+  Preset: 461
+- Index: 52
+  Color: '#00330000'
+  InterpolationValue: 1
+  Preset: 858
+MajorFlags:
+- 0x40000

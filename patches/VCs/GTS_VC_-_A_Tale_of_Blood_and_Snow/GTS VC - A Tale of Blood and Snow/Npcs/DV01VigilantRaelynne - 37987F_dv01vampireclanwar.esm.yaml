@@ -1,0 +1,268 @@
+FormKey: 37987F:dv01vampireclanwar.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DV01VigilantRaelynne
+SkyrimMajorRecordFlags:
+- Compressed
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - Female
+  - Essential
+  - AutoCalcStats
+  - Unique
+  MagickaOffset: 150
+  Level:
+    MutagenObjectType: PcLevelMult
+    LevelMult: 1.25
+  CalcMinLevel: 30
+  CalcMaxLevel: 75
+  SpeedMultiplier: 100
+  DispositionBase: 35
+Factions:
+- Faction: 005903:dv01vampireclanwar.esm
+  Rank: 1
+  Fluff: 0x000000
+- Faction: 7E8AD9:dv01vampireclanwar.esm
+  Fluff: 0x000000
+DeathItem: 0C3C9E:Skyrim.esm
+Voice: 379881:dv01vampireclanwar.esm
+Race: 013741:Skyrim.esm
+ActorEffect:
+- 0038B5:Dawnguard.esm
+- 30EB77:dv01vampireclanwar.esm
+- 034C38:Skyrim.esm
+- 072317:Skyrim.esm
+- 07231B:Skyrim.esm
+- 101065:Skyrim.esm
+Perks:
+- Perk: 0581E4:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581F4:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581F5:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581F8:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+AIData:
+  Aggression: Aggressive
+  Confidence: Cautious
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Assistance: HelpsFriendsAndAllies
+Packages:
+- 887C4B:dv01vampireclanwar.esm
+- 8D9140:dv01vampireclanwar.esm
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 01317A:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Raelynne Belette
+ShortName:
+  TargetLanguage: English
+  Value: Raelynne
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 15
+  - Key: TwoHanded
+    Value: 15
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 15
+  - Key: Smithing
+    Value: 15
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 36
+  - Key: Alchemy
+    Value: 20
+  - Key: Speech
+    Value: 20
+  - Key: Alteration
+    Value: 62
+  - Key: Conjuration
+    Value: 67
+  - Key: Destruction
+    Value: 78
+  - Key: Illusion
+    Value: 20
+  - Key: Restoration
+    Value: 84
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 292
+  Magicka: 393
+  Stamina: 50
+  GearedUpWeapons: 1
+HeadParts:
+- 040224:Skyrim.esm
+- 05114A:Skyrim.esm
+- 0E4DA5:Skyrim.esm
+HairColor: 0A0430:Skyrim.esm
+CombatStyle: 03BE1C:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 25
+SoundLevel: Normal
+DefaultOutfit: 00590B:dv01vampireclanwar.esm
+DefaultPackageList: 0EB249:Skyrim.esm
+HeadTexture: 051647:Skyrim.esm
+TextureLighting: '#009B8B84'
+FaceMorph:
+  NoseLongVsShort: -0.39999998
+  NoseUpVsDown: 0.059999943
+  JawUpVsDown: -0.100000024
+  JawNarrowVsWide: -0.88
+  JawForwardVsBack: -0.100000024
+  CheeksUpVsDown: 0.58000004
+  CheeksForwardVsBack: 0.34000003
+  EyesUpVsDown: -0.01999998
+  EyesInVsOut: -0.36
+  BrowsUpVsDown: -0.100000024
+  BrowsInVsOut: 0.41999996
+  BrowsForwardVsBack: -0.07999998
+  LipsUpVsDown: 0.22000003
+  LipsInVsOut: 0.08000004
+  ChinNarrowVsWide: -1
+  ChinUpVsDown: -0.65999997
+  ChinUnderbiteVsOverbite: -0.19999999
+FaceParts:
+  Nose: 2
+  Eyes: 15
+  Mouth: 2
+TintLayers:
+- Index: 16
+  Color: '#009B8B84'
+  InterpolationValue: 1
+  Preset: 653
+- Index: 17
+  Color: '#00364E21'
+  InterpolationValue: 0.75
+  Preset: 667
+- Index: 18
+  Color: '#00212B52'
+  InterpolationValue: 0.34
+  Preset: 673
+- Index: 19
+  Color: '#00A95452'
+  InterpolationValue: 0.7
+  Preset: 680
+- Index: 20
+  Color: '#00A95452'
+  InterpolationValue: 0.52
+  Preset: 688
+- Index: 21
+  Color: '#00070C3D'
+  InterpolationValue: 0.69
+  Preset: 1217
+- Index: 22
+  Color: '#00A95452'
+  InterpolationValue: 0.2
+  Preset: 702
+- Index: 23
+  Color: '#00430401'
+  InterpolationValue: 0.86
+  Preset: 705
+- Index: 25
+  Color: '#00A95452'
+  InterpolationValue: 0.5
+  Preset: 719
+- Index: 26
+  Color: '#00A95452'
+  InterpolationValue: 0.72
+  Preset: 723
+- Index: 40
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 732
+- Index: 41
+  Color: '#00330000'
+  InterpolationValue: 1
+  Preset: 764
+- Index: 42
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 780
+- Index: 43
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 804
+- Index: 44
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 828
+- Index: 47
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 900
+- Index: 52
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 996
+- Index: 54
+  Color: '#000A0931'
+  InterpolationValue: 1
+  Preset: 1054
+- Index: 55
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 1068
+- Index: 74
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 1188
+MajorFlags:
+- 0x40000

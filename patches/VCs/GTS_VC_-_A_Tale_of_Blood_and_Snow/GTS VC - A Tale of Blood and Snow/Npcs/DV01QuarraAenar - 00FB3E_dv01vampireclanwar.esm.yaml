@@ -1,0 +1,196 @@
+FormKey: 00FB3E:dv01vampireclanwar.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DV01QuarraAenar
+SkyrimMajorRecordFlags:
+- Compressed
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - Essential
+  - AutoCalcStats
+  - Unique
+  MagickaOffset: 1500
+  Level:
+    MutagenObjectType: PcLevelMult
+    LevelMult: 1.25
+  CalcMinLevel: 30
+  CalcMaxLevel: 75
+  SpeedMultiplier: 100
+  DispositionBase: 35
+Factions:
+- Faction: 005902:dv01vampireclanwar.esm
+  Rank: 2
+  Fluff: 0x000000
+- Faction: 3BB64E:dv01vampireclanwar.esm
+  Fluff: 0x000000
+DeathItem: 03ADA0:Skyrim.esm
+Voice: 0ACDBD:dv01vampireclanwar.esm
+Race: 088794:Skyrim.esm
+ActorEffect:
+- 010F6C:Dawnguard.esm
+- 127185:dv01vampireclanwar.esm
+- 30EB78:dv01vampireclanwar.esm
+- 033976:Skyrim.esm
+- 0EA07B:Skyrim.esm
+- 0F5B5C:Skyrim.esm
+- 0F5B5D:Skyrim.esm
+Perks:
+- Perk: 03AF81:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 052D50:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 053129:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581DD:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581DE:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581EA:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0C1E91:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0C3679:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0D799A:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 103A90:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+Items:
+- Item:
+    Item: 0ACC2C:Skyrim.esm
+    Count: 1
+AIData:
+  Aggression: Aggressive
+  Confidence: Brave
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Assistance: HelpsAllies
+Packages:
+- 8D9140:dv01vampireclanwar.esm
+- 887C4B:dv01vampireclanwar.esm
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 01CE17:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Aenar
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 83
+  - Key: TwoHanded
+    Value: 89
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 62
+  - Key: Smithing
+    Value: 20
+  - Key: HeavyArmor
+    Value: 36
+  - Key: LightArmor
+    Value: 62
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 15
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 20
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 369
+  Magicka: 1550
+  Stamina: 166
+  GearedUpWeapons: 1
+HeadParts:
+- 04020E:Skyrim.esm
+- 051406:Skyrim.esm
+- 0C3CD6:Skyrim.esm
+HairColor: 0A042E:Skyrim.esm
+CombatStyle: 02DFB6:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 50
+SoundLevel: Normal
+DefaultOutfit: 005909:dv01vampireclanwar.esm
+DefaultPackageList: 0EB249:Skyrim.esm
+TextureLighting: '#00A7867A'
+TintLayers:
+- Index: 39
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 172
+- Index: 41
+  Color: '#00510000'
+  InterpolationValue: 1
+  Preset: 226
+- Index: 42
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 244
+MajorFlags:
+- 0x40000

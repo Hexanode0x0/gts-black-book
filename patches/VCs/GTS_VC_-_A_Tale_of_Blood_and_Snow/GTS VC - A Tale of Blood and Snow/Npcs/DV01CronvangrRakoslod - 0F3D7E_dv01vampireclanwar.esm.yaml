@@ -1,0 +1,220 @@
+FormKey: 0F3D7E:dv01vampireclanwar.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DV01CronvangrRakoslod
+SkyrimMajorRecordFlags:
+- Compressed
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - Essential
+  - AutoCalcStats
+  - Unique
+  MagickaOffset: 1500
+  Level:
+    MutagenObjectType: PcLevelMult
+    LevelMult: 1.25
+  CalcMinLevel: 30
+  CalcMaxLevel: 75
+  SpeedMultiplier: 100
+  DispositionBase: 35
+Factions:
+- Faction: 005900:dv01vampireclanwar.esm
+  Rank: 1
+  Fluff: 0x000000
+DeathItem: 03ADA0:Skyrim.esm
+Voice: 0F3D7D:dv01vampireclanwar.esm
+Race: 088794:Skyrim.esm
+ActorEffect:
+- 94DB3D:dv01vampireclanwar.esm
+- 033976:Skyrim.esm
+- 040000:Skyrim.esm
+- 08D5C7:Skyrim.esm
+- 0C969E:Skyrim.esm
+- 0EA07B:Skyrim.esm
+- 0F5B5C:Skyrim.esm
+- 0F5B5D:Skyrim.esm
+Perks:
+- Perk: 03AF81:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 052D50:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 053129:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581DD:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581DE:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0581EA:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0C1E91:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0C3679:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 0D799A:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+- Perk: 103A90:Skyrim.esm
+  Rank: 1
+  Fluff: 0x000000
+AIData:
+  Aggression: Aggressive
+  Confidence: Brave
+  EnergyLevel: 50
+  Responsibility: NoCrime
+  Assistance: HelpsAllies
+Packages:
+- 8D9140:dv01vampireclanwar.esm
+- 887C4B:dv01vampireclanwar.esm
+Keywords:
+- 000042:Dynamic NPC Hairstyles.esp
+Class: 02E00F:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Rakoslod
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 62
+  - Key: TwoHanded
+    Value: 25
+  - Key: Archery
+    Value: 15
+  - Key: Block
+    Value: 20
+  - Key: Smithing
+    Value: 20
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 62
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 79
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 20
+  - Key: Alteration
+    Value: 36
+  - Key: Conjuration
+    Value: 57
+  - Key: Destruction
+    Value: 36
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 311
+  Magicka: 1666
+  Stamina: 108
+  GearedUpWeapons: 1
+HeadParts:
+- 051412:Skyrim.esm
+- 0C716F:Skyrim.esm
+- 0CDCBE:Skyrim.esm
+HairColor: 0A0430:Skyrim.esm
+CombatStyle: 02DFB6:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 50
+SoundLevel: Normal
+DefaultOutfit: 934573:dv01vampireclanwar.esm
+DefaultPackageList: 0EB249:Skyrim.esm
+TextureLighting: '#00A7867A'
+FaceMorph:
+  NoseLongVsShort: -0.36
+  NoseUpVsDown: 0.39999998
+  JawNarrowVsWide: 1
+  CheeksUpVsDown: 1
+  CheeksForwardVsBack: -1
+  BrowsInVsOut: 1
+  LipsUpVsDown: 0.48000002
+  ChinNarrowVsWide: 0.6
+  ChinUpVsDown: -0.3
+  ChinUnderbiteVsOverbite: 0.100000024
+FaceParts:
+  Nose: 11
+TintLayers:
+- Index: 42
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 244
+- Index: 43
+  Color: '#00330000'
+  InterpolationValue: 1
+  Preset: 300
+- Index: 60
+  Color: '#00330000'
+  InterpolationValue: 1
+  Preset: 324
+- Index: 61
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 340
+- Index: 62
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 364
+- Index: 63
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 388
+- Index: 64
+  Color: '#00FFFFFF'
+  InterpolationValue: 0
+  Preset: 412
+MajorFlags:
+- 0x40000
