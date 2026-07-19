@@ -6,6 +6,9 @@ tags:
 # Armor & Weapon Addons
 This page is dedicated to addond adding or modifying armors and weapons.
 
+!!! info
+    This page has not yet been updated for GTS v113
+
 ## Supported Addons
 Addons listed here are supported by their respective curators, and expected to work.
 

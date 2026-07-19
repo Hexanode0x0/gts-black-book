@@ -6,6 +6,9 @@ tags:
 # Quest & New Land Addons
 This page lists addons that add new quests or new areas to explore.
 
+!!! info
+    This page has not yet been updated for GTS v113
+
 ## Supported Addons
 Addons listed here are supported by their respective curators, and expected to work.
 

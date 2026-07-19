@@ -3,3 +3,4 @@
 site
 typos.toml
 patches/*/build
+__pycache__

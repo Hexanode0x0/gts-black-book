@@ -6,15 +6,11 @@ tags:
 # Interface & Sound Addons
 This page is dedicated to addons changing the user interface, control schemes, sounds, music, or similar.
 
+!!! info
+    This page has not yet been updated for GTS v113
+
 ## Supported Addons
 Addons listed here are supported by their respective curators, and expected to work.
-
-??? success "Kiza's Nordic UI for GTS"
-    Kiza's Nordic UI is supported.
-    
-    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/rjhvsf)
-    
-    [:fontawesome-brands-discord: Discord Thread](https://discord.com/channels/902984082181484615/1492528267411062956)
 
 ??? success "Vel'dun UI for GTS"
     Vel'dun UI for GTS is supported.
@@ -50,3 +46,15 @@ Addons listed here are supported by their respective curators, and expected to w
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/1mgdgk)
     
     [:fontawesome-brands-discord: Discord Thread (Dibellan Arts Sheogorath Style)](https://discord.com/channels/902984082181484615/1495618864778575933)
+
+## Out of Date Addons
+Addons listed here are supported, but have not yet been updated to support the newest GTS version.
+
+??? question "Kiza's Nordic UI for GTS"
+    Kiza's Nordic UI is in the process of being updated.
+
+    :lucide-lock: This addon requires an update for each GTS version.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/rjhvsf)
+    
+    [:fontawesome-brands-discord: Discord Thread](https://discord.com/channels/902984082181484615/1492528267411062956)

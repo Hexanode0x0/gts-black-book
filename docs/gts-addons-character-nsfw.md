@@ -18,15 +18,11 @@ tags:
 
         As of right now, NSFW in the context of this page refers to sexual content only. If any objectionable, non-sexual addons come about, this tag may broaden.
 
+!!! info
+    This page has not yet been updated for GTS v113
+
 ## Supported Addons
 Addons listed here are supported by their respective curators, and expected to work.
-
-??? success "Mannaz and Freyr for GTS"
-    Mannaz and Freyr for GTS is supported.
-    
-    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/cda6ea)
-    
-    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424858532846637210)
 
 ??? success "Roleplaying... in GTS"
     Roleplaying... in GTS is supported.
@@ -168,13 +164,22 @@ Addons listed here are supported by their respective curators, and expected to w
 Addons listed here are supported, but have not yet been updated to support the newest GTS version.
 
 ??? question "Sheo Style presents PSBoss (NSFW)"
-    Sheo Style presents PSBoss is supported.
-
+    Sheo Style presents PSBoss is in the process of being updated to GTS v113.
+    
     This addon is NSFW.
+
+    This addon requires an update for each GTS version.
     
     [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/0gmvov)
     
     [:fontawesome-brands-discord: Discord Thread (Dibellan Arts Sheogorath Style)](https://discord.com/channels/902984082181484615/1495618864778575933)
+
+??? success "Mannaz and Freyr for GTS"
+    Mannaz and Freyr for GTS is in the process of being updated.
+    
+    [:lucide-file-text: Collection Page](https://www.nexusmods.com/games/skyrimspecialedition/collections/cda6ea)
+    
+    [:fontawesome-brands-discord: Discord Channel](https://discord.com/channels/902984082181484615/1424858532846637210)
 
 ## Deprecated Addons
 These addons are abandoned and have some severe issues, and should not be used with newer GTS versions.
