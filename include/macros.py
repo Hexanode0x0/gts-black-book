@@ -236,7 +236,7 @@ def define_env(env):
             "discord_channel": "https://discord.com/channels/902984082181484615/1424858532846637210",
             "discord_channel_tag": "",
             "github": "",
-            "not_compatible": ["Blessed Perks for GTS", "CuBoCorrx Combat Initiative for GTS", "GTS Black - Power Fantasy GTS"]
+            "not_compatible": ["CuBoCorrx Combat Initiative for GTS", "GTS Black - Power Fantasy GTS"]
         },
         {
             "name": "Modern Vanilla Combat (MVC) for GTS",
@@ -308,7 +308,7 @@ def define_env(env):
             "desc": "Honor In Death for GTS is a comprehensive combat overhaul with a lot of changes.",
             "support": "out_of_date",
             "versioning": "minimum",
-            "version_number": 109,
+            "version_number": 108,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/kwkfuj",
             "nexus_page_tag": "Unlisted",
             "discord_channel": "https://discord.com/channels/902984082181484615/1486194390161424495",
@@ -318,23 +318,23 @@ def define_env(env):
         },
         {
             "name": "Blessed Perks for GTS",
-            "desc": "Blessed Perks for GTS overhauls the perk trees to better serve the Honor in Death addon.",
-            "support": "out_of_date",
-            "versioning": "minimum",
-            "version_number": 109,
+            "desc": "Blessed Perks for GTS overhauls the perk trees to better serve the Honor in Death addon. It has been deprecated and will be merged into Honor in Death.",
+            "support": "deprecated",
+            "versioning": "locked",
+            "version_number": 108,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/kojve0",
             "nexus_page_tag": "",
             "discord_channel": "https://discord.com/channels/902984082181484615/1486194390161424495",
             "discord_channel_tag": "",
             "github": "",
-            "not_compatible": ["GTS Black - Power Fantasy GTS", "CuBoCorrx Combat Initiative for GTS", "Adamant Addons for GTS"]
+            "not_compatible": ["GTS Black - Power Fantasy GTS", "CuBoCorrx Combat Initiative for GTS"]
         },
         {
             "name": "Creature Animations for GTS",
-            "desc": "Creature Animations for GTS overhauls the perk trees to better serve the Honor in Death addon.",
+            "desc": "Creature Animations for GTS overhauls animations and movesets of creatures.",
             "support": "supported",
-            "versioning": "minimum",
-            "version_number": 109,
+            "versioning": "locked",
+            "version_number": 108,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/oy6eak",
             "nexus_page_tag": "",
             "discord_channel": "https://discord.com/channels/902984082181484615/1486194390161424495",
