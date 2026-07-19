@@ -323,7 +323,7 @@ def define_env(env):
             "versioning": "locked",
             "version_number": 108,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/kojve0",
-            "nexus_page_tag": "",
+            "nexus_page_tag": "Unlisted",
             "discord_channel": "https://discord.com/channels/902984082181484615/1486194390161424495",
             "discord_channel_tag": "",
             "github": "",
