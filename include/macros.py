@@ -28,7 +28,7 @@ def define_env(env):
             "desc": "GTS CE is a large addon that focuses on quality of life features, customizabilty, visuals, and more. It adds many new options to the Gear of Balance, overhauls Nordic Ruin exteriors, makes animals fluffy, adds tutorials, and a lot more.",
             "support": "supported",
             "versioning": "locked",
-            "version_number": 112,
+            "version_number": 113,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/hvfynw",
             "nexus_page_tag": "",
             "discord_channel": "https://discord.com/channels/902984082181484615/1424039315616301146",
