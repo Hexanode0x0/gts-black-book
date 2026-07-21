@@ -517,7 +517,7 @@ def define_env(env):
             "name": "Vel'dun UI for GTS",
             "desc": "Vel'dun UI for GTS overhauls the user interface to use Vel'dun UI and it adds lot of mods Vel'dun has compatibility with.",
             "support": "supported",
-            "versioning": "minimum",
+            "versioning": "free",
             "version_number": 113,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/veystx",
             "nexus_page_tag": "",
@@ -546,7 +546,7 @@ def define_env(env):
             "desc": "GTS - Some Dragonborns need Gamepads adds controller configuration, as well as the Dragonborn UI reskin.",
             "support": "supported",
             "versioning": "free",
-            "version_number": 110,
+            "version_number": 113,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/ajz80f",
             "nexus_page_tag": "",
             "discord_channel": "https://discord.com/channels/902984082181484615/1424038554232946689",
@@ -1180,7 +1180,7 @@ deprecated_addons = []
 
 def print_addon_generics(addon):
     if addon["nsfw"] == True:
-        print("\t:lucide-triangle-alert: This addon is NSFW. Viewer discession is advised.\n")
+        print("\t:lucide-triangle-alert: This addon is NSFW. Viewer discretion is advised.\n")
 
     if addon["nexus_page"] != "":
         nexus_string = ""
