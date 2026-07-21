@@ -15,6 +15,8 @@ repo_name = "Hexanode0x0/gts-black-book"
 
 edit_uri = "edit/main/docs/"
 
+watch = ["include/macros.py"]
+
 copyright = """
 Copyright &copy; 2026 Hexanode
 """
