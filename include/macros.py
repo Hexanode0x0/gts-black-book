@@ -1081,7 +1081,7 @@ def define_env(env):
         },
         {
             "name": "Sheo Style presents PSBoss (NSFW)",
-            "desc": "GTS - Fairies adds various mods by PSBoss.",
+            "desc": "Sheo Style presents PSBoss adds various mods by PSBoss.",
             "support": "supported",
             "versioning": "free",
             "version_number": 113,
