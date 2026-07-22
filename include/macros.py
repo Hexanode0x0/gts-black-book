@@ -525,7 +525,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Kiza's Nordic UI for GTS", "GTS - Some Dragonborns need Gamepads", "GTS CE+ 21:9 Dragonborn UI"]
+            "not_compatible": ["Kiza's Nordic UI for GTS", "GTS - Some Dragonborns need Gamepads", "GTS CE+ 21:9 Dragonborn UI", "GTS Unofficial Addon: Vanilla UI++"]
         },
         {
             "name": "Kiza's Nordic UI for GTS",
@@ -539,7 +539,7 @@ def define_env(env):
             "discord_channel_tag": "Nordic UI Thread",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Vel'dun UI for GTS", "GTS - Some Dragonborns need Gamepads", "GTS CE+ 21:9 Dragonborn UI"]
+            "not_compatible": ["Vel'dun UI for GTS", "GTS - Some Dragonborns need Gamepads", "GTS CE+ 21:9 Dragonborn UI", "GTS Unofficial Addon: Vanilla UI++"]
         },
         {
             "name": "GTS - Some Dragonborns need Gamepads",
@@ -553,7 +553,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Vel'dun UI for GTS", "Kiza's Nordic UI for GTS", "GTS CE+ 21:9 Dragonborn UI"]
+            "not_compatible": ["Vel'dun UI for GTS", "Kiza's Nordic UI for GTS", "GTS CE+ 21:9 Dragonborn UI", "GTS Unofficial Addon: Vanilla UI++"]
         },
         {
             "name": "GTS CE+ 21:9 Dragonborn UI",
@@ -567,7 +567,21 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Vel'dun UI for GTS", "Kiza's Nordic UI for GTS", "GTS - Some Dragonborns need Gamepads"]
+            "not_compatible": ["Vel'dun UI for GTS", "Kiza's Nordic UI for GTS", "GTS - Some Dragonborns need Gamepads", "GTS Unofficial Addon: Vanilla UI++"]
+        },
+        {
+            "name": "GTS Unofficial Addon: Vanilla UI++",
+            "desc": "GTS Unofficial Addon: Vanilla UI++ adds some UI and HUD elements in the vanilla interface style.",
+            "support": "supported",
+            "versioning": "free",
+            "version_number": 108,
+            "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/hahyis",
+            "nexus_page_tag": "",
+            "discord_channel": "https://discord.com/channels/902984082181484615/1424038554232946689",
+            "discord_channel_tag": "Addons General",
+            "github": "",
+            "nsfw": False,
+            "not_compatible": ["Vel'dun UI for GTS", "Kiza's Nordic UI for GTS", "GTS - Some Dragonborns need Gamepads", "GTS CE+ 21:9 Dragonborn UI"]
         },
         {
             "name": "GTS Unofficial Addon: DBVO Talion",
