@@ -1007,7 +1007,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": True,
-            "not_compatible": ["Dibellan Arts - Ostim for GTS", "GTS - Dibellan Arts Sheogorath Style", "Sheogorath Style lite", "Dat Body - Snu Snu"]
+            "not_compatible": ["Dibellan Arts - Ostim for GTS", "GTS - Dibellan Arts Sheogorath Style", "Sheogorath Style for GTS", "Dat Body - Snu Snu"]
         },
         {
             "name": "Dibellan Arts - Ostim for GTS (NSFW)",
@@ -1021,25 +1021,25 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": True,
-            "not_compatible": ["GTS Unofficial Addon: OStim+Quests", "GTS - Dibellan Arts Sheogorath Style", "Sheogorath Style lite", "Dat Body - Snu Snu"]
+            "not_compatible": ["GTS Unofficial Addon: OStim+Quests", "GTS - Dibellan Arts Sheogorath Style", "Sheogorath Style for GTS", "Dat Body - Snu Snu"]
         },
         {
             "name": "GTS - Dibellan Arts Sheogorath Style (NSFW)",
             "desc": "Dibellan Arts - Ostim for GTS adds Ostim and it's own body mods.",
-            "support": "supported",
+            "support": "deprecated",
             "versioning": "locked",
             "version_number": 113,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/nuwfgt",
-            "nexus_page_tag": "",
+            "nexus_page_tag": "Unlisted",
             "discord_channel": "https://discord.com/channels/902984082181484615/1495618864778575933",
             "discord_channel_tag": "Dibellan Arts Sheogorath Style Thread",
             "github": "",
             "nsfw": True,
-            "not_compatible": ["GTS Unofficial Addon: OStim+Quests", "Dibellan Arts - Ostim for GTS", "Sheogorath Style lite", "Dat Body - Snu Snu"]
+            "not_compatible": ["GTS Unofficial Addon: OStim+Quests", "Dibellan Arts - Ostim for GTS", "Sheogorath Style for GTS", "Dat Body - Snu Snu"]
         },
         {
-            "name": "Sheogorath Style lite (NSFW)",
-            "desc": "Sheogorath Style lite adds Ostim.",
+            "name": "Sheogorath Style for GTS (NSFW)",
+            "desc": "Sheogorath Style for GTS adds Ostim and supporting mods.",
             "support": "supported",
             "versioning": "minimum",
             "version_number": 113,
@@ -1147,7 +1147,7 @@ def define_env(env):
             "discord_channel_tag": "NSFW Discussions Thread",
             "github": "",
             "nsfw": True,
-            "not_compatible": ["GTS Unofficial Addon: OStim+Quests", "Dibellan Arts - Ostim for GTS", "Sheogorath Style lite", "GTS - Dibellan Arts Sheogorath Style (NSFW)"]
+            "not_compatible": ["GTS Unofficial Addon: OStim+Quests", "Dibellan Arts - Ostim for GTS", "Sheogorath Style for GTS", "GTS - Dibellan Arts Sheogorath Style (NSFW)"]
         },
         {
             "name": "GTS - Varric NPC Replacers (NSFW)",
