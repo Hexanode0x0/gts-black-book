@@ -898,6 +898,20 @@ def define_env(env):
             "not_compatible": ["GTS Character Creation Add-On"]
         },
         {
+            "name": "GTS CE - Moar Races",
+            "desc": "GTS CE - Moar Races adds 13 new custom races for you to create a character with.",
+            "support": "supported",
+            "versioning": "minimum",
+            "version_number": 104,
+            "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/afoawt",
+            "nexus_page_tag": "",
+            "discord_channel": "https://discord.com/channels/902984082181484615/1424038554232946689",
+            "discord_channel_tag": "Addons General",
+            "github": "",
+            "nsfw": False,
+            "not_compatible": []
+        },
+        {
             "name": "GTS SkyRev Skins SFW",
             "desc": "GTS SkyRev Skins SFW changes the skin of characters to Skysights and Reverie.",
             "support": "supported",
