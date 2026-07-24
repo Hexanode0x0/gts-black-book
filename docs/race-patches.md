@@ -55,3 +55,10 @@ The Tale of Two Moons patch requires the main mod as well as an Aetherious Patch
 [:lucide-file-text: A Tale of Two Moons - Aetherious Edition](https://www.nexusmods.com/skyrimspecialedition/mods/146111)
 
 [:lucide-package: GTS CE - A Tale of Two Moons Patch](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Races)
+
+## Half-Dragon
+The Half-Dragon patch requires only the main mod.
+
+[:lucide-file-text: A Tale of Two Moons](https://www.nexusmods.com/skyrimspecialedition/mods/18268)
+
+[:lucide-package: GTS CE - Half-Dragon](https://github.com/Hexanode0x0/gts-black-book/releases/tag/Races)
