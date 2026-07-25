@@ -1,28 +1,28 @@
 def define_env(env):
     env.variables["current_gts_version"] = 115
     # About Defining Addons:
-        # You need to include all fields. Set the ones you don't want / have to an empty string ("") to not display them.
-        # "name" => String. The name of the addon. Should match what's on Nexus.
-        # "desc" => String. Description of the addon. Full Zensical markdown is supported, if a bit clunky.
-        # "support" => String. lower case only. The support status of the addon. Use these variants:
-            # "supported" - The addon is fully supported.
-            # "out_of_date" - The addon needs to be updated.
-            # "unsupported" - The curator does not offer any support or updates.
-            # "deprecated" - Abandoned and has issues, this addon should not be used.
-        # "versioning" => String. lower case only. How the addon is versioned against GTS. Use these variants:
-            # "locked" - The addon is locked to a specific GTS version. If used with a "supported" status, the addon will be moved to 'out of date' automatically when GTS updates.
-            # "minimum" - A minimum version of GTS is required.
-            # "free" - No version restrictions.
-        # "version_number" => Number. The GTS revision your addon is targeting. Will be used as minimum version for "locked" and "minimum" versioned addons. "free", "out_of_date", "unsupported", and "deprecated" addons will use it as a last confirmed working version.
-        # "nexus_page" => String. Link to the collection's Nexus Mods page.
-        # "nexus_page_tag" => String. Will be added to the link in parenthesis. Typically used to inform users that an addon is unlisted. e.g. "nexus_page_tag" = "Unlisted" => "Collection Page (Unlisted)"
-        # "discord_channel" => String. Link to the discord channel (or thread) for an addon. If the addon doesn't have a dedicated channel, use Addons General.
-        # "discord_channel_tag" => String. Same as "nexus_page_tag". Use it for specifying Addons General or a thread the addon uses, if it doesn't have a dedicated channel. e.g. "discord_channel_tag" = "Addons General" => "Discord Channell (Adddons General)"
-        # "github" => String. Link to a Github repo.
-        # "nsfw" => Bool. True or False. Is the addon sexual? True is only allowed in the 'cnn' group.
-        # "not_compatible" => List of Strings. These will be added as bullet points in a collapsible box on the addon listing. e.g. "not_compatible" = ["Addon1", "Addon2"].
+    # You need to include all fields. Set the ones you don't want / have to an empty string ("") to not display them.
+    # "name" => String. The name of the addon. Should match what's on Nexus.
+    # "desc" => String. Description of the addon. Full Zensical markdown is supported, if a bit clunky.
+    # "support" => String. lower case only. The support status of the addon. Use these variants:
+    # "supported" - The addon is fully supported.
+    # "out_of_date" - The addon needs to be updated.
+    # "unsupported" - The curator does not offer any support or updates.
+    # "deprecated" - Abandoned and has issues, this addon should not be used.
+    # "versioning" => String. lower case only. How the addon is versioned against GTS. Use these variants:
+    # "locked" - The addon is locked to a specific GTS version. If used with a "supported" status, the addon will be moved to 'out of date' automatically when GTS updates.
+    # "minimum" - A minimum version of GTS is required.
+    # "free" - No version restrictions.
+    # "version_number" => Number. The GTS revision your addon is targeting. Will be used as minimum version for "locked" and "minimum" versioned addons. "free", "out_of_date", "unsupported", and "deprecated" addons will use it as a last confirmed working version.
+    # "nexus_page" => String. Link to the collection's Nexus Mods page.
+    # "nexus_page_tag" => String. Will be added to the link in parenthesis. Typically used to inform users that an addon is unlisted. e.g. "nexus_page_tag" = "Unlisted" => "Collection Page (Unlisted)"
+    # "discord_channel" => String. Link to the discord channel (or thread) for an addon. If the addon doesn't have a dedicated channel, use Addons General.
+    # "discord_channel_tag" => String. Same as "nexus_page_tag". Use it for specifying Addons General or a thread the addon uses, if it doesn't have a dedicated channel. e.g. "discord_channel_tag" = "Addons General" => "Discord Channell (Adddons General)"
+    # "github" => String. Link to a Github repo.
+    # "nsfw" => Bool. True or False. Is the addon sexual? True is only allowed in the 'cnn' group.
+    # "not_compatible" => List of Strings. These will be added as bullet points in a collapsible box on the addon listing. e.g. "not_compatible" = ["Addon1", "Addon2"].
 
-    #Large and unique
+    # Large and unique
     env.variables["lnu_addons"] = [
         {
             "name": "GTS Community Edition",
@@ -36,7 +36,11 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "https://github.com/Hexanode0x0/GTS-Community-Edition",
             "nsfw": False,
-            "not_compatible": ["Slow Your Roll... For GTS", "GOT - HOTD Dragons for GTS", "GTS Fluffworks"]
+            "not_compatible": [
+                "Slow Your Roll... For GTS",
+                "GOT - HOTD Dragons for GTS",
+                "GTS Fluffworks",
+            ],
         },
         {
             "name": "GTS Legacy Lite",
@@ -50,7 +54,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "Smoking of Skooma for GTS",
@@ -64,7 +68,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS - For the Love of Followers",
@@ -78,7 +82,7 @@ def define_env(env):
             "discord_channel_tag": "Dibellan Arts Sheogorath Style",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: Family Life",
@@ -92,7 +96,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "Slow Your Roll... for GTS",
@@ -106,7 +110,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["GTS Community Edition"]
+            "not_compatible": ["GTS Community Edition"],
         },
         {
             "name": "Roleplaying... in GTS",
@@ -120,7 +124,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: Safe Save Lite",
@@ -134,10 +138,10 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
     ]
-    #Visual and performance
+    # Visual and performance
     env.variables["vnp_addons"] = [
         {
             "name": "GTS - Brave Little Toaster Edition",
@@ -151,7 +155,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS - Fabled Forests Lite 4 Toasters",
@@ -165,7 +169,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "Player Home Overhaul for GTS",
@@ -179,7 +183,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GOT - HOTD Dragons for GTS",
@@ -193,7 +197,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["GTS Community Edition"]
+            "not_compatible": ["GTS Community Edition"],
         },
         {
             "name": "Runic Arts for GTS",
@@ -207,7 +211,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: Meshes++",
@@ -221,7 +225,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS - True Light",
@@ -235,7 +239,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS - Unofficial Visuals",
@@ -249,7 +253,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Fluffworks",
@@ -263,10 +267,10 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["GTS Community Edition"]
+            "not_compatible": ["GTS Community Edition"],
         },
     ]
-    #Combat and magic
+    # Combat and magic
     env.variables["cnm_addons"] = [
         {
             "name": "Adamant Addons for GTS",
@@ -280,7 +284,10 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["CuBoCorrx Combat Initiative for GTS", "GTS Black - Power Fantasy GTS"]
+            "not_compatible": [
+                "CuBoCorrx Combat Initiative for GTS",
+                "GTS Black - Power Fantasy GTS",
+            ],
         },
         {
             "name": "Mannaz and Freyr for GTS",
@@ -294,7 +301,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "Modern Vanilla Combat (MVC) for GTS",
@@ -308,7 +315,11 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Honor In Death for GTS", "GTS Unofficial Addon: Motion Kombat", "CuBoCorrx Combat Initiative for GTS"]
+            "not_compatible": [
+                "Honor In Death for GTS",
+                "GTS Unofficial Addon: Motion Kombat",
+                "CuBoCorrx Combat Initiative for GTS",
+            ],
         },
         {
             "name": "CuBoCorrx Combat Initiative for GTS",
@@ -322,7 +333,14 @@ def define_env(env):
             "discord_channel_tag": "Dibellan Arts Sheogorath Style",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Honor In Death for GTS", "GTS Unofficial Addon: Motion Kombat", "Modern Vanilla Combat (MVC) for GTS", "Blessed Perks for GTS", "GTS Black - Power Fantasy GTS", "Adamant Addons for GTS"]
+            "not_compatible": [
+                "Honor In Death for GTS",
+                "GTS Unofficial Addon: Motion Kombat",
+                "Modern Vanilla Combat (MVC) for GTS",
+                "Blessed Perks for GTS",
+                "GTS Black - Power Fantasy GTS",
+                "Adamant Addons for GTS",
+            ],
         },
         {
             "name": "GTS Black - Power Fantasy GTS",
@@ -336,7 +354,13 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Blessed Perks for GTS", "CuBoCorrx Combat Initiative for GTS", "Adamant Addons for GTS", "GTS Unofficial Spells", "GTS - Darenii's Spells"]
+            "not_compatible": [
+                "Blessed Perks for GTS",
+                "CuBoCorrx Combat Initiative for GTS",
+                "Adamant Addons for GTS",
+                "GTS Unofficial Spells",
+                "GTS - Darenii's Spells",
+            ],
         },
         {
             "name": "Summermyst for GTS",
@@ -350,7 +374,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: Motion Kombat",
@@ -364,7 +388,11 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Honor In Death for GTS", "Modern Vanilla Combat (MVC) for GTS", "CuBoCorrx Combat Initiative for GTS"]
+            "not_compatible": [
+                "Honor In Death for GTS",
+                "Modern Vanilla Combat (MVC) for GTS",
+                "CuBoCorrx Combat Initiative for GTS",
+            ],
         },
         {
             "name": "Honor In Death for GTS",
@@ -378,7 +406,11 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Modern Vanilla Combat (MVC) for GTS", "CuBoCorrx Combat Initiative for GTS", "GTS Unofficial Addon: Motion Kombat"]
+            "not_compatible": [
+                "Modern Vanilla Combat (MVC) for GTS",
+                "CuBoCorrx Combat Initiative for GTS",
+                "GTS Unofficial Addon: Motion Kombat",
+            ],
         },
         {
             "name": "Blessed Perks for GTS",
@@ -392,7 +424,10 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["GTS Black - Power Fantasy GTS", "CuBoCorrx Combat Initiative for GTS"]
+            "not_compatible": [
+                "GTS Black - Power Fantasy GTS",
+                "CuBoCorrx Combat Initiative for GTS",
+            ],
         },
         {
             "name": "Creature Animations for GTS",
@@ -406,7 +441,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS - Darenii's Spells",
@@ -420,7 +455,10 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["GTS - Unofficial Spells", "GTS Black - Power Fantasy GTS"]
+            "not_compatible": [
+                "GTS - Unofficial Spells",
+                "GTS Black - Power Fantasy GTS",
+            ],
         },
         {
             "name": "GTS - Unofficial Spells",
@@ -434,24 +472,27 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["GTS - Unofficial Spells", "GTS Black - Power Fantasy GTS"]
+            "not_compatible": [
+                "GTS - Unofficial Spells",
+                "GTS Black - Power Fantasy GTS",
+            ],
         },
         {
             "name": "GTS - DnD Guardians Addon",
             "desc": "GTS - DnD Guardians Addon adds the Dead and Daedric Guardians mod.",
             "support": "supported",
             "versioning": "locked",
-            "version_number": 113,
+            "version_number": 115,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/mkmj3k",
             "nexus_page_tag": "",
             "discord_channel": "",
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
     ]
-    #Armor and weapons
+    # Armor and weapons
     env.variables["anw_addons"] = [
         {
             "name": "Moar Armors for GTS",
@@ -465,7 +506,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Armory for GTS (+BODY SWAP support)"]
+            "not_compatible": ["Armory for GTS (+BODY SWAP support)"],
         },
         {
             "name": "Civil War Armory for GTS",
@@ -479,7 +520,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Armory for GTS (+BODY SWAP support)"]
+            "not_compatible": ["Armory for GTS (+BODY SWAP support)"],
         },
         {
             "name": "Armory for GTS (+BODY SWAP support)",
@@ -493,7 +534,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Civil War Armory for GTS", "Moar Armors for GTS"]
+            "not_compatible": ["Civil War Armory for GTS", "Moar Armors for GTS"],
         },
         {
             "name": "GTS - Unofficial Armory",
@@ -507,11 +548,10 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
-
     ]
-    #Interface and sound
+    # Interface and sound
     env.variables["ins_addons"] = [
         {
             "name": "Vel'dun UI for GTS",
@@ -525,7 +565,12 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Kiza's Nordic UI for GTS", "GTS - Some Dragonborns need Gamepads", "GTS CE+ 21:9 Dragonborn UI", "GTS Unofficial Addon: Vanilla UI++"]
+            "not_compatible": [
+                "Kiza's Nordic UI for GTS",
+                "GTS - Some Dragonborns need Gamepads",
+                "GTS CE+ 21:9 Dragonborn UI",
+                "GTS Unofficial Addon: Vanilla UI++",
+            ],
         },
         {
             "name": "Kiza's Nordic UI for GTS",
@@ -539,7 +584,12 @@ def define_env(env):
             "discord_channel_tag": "Nordic UI Thread",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Vel'dun UI for GTS", "GTS - Some Dragonborns need Gamepads", "GTS CE+ 21:9 Dragonborn UI", "GTS Unofficial Addon: Vanilla UI++"]
+            "not_compatible": [
+                "Vel'dun UI for GTS",
+                "GTS - Some Dragonborns need Gamepads",
+                "GTS CE+ 21:9 Dragonborn UI",
+                "GTS Unofficial Addon: Vanilla UI++",
+            ],
         },
         {
             "name": "GTS - Some Dragonborns need Gamepads",
@@ -553,7 +603,12 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Vel'dun UI for GTS", "Kiza's Nordic UI for GTS", "GTS CE+ 21:9 Dragonborn UI", "GTS Unofficial Addon: Vanilla UI++"]
+            "not_compatible": [
+                "Vel'dun UI for GTS",
+                "Kiza's Nordic UI for GTS",
+                "GTS CE+ 21:9 Dragonborn UI",
+                "GTS Unofficial Addon: Vanilla UI++",
+            ],
         },
         {
             "name": "GTS CE+ 21:9 Dragonborn UI",
@@ -567,7 +622,12 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Vel'dun UI for GTS", "Kiza's Nordic UI for GTS", "GTS - Some Dragonborns need Gamepads", "GTS Unofficial Addon: Vanilla UI++"]
+            "not_compatible": [
+                "Vel'dun UI for GTS",
+                "Kiza's Nordic UI for GTS",
+                "GTS - Some Dragonborns need Gamepads",
+                "GTS Unofficial Addon: Vanilla UI++",
+            ],
         },
         {
             "name": "GTS Unofficial Addon: Vanilla UI++",
@@ -581,7 +641,12 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Vel'dun UI for GTS", "Kiza's Nordic UI for GTS", "GTS - Some Dragonborns need Gamepads", "GTS CE+ 21:9 Dragonborn UI"]
+            "not_compatible": [
+                "Vel'dun UI for GTS",
+                "Kiza's Nordic UI for GTS",
+                "GTS - Some Dragonborns need Gamepads",
+                "GTS CE+ 21:9 Dragonborn UI",
+            ],
         },
         {
             "name": "GTS Unofficial Addon: DBVO Talion",
@@ -595,7 +660,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: More Music",
@@ -609,7 +674,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: Ambient Sounds",
@@ -623,7 +688,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS CE+ Music Addon",
@@ -637,7 +702,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Sweet Immersion Breaking Clarity",
@@ -651,10 +716,10 @@ def define_env(env):
             "discord_channel_tag": "Dibellan Arts Sheogorath Style",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
     ]
-    #Quest and land
+    # Quest and land
     env.variables["qnl_addons"] = [
         {
             "name": "Daughter of Coldharbour, SDA in GTS.",
@@ -668,7 +733,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS – Glenmoril & Unslaad Expansion",
@@ -682,7 +747,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS - The Rot Below",
@@ -696,7 +761,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS - Unofficial Followers",
@@ -710,7 +775,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: Beyond Reach",
@@ -724,7 +789,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: Gray Cowl",
@@ -738,7 +803,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: Valefrost",
@@ -752,7 +817,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: Midnight Sun",
@@ -766,7 +831,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: Clockwork",
@@ -780,7 +845,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: Olenveld",
@@ -794,7 +859,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: Chain of Time",
@@ -808,7 +873,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: Vominheim",
@@ -822,7 +887,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: Falskaar",
@@ -836,7 +901,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: Summerset Isle",
@@ -850,7 +915,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Unofficial Addon: Sidequests",
@@ -864,7 +929,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS - Unofficial Quests",
@@ -878,10 +943,10 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
     ]
-    #Character and nsfw
+    # Character and nsfw
     env.variables["cnn_addons"] = [
         {
             "name": "Beauty Salon for GTS",
@@ -895,7 +960,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["GTS Character Creation Add-On"]
+            "not_compatible": ["GTS Character Creation Add-On"],
         },
         {
             "name": "GTS CE - Moar Races",
@@ -909,7 +974,7 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS SkyRev Skins SFW",
@@ -923,7 +988,13 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["Bits and Pieces for GTS - BNP SFW", "GTS - Simple Bodies SkyRev NSFW", "GTS - Simple Bodies - BNP NSFW", "GTS - 3BA Dat Body", "GTS - Dibellan Arts Sheogorath Style"]
+            "not_compatible": [
+                "Bits and Pieces for GTS - BNP SFW",
+                "GTS - Simple Bodies SkyRev NSFW",
+                "GTS - Simple Bodies - BNP NSFW",
+                "GTS - 3BA Dat Body",
+                "GTS - Dibellan Arts Sheogorath Style",
+            ],
         },
         {
             "name": "Bits and Pieces for GTS - BNP SFW",
@@ -937,7 +1008,13 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": ["GTS SkyRev Skins SFW", "GTS - Simple Bodies SkyRev NSFW", "GTS - Simple Bodies - BNP NSFW", "GTS - 3BA Dat Body", "GTS - Dibellan Arts Sheogorath Style"]
+            "not_compatible": [
+                "GTS SkyRev Skins SFW",
+                "GTS - Simple Bodies SkyRev NSFW",
+                "GTS - Simple Bodies - BNP NSFW",
+                "GTS - 3BA Dat Body",
+                "GTS - Dibellan Arts Sheogorath Style",
+            ],
         },
         {
             "name": "Just 3BA for GTS (NSFW)",
@@ -951,7 +1028,14 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": True,
-            "not_compatible": ["GTS Unofficial Addon: Nude Bodies", "GTS - Simple Bodies - BNP NSFW", "GTS - Simple Bodies SkyRev NSFW", "Body Swap updated", "GTS - 3BA Dat Body", "GTS - Dibellan Arts Sheogorath Style"]
+            "not_compatible": [
+                "GTS Unofficial Addon: Nude Bodies",
+                "GTS - Simple Bodies - BNP NSFW",
+                "GTS - Simple Bodies SkyRev NSFW",
+                "Body Swap updated",
+                "GTS - 3BA Dat Body",
+                "GTS - Dibellan Arts Sheogorath Style",
+            ],
         },
         {
             "name": "GTS Unofficial Addon: Nude Bodies (NSFW)",
@@ -965,7 +1049,14 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": True,
-            "not_compatible": ["Just 3BA for GTS", "GTS - Simple Bodies - BNP NSFW", "GTS - Simple Bodies SkyRev NSFW", "Body Swap updated", "GTS - 3BA Dat Body", "GTS - Dibellan Arts Sheogorath Style"]
+            "not_compatible": [
+                "Just 3BA for GTS",
+                "GTS - Simple Bodies - BNP NSFW",
+                "GTS - Simple Bodies SkyRev NSFW",
+                "Body Swap updated",
+                "GTS - 3BA Dat Body",
+                "GTS - Dibellan Arts Sheogorath Style",
+            ],
         },
         {
             "name": "GTS - Simple Bodies - BNP NSFW",
@@ -979,7 +1070,15 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": True,
-            "not_compatible": ["Just 3BA for GTS", "GTS - Simple Bodies - BNP SFW", "GTS SkyRev Skins SFW", "GTS - Simple Bodies SkyRev NSFW", "Body Swap updated", "GTS - 3BA Dat Body", "GTS - Dibellan Arts Sheogorath Style"]
+            "not_compatible": [
+                "Just 3BA for GTS",
+                "GTS - Simple Bodies - BNP SFW",
+                "GTS SkyRev Skins SFW",
+                "GTS - Simple Bodies SkyRev NSFW",
+                "Body Swap updated",
+                "GTS - 3BA Dat Body",
+                "GTS - Dibellan Arts Sheogorath Style",
+            ],
         },
         {
             "name": "GTS - Simple Bodies SkyRev NSFW",
@@ -993,7 +1092,15 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": True,
-            "not_compatible": ["Just 3BA for GTS", "GTS - Simple Bodies - BNP SFW", "GTS SkyRev Skins SFW", "GTS - Simple Bodies - BNP NSFW", "Body Swap updated", "GTS - 3BA Dat Body", "GTS - Dibellan Arts Sheogorath Style"]
+            "not_compatible": [
+                "Just 3BA for GTS",
+                "GTS - Simple Bodies - BNP SFW",
+                "GTS SkyRev Skins SFW",
+                "GTS - Simple Bodies - BNP NSFW",
+                "Body Swap updated",
+                "GTS - 3BA Dat Body",
+                "GTS - Dibellan Arts Sheogorath Style",
+            ],
         },
         {
             "name": "Body Swap updated (NSFW)",
@@ -1007,7 +1114,15 @@ def define_env(env):
             "discord_channel_tag": "Dibellan Arts Sheogorath Style Thread",
             "github": "",
             "nsfw": True,
-            "not_compatible": ["Just 3BA for GTS", "GTS - Simple Bodies - BNP SFW", "GTS SkyRev Skins SFW", "GTS - Simple Bodies - BNP NSFW", "GTS - Simple Bodies - SkyRev NSFW", "GTS - 3BA Dat Body", "GTS - Dibellan Arts Sheogorath Style"]
+            "not_compatible": [
+                "Just 3BA for GTS",
+                "GTS - Simple Bodies - BNP SFW",
+                "GTS SkyRev Skins SFW",
+                "GTS - Simple Bodies - BNP NSFW",
+                "GTS - Simple Bodies - SkyRev NSFW",
+                "GTS - 3BA Dat Body",
+                "GTS - Dibellan Arts Sheogorath Style",
+            ],
         },
         {
             "name": "GTS Unofficial Addon: OStim+Quests (NSFW)",
@@ -1021,7 +1136,12 @@ def define_env(env):
             "discord_channel_tag": "Addons General",
             "github": "",
             "nsfw": True,
-            "not_compatible": ["Dibellan Arts - Ostim for GTS", "GTS - Dibellan Arts Sheogorath Style", "Sheogorath Style for GTS", "Dat Body - Snu Snu"]
+            "not_compatible": [
+                "Dibellan Arts - Ostim for GTS",
+                "GTS - Dibellan Arts Sheogorath Style",
+                "Sheogorath Style for GTS",
+                "Dat Body - Snu Snu",
+            ],
         },
         {
             "name": "Dibellan Arts - Ostim for GTS (NSFW)",
@@ -1035,7 +1155,12 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": True,
-            "not_compatible": ["GTS Unofficial Addon: OStim+Quests", "GTS - Dibellan Arts Sheogorath Style", "Sheogorath Style for GTS", "Dat Body - Snu Snu"]
+            "not_compatible": [
+                "GTS Unofficial Addon: OStim+Quests",
+                "GTS - Dibellan Arts Sheogorath Style",
+                "Sheogorath Style for GTS",
+                "Dat Body - Snu Snu",
+            ],
         },
         {
             "name": "GTS - Dibellan Arts Sheogorath Style (NSFW)",
@@ -1049,7 +1174,12 @@ def define_env(env):
             "discord_channel_tag": "Dibellan Arts Sheogorath Style Thread",
             "github": "",
             "nsfw": True,
-            "not_compatible": ["GTS Unofficial Addon: OStim+Quests", "Dibellan Arts - Ostim for GTS", "Sheogorath Style for GTS", "Dat Body - Snu Snu"]
+            "not_compatible": [
+                "GTS Unofficial Addon: OStim+Quests",
+                "Dibellan Arts - Ostim for GTS",
+                "Sheogorath Style for GTS",
+                "Dat Body - Snu Snu",
+            ],
         },
         {
             "name": "Sheogorath Style for GTS (NSFW)",
@@ -1063,7 +1193,12 @@ def define_env(env):
             "discord_channel_tag": "Dibellan Arts Sheogorath Style Thread",
             "github": "",
             "nsfw": True,
-            "not_compatible": ["GTS Unofficial Addon: OStim+Quests", "Dibellan Arts - Ostim for GTS", "GTS - Dibellan Arts Sheogorath Style", "Dat Body - Snu Snu"]
+            "not_compatible": [
+                "GTS Unofficial Addon: OStim+Quests",
+                "Dibellan Arts - Ostim for GTS",
+                "GTS - Dibellan Arts Sheogorath Style",
+                "Dat Body - Snu Snu",
+            ],
         },
         {
             "name": "GTS-M'rissi-A Sheogorath Style Addon (NSFW)",
@@ -1077,7 +1212,7 @@ def define_env(env):
             "discord_channel_tag": "Dibellan Arts Sheogorath Style Thread",
             "github": "",
             "nsfw": True,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS ODF for Body Swap (NSFW)",
@@ -1091,7 +1226,7 @@ def define_env(env):
             "discord_channel_tag": "Dibellan Arts Sheogorath Style Thread",
             "github": "",
             "nsfw": True,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS - Fairies (NSFW)",
@@ -1105,7 +1240,7 @@ def define_env(env):
             "discord_channel_tag": "Dibellan Arts Sheogorath Style Thread",
             "github": "",
             "nsfw": True,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "Sheo Style presents PSBoss (NSFW)",
@@ -1119,7 +1254,7 @@ def define_env(env):
             "discord_channel_tag": "Dibellan Arts Sheogorath Style Thread",
             "github": "",
             "nsfw": True,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS Character Creation Add-On",
@@ -1133,7 +1268,7 @@ def define_env(env):
             "discord_channel_tag": "",
             "github": "",
             "nsfw": False,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "GTS - 3BA Dat Body (NSFW)",
@@ -1147,7 +1282,15 @@ def define_env(env):
             "discord_channel_tag": "NSFW Discussions Thread",
             "github": "",
             "nsfw": True,
-            "not_compatible": ["Just 3BA for GTS", "GTS - Simple Bodies - BNP SFW", "GTS SkyRev Skins SFW", "GTS - Simple Bodies - BNP NSFW", "GTS - Simple Bodies - SkyRev NSFW", "Body Swap Updated", "GTS - Dibellan Arts Sheogorath Style"]
+            "not_compatible": [
+                "Just 3BA for GTS",
+                "GTS - Simple Bodies - BNP SFW",
+                "GTS SkyRev Skins SFW",
+                "GTS - Simple Bodies - BNP NSFW",
+                "GTS - Simple Bodies - SkyRev NSFW",
+                "Body Swap Updated",
+                "GTS - Dibellan Arts Sheogorath Style",
+            ],
         },
         {
             "name": "Dat Body - Snu Snu (NSFW)",
@@ -1161,7 +1304,12 @@ def define_env(env):
             "discord_channel_tag": "NSFW Discussions Thread",
             "github": "",
             "nsfw": True,
-            "not_compatible": ["GTS Unofficial Addon: OStim+Quests", "Dibellan Arts - Ostim for GTS", "Sheogorath Style for GTS", "GTS - Dibellan Arts Sheogorath Style (NSFW)"]
+            "not_compatible": [
+                "GTS Unofficial Addon: OStim+Quests",
+                "Dibellan Arts - Ostim for GTS",
+                "Sheogorath Style for GTS",
+                "GTS - Dibellan Arts Sheogorath Style (NSFW)",
+            ],
         },
         {
             "name": "GTS - Varric NPC Replacers (NSFW)",
@@ -1175,7 +1323,7 @@ def define_env(env):
             "discord_channel_tag": "NSFW Discussions Thread",
             "github": "",
             "nsfw": True,
-            "not_compatible": []
+            "not_compatible": [],
         },
         {
             "name": "Dat Body - Additions (NSFW)",
@@ -1189,17 +1337,20 @@ def define_env(env):
             "discord_channel_tag": "NSFW Discussions Thread",
             "github": "",
             "nsfw": True,
-            "not_compatible": []
+            "not_compatible": [],
         },
     ]
-    #display code
+
+    # display code
     @env.macro
     def list_addons(addons_to_list, current_gts_version):
-        return f"""
+        return (
+            f"""
 ```python exec="on"\n
 these_addons = {addons_to_list}
 current_gts_version = {current_gts_version}
-""" + r"""
+"""
+            + r"""
 
 supported_addons = []
 out_of_date_addons = []
@@ -1320,4 +1471,6 @@ if len(deprecated_addons) > 0:
         print_addon_generics(addon)
 ```
         """
+        )
+
     env.macro(list_addons, "list_addons")
