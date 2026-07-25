@@ -19,9 +19,6 @@ If an addon is not listed here, that means it's status is unknown. If you wish f
 
     If you install multiple addons at once and encounter issues, it may be very hard to tell what the source is.
 
-!!! info
-    GTS has updated very recently, as such these pages may not be entirely accurate.
-
 ## Categories
 Currently, addons are organized into the following categories:
 
