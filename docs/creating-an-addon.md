@@ -60,7 +60,6 @@ Making a small mod page for just uploading collection files is very common and e
     Do not use bundled assets and just upload your patch to Nexus.
 
 
-
 ## Breaking Things
 Your first priority should be making sure that your addon is stable, and does not break any existing GTS features.
 
@@ -135,14 +134,9 @@ The only circumstance under which this approach breaks is when GTS adds new mods
 If you wish to minimize the amount of manual rules users have to solve while installing, while keeping your addon reasonably future-proof, you can use dependacy injection on mods that are unlikely to update, and keep any other ones manual.
 
 ## Using SkyPatcher
-GTS disabled all features of SkyPatcher, with the exception cell edits. If you wish to use SkyPatcher for things other than that, your addon will have to re-enable those features. Because many addons require SkyPatcher for one reason or another, every addon shipping it's own config would quickly become a mess of inter-collection conflicts.
+There is a minor issue with SkyPatcher that causes Lucien's stats to be reset when loading a save. This issue can be mitigated by changing SkyPatcher's configuration, but if every addon had it's own, it would mean conflicts between all of them.
 
-For this reason, all collections that need SkyPatcher should use the [GTS Addon Common Resource](https://www.nexusmods.com/skyrimspecialedition/mods/158815?tab=files) file from CE's resource repo.
-
-With this file, collections that individually need SkyPatcher will not conflict.
-
-!!! note
-    If you include this file, you should make a note on your collection's page to resolve any conflict between 'GTS Addon Common Resource' and 'GTS - Specific Patches' in favor of the common resource.
+For this reason, all collections that need SkyPatcher should use the [GTS Addon Common Resource](https://www.nexusmods.com/skyrimspecialedition/mods/158815?tab=files) file from CE's resource repo. It contains the SkyPatcher configuration. Addons that use this file will not cause conflicts.
 
 ## Modifying GTS Plugins
 This refers to modifying a plugin like 'GTS Patches - Quests.esp' and including it in your patch, overriding GTS' version.
