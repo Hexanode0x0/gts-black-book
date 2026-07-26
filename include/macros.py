@@ -47,7 +47,7 @@ def define_env(env):
             "desc": "Legacy Lite is a large addon that adds Legacy of the Dragonborn and a other supporting mods.",
             "support": "supported",
             "versioning": "locked",
-            "version_number": 113,
+            "version_number": 115,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/p1eq2i",
             "nexus_page_tag": "",
             "discord_channel": "https://discord.com/channels/902984082181484615/1424043173428199597",
