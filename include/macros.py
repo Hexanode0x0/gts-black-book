@@ -397,11 +397,11 @@ def define_env(env):
         {
             "name": "Honor In Death for GTS",
             "desc": "Honor In Death for GTS is a comprehensive combat overhaul with a lot of changes.",
-            "support": "out_of_date",
-            "versioning": "minimum",
-            "version_number": 108,
+            "support": "supported",
+            "versioning": "locked",
+            "version_number": 115,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/kwkfuj",
-            "nexus_page_tag": "Unlisted",
+            "nexus_page_tag": "",
             "discord_channel": "https://discord.com/channels/902984082181484615/1486194390161424495",
             "discord_channel_tag": "",
             "github": "",
@@ -410,6 +410,7 @@ def define_env(env):
                 "Modern Vanilla Combat (MVC) for GTS",
                 "CuBoCorrx Combat Initiative for GTS",
                 "GTS Unofficial Addon: Motion Kombat",
+                "GTS Black - Power Fantasy GTS",
             ],
         },
         {
