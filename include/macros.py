@@ -74,7 +74,7 @@ def define_env(env):
             "name": "GTS - For the Love of Followers",
             "desc": "For the Love of Followers adds Nether's follower framework, and other follower enhancements.",
             "support": "supported",
-            "versioning": "locked",
+            "versioning": "free",
             "version_number": 115,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/4j3ssn",
             "nexus_page_tag": "",
