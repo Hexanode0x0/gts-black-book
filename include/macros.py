@@ -766,7 +766,7 @@ def define_env(env):
         },
         {
             "name": "GTS - Unofficial Followers",
-            "desc": "GTS - Unofficial Followers adds Follower Dialogue Expansion mods. It is unsupported due to the absence of the curator, but it should work fine.",
+            "desc": "GTS - Unofficial Followers adds Follower Dialogue Expansion mods. It is unsupported due to the absence of the curator, but it should work fine. An installation guide for the Wabbajack port of GTS can be found [here.](https://rentry.co/GTS-Unofficial-Followers)",
             "support": "unsupported",
             "versioning": "free",
             "version_number": 104,
