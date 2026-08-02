@@ -72,7 +72,7 @@ def define_env(env):
         },
         {
             "name": "GTS - For the Love of Followers",
-            "desc": "For the Love of Followers adds Nether's follower framework, and other follower enhancements.",
+            "desc": "For the Love of Followers adds follower enhancements.",
             "support": "supported",
             "versioning": "free",
             "version_number": 115,
