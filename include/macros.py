@@ -1180,7 +1180,7 @@ def define_env(env):
         {
             "name": "GTS - Dibellan Arts Sheogorath Style (NSFW)",
             "desc": "Dibellan Arts - Ostim for GTS adds Ostim and it's own body mods.",
-            "support": "deprecated",
+            "support": "supported",
             "versioning": "locked",
             "version_number": 115,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/nuwfgt",
