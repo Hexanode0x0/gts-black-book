@@ -1112,11 +1112,11 @@ def define_env(env):
         {
             "name": "GTS - Simple Bodies SkyRev NSFW",
             "desc": "GTS - Simple Bodies SkyRev NSFW changes skins to Reverie and Skysights.",
-            "support": "supported",
+            "support": "unsupported",
             "versioning": "minimum",
             "version_number": 105,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/jqvxxb",
-            "nexus_page_tag": "",
+            "nexus_page_tag": "Unlisted",
             "discord_channel": "https://discord.com/channels/902984082181484615/1424055746458423347",
             "discord_channel_tag": "",
             "github": "",
