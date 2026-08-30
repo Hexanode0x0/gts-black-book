@@ -1,5 +1,5 @@
 def define_env(env):
-    env.variables["current_gts_version"] = 115
+    env.variables["current_gts_version"] = 116
     # About Defining Addons:
     # You need to include all fields. Set the ones you don't want / have to an empty string ("") to not display them.
     # "name" => String. The name of the addon. Should match what's on Nexus.
