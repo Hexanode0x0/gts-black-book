@@ -413,7 +413,7 @@ def define_env(env):
             "desc": "Honor In Death for GTS is a comprehensive combat overhaul with a lot of changes.",
             "support": "supported",
             "versioning": "locked",
-            "version_number": 115,
+            "version_number": 117,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/kwkfuj",
             "nexus_page_tag": "",
             "discord_channel": "https://discord.com/channels/902984082181484615/1486194390161424495",
@@ -447,7 +447,7 @@ def define_env(env):
         {
             "name": "Creature Animations for GTS",
             "desc": "Creature Animations for GTS overhauls animations and movesets of creatures.",
-            "support": "supported",
+            "support": "deprecated",
             "versioning": "locked",
             "version_number": 108,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/oy6eak",
