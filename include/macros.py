@@ -592,7 +592,7 @@ def define_env(env):
             "desc": "Kiza's Nordic UI for GTS overhauls the user interface to use Nordic UI and it adds a lot of mods Nordic UI has compatibility with.",
             "support": "supported",
             "versioning": "locked",
-            "version_number": 115,
+            "version_number": 117,
             "nexus_page": "https://www.nexusmods.com/games/skyrimspecialedition/collections/rjhvsf",
             "nexus_page_tag": "",
             "discord_channel": "https://discord.com/channels/902984082181484615/1492528267411062956",
